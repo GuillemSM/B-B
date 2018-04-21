@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_ES\n"
+"X-Generator: Poedit 2.0.4\n"
+
+#: src/php/core-addons/customer-pages/customer-pages-addon.class.php:148
+#: src/php/core-addons/customer-private-pages/customer-private-pages-addon.class.php:131
+#: src/php/core-addons/customer-private-pages-home/customer-private-pages-home-addon.class.php:51
+msgid "Notifications"
+msgstr "Notificaciones"
+
+#: src/php/core-addons/customer-private-pages/customer-private-pages-addon.class.php:101
+msgid "Notifications you created"
+msgstr "Notificaciones que ha creado"

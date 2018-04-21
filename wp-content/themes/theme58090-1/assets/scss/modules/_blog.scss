@@ -1,0 +1,329 @@
+/*
+* @subsection Blog
+*/
+
+%make-post-layout-aside {
+  &.has-post-thumbnail {
+    @include make-flex();
+    @include align-items(center);
+
+    .post-thumbnail {
+      @include flex(0 0 58%);
+    }
+
+    .post-content {
+      @include flex(0 0 42%);
+    }
+  }
+
+  @media (max-width: 991px) {
+    &.has-post-thumbnail {
+      display: block;
+    }
+  }
+}
+
+%make-post-layout-reverse {
+  &:nth-child(even) {
+    @include flex-direction(row-reverse);
+  }
+}
+
+// Basic page
+
+.hentry {
+
+}
+
+.entry-thumbnail {
+
+}
+
+.entry-header {
+
+}
+
+.single.entry-content {
+  a {
+    text-decoration: underline;
+  }
+
+  ol, ul {
+    list-style: none;
+
+    li {
+      position: relative;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      &:before {
+        position: absolute;
+        top: 4px;
+        left: 0;
+      }
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+
+  ol {
+    counter-reset: item;
+    li {
+      padding-left: 30px;
+      &:before {
+        content: counter(item, decimal-leading-zero) ". ";
+        counter-increment: item;
+      }
+    }
+  }
+
+  ul {
+    li {
+      padding-left: 20px;
+      &:before {
+        content: "\e097";
+        font-family: "fl-bigmug-line";
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.entry-meta {
+
+  &-top {
+
+  }
+
+  &-bottom {
+
+  }
+}
+
+.entry-terms_wrap.category_wrap {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.post_tag_wrap {
+  display: block;
+
+  a {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: inherit;
+  }
+}
+
+// Single page
+
+.single {
+  .post-navigation {
+    margin-bottom: 40px;
+  }
+
+  .entry-header {
+    .entry-title {
+      text-align: center;
+      margin-bottom: 14px;
+    }
+  }
+
+  .entry-meta-top {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  &.cherry-no-sidebar {
+    .entry-header {
+      .entry-title {
+        padding: 0 15%;
+      }
+    }
+  }
+
+  .entry-content {
+    blockquote {
+      position: relative;
+      padding-left: 92px;
+      margin-bottom: 22px;
+
+      &:before {
+
+        font-family: "Times New Roman", serif;
+        font-weight: 700;
+        font-size: 160px;
+        line-height: .76;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        opacity: .2;
+      }
+
+      p {
+        margin-bottom: 10px;
+
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.format-quote {
+  blockquote {
+    font-size: 18px;
+    position: relative;
+    padding-left: 92px;
+    font-family: 'Montserrat', serif;
+  }
+
+  blockquote:before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    // text-align: center;
+    font-family: "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 160px;
+    line-height: .7;
+    opacity: .2;
+    margin-bottom: -70px;
+  }
+
+  .entry-content {
+    margin-bottom: 30px;
+  }
+}
+
+/* Author Bio */
+
+.author-bio {
+  margin-bottom: 40px;
+}
+
+/* Related posts */
+
+.related-posts {
+  overflow:hidden;
+  margin-bottom: 40px;
+
+  .related-posts_list {
+    list-style:none;
+    margin-bottom: 0;
+
+    .related-posts_item {
+      .entry-thumbnail {
+        margin-bottom: 30px;
+        img {
+            width: 100%;
+        }
+      }
+
+      .entry-title {
+
+      }
+
+      .entry-content {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+// Blog page
+
+.blog, .archive {
+  .hentry {
+    @extend %make-post-layout-aside;
+    @extend %make-post-layout-reverse;
+
+    // @extend %make-post-layout-thumb
+
+    margin-bottom: 60px;
+    text-align: center;
+
+    .post-content {
+      padding: 30px;
+    }
+
+    .entry-meta-top + * {
+      margin-top: 20px;
+    }
+
+    .entry-header + * {
+      margin-top: 20px;
+    }
+
+    .entry-content + * {
+      margin-top: 30px;
+    }
+
+    .entry-permalink + * {
+      margin-top: 30px;
+    }
+  }
+}
+
+.blog.cherry-with-sidebar {
+  .hentry {
+    display: block;
+    text-align: left;
+  }
+}
+
+
+// Blog Post Formats
+.post-gallery,
+.entry-video {
+  margin-bottom: 30px;
+}
+
+.format-image {
+  figure {
+    margin-bottom: 30px;
+  }
+}
+
+  /*Post gallery prev/next*/
+body .post-gallery_prev, body .post-gallery_next {
+  border-radius:5px;
+  color:#fff;
+  width:60px;
+  height:60px;
+  line-height:55px;
+}
+body .post-gallery_prev {
+  left:30px;
+}
+body .post-gallery_next {
+  right:30px;
+}
+
+
+.alignleft,
+.alignright {
+
+  &.cherry-thumb-s,
+  &.cherry-thumb-l {
+    margin-bottom: 30px;
+  }
+
+  &.cherry-thumb-s + .entry-content blockquote {
+    clear: both;
+  }
+}

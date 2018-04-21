@@ -1,0 +1,109 @@
+/*
+* @subsection Pagination
+*/
+
+@mixin pagination-style() {
+  display: inline-block;
+  
+  min-width: 50px;
+  
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border: 2px solid #cfd8e2;
+
+  @media (max-width: 767px) {
+    height: 40px;
+    min-width: 40px;
+    line-height: 40px;
+  }
+}
+
+//
+// Blog posts list pagination
+//
+
+.navigation.pagination {
+  clear: both;
+
+  .nav-links {
+    .page-numbers.current, .page-numbers {
+      @include pagination-style();
+      height: 50px;
+      &:hover {
+        color: #fff;  
+      }
+
+      & + a {
+        margin-left: 6px;
+      }
+    }
+
+    a + .page-numbers.current {
+      margin-left: 6px;
+    }
+
+    .page-numbers.current {
+      color: #fff;
+    }
+
+    .page-numbers {
+      &.next,
+      &.prev {
+        padding: 0 15px;
+      }
+    }
+  }
+}
+
+//
+// Blog single post prev/next navigation
+//
+
+.navigation.post-navigation {
+  overflow:hidden;
+
+  .nav-links {
+    a {
+      @include pagination-style();
+      padding: 11px 15px;
+      line-height: 24px;
+      @media (max-width: 767px) {
+        height: auto;
+        line-height: 24px;
+      }
+    }
+    .nav-previous a{
+      margin-right:10px;
+    }
+    .nav-next a{
+      margin-left:10px;
+    }
+  }
+}
+
+//
+// Portfolio list pagination
+//
+
+.portfolio-wrap .portfolio-container .portfolio-pagination {
+  ul.page-link li a, .page-nav a {
+    @include pagination-style();
+    padding: 0 16px;
+    margin-bottom: 4px;
+    height: 50px;
+    
+
+    &:hover {
+      color: #fff;  
+    }
+  }
+
+  ul.page-link li + li {
+    margin-left: 6px;
+  }
+}

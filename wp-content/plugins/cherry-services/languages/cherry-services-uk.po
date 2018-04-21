@@ -1,0 +1,435 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cherry-services\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-30 13:04+0200\n"
+"PO-Revision-Date: 2015-10-30 13:04+0200\n"
+"Last-Translator: J.L.Dokter <jldokter@gmail.com>\n"
+"Language-Team: Cherry Team <support@cherryframework.com>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/includes/class-cherry-services-admin.php:97
+msgid "Name"
+msgstr "Назва"
+
+#: admin/includes/class-cherry-services-admin.php:98
+msgid "Photo"
+msgstr "Фото"
+
+#: admin/includes/class-cherry-services-admin.php:99
+#: public/includes/class-cherry-services-shortcode.php:365
+msgid "Price"
+msgstr "Ціна"
+
+#: admin/includes/class-cherry-services-admin.php:100
+msgid "Added"
+msgstr "Додано"
+
+#: admin/includes/class-cherry-services-meta-boxes.php:50
+msgid "Services Options"
+msgstr "Параметри послуг"
+
+#: admin/includes/class-cherry-services-meta-boxes.php:58
+msgid "Font icon CSS class:"
+msgstr "CSS клас шрифтової іконки"
+
+#: admin/includes/class-cherry-services-meta-boxes.php:66
+msgid "Service features description:"
+msgstr "Опис властивостей послуг:"
+
+#: admin/includes/class-cherry-services-meta-boxes.php:74
+msgid "Price:"
+msgstr "Ціна:"
+
+#: admin/includes/class-cherry-services-meta-boxes.php:82
+msgid "URL to order this service:"
+msgstr "Придбати послугу за посиланням:"
+
+#: admin/includes/class-cherry-services-meta-boxes.php:90
+msgid "Is service featured:"
+msgstr "Ця послуга особлива?"
+
+#: cherry-services.php:215
+msgid "Services posts"
+msgstr "Публікації послуг"
+
+#: cherry-services.php:218
+msgid ""
+"You can choose if you want to display sidebars and how you want to display "
+"them."
+msgstr ""
+"Тут можна вибрати, чи відображати бічні панелі і яким саме чином це робити."
+
+#: cherry-services.php:224
+msgid "Left sidebar"
+msgstr "Ліва бічна панель"
+
+#: cherry-services.php:228
+msgid "Right sidebar"
+msgstr "Права бічна панель"
+
+#: cherry-services.php:232
+msgid "Left and right sidebar"
+msgstr "Ліва та права бічні панелі"
+
+#: cherry-services.php:236
+msgid "Two sidebars on the left"
+msgstr "Дві бічні панелі зліва"
+
+#: cherry-services.php:240
+msgid "Two sidebars on the right"
+msgstr "Дві бічні панелі справа"
+
+#: cherry-services.php:244
+msgid "No sidebar"
+msgstr "Жодної бічної панелі"
+
+#: public/includes/class-cherry-services-data.php:101
+#: public/includes/class-cherry-services-shortcode.php:190
+#: public/includes/class-cherry-services-shortcode.php:408
+msgid "Read More"
+msgstr "Детальніше"
+
+#: public/includes/class-cherry-services-data.php:102
+#: public/includes/class-cherry-services-shortcode.php:128
+#: public/includes/class-cherry-services-shortcode.php:195
+#: public/includes/class-cherry-services-shortcode.php:409
+#: public/includes/class-cherry-services-template-callbacks.php:273
+msgid "Order"
+msgstr "Придбати"
+
+#: public/includes/class-cherry-services-data.php:399
+msgid "No services found"
+msgstr "Послуг немає"
+
+#: public/includes/class-cherry-services-registration.php:49
+#: public/includes/class-cherry-services-shortcode.php:107
+msgid "Services"
+msgstr "Послуги"
+
+#: public/includes/class-cherry-services-registration.php:50
+msgid "Service"
+msgstr "Послуга"
+
+#: public/includes/class-cherry-services-registration.php:51
+msgid "Add New"
+msgstr "Створити"
+
+#: public/includes/class-cherry-services-registration.php:52
+msgid "Add New Service"
+msgstr "Створити нову послугу"
+
+#: public/includes/class-cherry-services-registration.php:53
+msgid "Edit Service"
+msgstr "Редагувати послугу"
+
+#: public/includes/class-cherry-services-registration.php:54
+msgid "New Service"
+msgstr "Нова послуга"
+
+#: public/includes/class-cherry-services-registration.php:55
+msgid "View Service"
+msgstr "Переглянути послугу"
+
+#: public/includes/class-cherry-services-registration.php:56
+msgid "Search Services"
+msgstr "Шукати послуги"
+
+#: public/includes/class-cherry-services-registration.php:57
+msgid "No Services found"
+msgstr "Послуг немає"
+
+#: public/includes/class-cherry-services-registration.php:58
+msgid "No Services found in trash"
+msgstr "В кошику послуг немає."
+
+#: public/includes/class-cherry-services-registration.php:106
+msgid "Services Category"
+msgstr "Категорія послуг"
+
+#: public/includes/class-cherry-services-registration.php:107
+#: public/includes/class-cherry-services-registration.php:113
+msgid "Edit Category"
+msgstr "Редагувати категорію"
+
+#: public/includes/class-cherry-services-registration.php:108
+msgid "Search Categories"
+msgstr "Шукати категорії"
+
+#: public/includes/class-cherry-services-registration.php:109
+msgid "Popular Categories"
+msgstr "Популярні категорії"
+
+#: public/includes/class-cherry-services-registration.php:110
+msgid "All Categories"
+msgstr "Всі категорії"
+
+#: public/includes/class-cherry-services-registration.php:114
+msgid "Update Category"
+msgstr "Оновити категорію"
+
+#: public/includes/class-cherry-services-registration.php:115
+msgid "Add New Category"
+msgstr "Створити нову категорію"
+
+#: public/includes/class-cherry-services-registration.php:116
+msgid "New Category Name"
+msgstr "Назва нової категорії"
+
+#: public/includes/class-cherry-services-registration.php:117
+msgid "Separate categories with commas"
+msgstr "Відокремлюйте категорії комами"
+
+#: public/includes/class-cherry-services-registration.php:118
+msgid "Add or remove categories"
+msgstr "Створити чи видалити категорії"
+
+#: public/includes/class-cherry-services-registration.php:119
+msgid "Choose from the most used categories"
+msgstr "Обрати з найчастіше вживаних категорій"
+
+#: public/includes/class-cherry-services-registration.php:120
+msgid "No categories found."
+msgstr "Категорій немає"
+
+#: public/includes/class-cherry-services-registration.php:121
+#: public/includes/class-cherry-services-shortcode.php:159
+msgid "Categories"
+msgstr "Категорії"
+
+#: public/includes/class-cherry-services-shortcode.php:108
+msgid "Cherry services shortcode"
+msgstr "Cherry-шорткод послуг"
+
+#: public/includes/class-cherry-services-shortcode.php:118
+msgid "Limit"
+msgstr "Обмеження"
+
+#: public/includes/class-cherry-services-shortcode.php:119
+msgid "Maximum number of services."
+msgstr "Найбільша дозволена кількість послуг."
+
+#: public/includes/class-cherry-services-shortcode.php:124
+msgid "Descending"
+msgstr "Спадний"
+
+#: public/includes/class-cherry-services-shortcode.php:125
+msgid "Ascending"
+msgstr "Висхідний"
+
+#: public/includes/class-cherry-services-shortcode.php:129
+msgid "Posts order"
+msgstr "Порядок публікацій"
+
+#: public/includes/class-cherry-services-shortcode.php:134
+#: public/includes/class-cherry-services-shortcode.php:165
+msgid "None"
+msgstr "Жодного"
+
+#: public/includes/class-cherry-services-shortcode.php:135
+#: public/includes/class-cherry-services-shortcode.php:166
+msgid "Post ID"
+msgstr "ID публікації"
+
+#: public/includes/class-cherry-services-shortcode.php:136
+#: public/includes/class-cherry-services-shortcode.php:167
+msgid "Post author"
+msgstr "Автор публікації"
+
+#: public/includes/class-cherry-services-shortcode.php:137
+msgid "Post title"
+msgstr "Заголовок публікації"
+
+#: public/includes/class-cherry-services-shortcode.php:138
+msgid "Post slug"
+msgstr "Скорочення (slug) публікації"
+
+#: public/includes/class-cherry-services-shortcode.php:139
+msgid "Date"
+msgstr "Дата"
+
+#: public/includes/class-cherry-services-shortcode.php:140
+msgid "Last modified date"
+msgstr "Дата внесення останніх змін"
+
+#: public/includes/class-cherry-services-shortcode.php:141
+msgid "Random"
+msgstr "Випадковий"
+
+#: public/includes/class-cherry-services-shortcode.php:142
+msgid "Comments number"
+msgstr "Кількість коментарів"
+
+#: public/includes/class-cherry-services-shortcode.php:143
+msgid "Menu order"
+msgstr "Порядок меню"
+
+#: public/includes/class-cherry-services-shortcode.php:146
+msgid "Order by"
+msgstr "Упорядкувати за"
+
+#: public/includes/class-cherry-services-shortcode.php:147
+msgid "Order posts by"
+msgstr "Упорядкувати публікації за"
+
+#: public/includes/class-cherry-services-shortcode.php:151
+msgid "Post ID's"
+msgstr "ID публікацій"
+
+#: public/includes/class-cherry-services-shortcode.php:152
+msgid "Enter comma separated ID's of the posts that you want to show"
+msgstr "Введіть ID публікацій, що будуть відображатися, відділяючи їх комами"
+
+#: public/includes/class-cherry-services-shortcode.php:160
+msgid "Select categories to show services from"
+msgstr "Оберіть категорії публікацій послуг, що будуть відображатись"
+
+#: public/includes/class-cherry-services-shortcode.php:170
+msgid "Show media"
+msgstr "Відображати медіафайли"
+
+#: public/includes/class-cherry-services-shortcode.php:171
+msgid "Select what media attachment to show"
+msgstr "Оберіть, який з прикріплених медіафайлів відображати"
+
+#: public/includes/class-cherry-services-shortcode.php:177
+msgid "Featured image size"
+msgstr "Розміри Головного зображення"
+
+#: public/includes/class-cherry-services-shortcode.php:178
+msgid "Select size for a Featured image"
+msgstr "Оберіть розміри головного зображення"
+
+#: public/includes/class-cherry-services-shortcode.php:186
+msgid "Excerpt Length"
+msgstr "Довжина скорочення"
+
+#: public/includes/class-cherry-services-shortcode.php:187
+msgid "Excerpt length (if used in template)"
+msgstr "Довжина скорочення (якщо воно вживається в шаблоні)"
+
+#: public/includes/class-cherry-services-shortcode.php:191
+msgid "More Button text"
+msgstr "Підпис кнопки \"Детальніше\"."
+
+#: public/includes/class-cherry-services-shortcode.php:192
+msgid "Enter read more button text"
+msgstr "Зазначте бажаний підпис кнопки \"Детальніше\"."
+
+#: public/includes/class-cherry-services-shortcode.php:196
+msgid "Order Button text"
+msgstr "Підпис кнопки замовлення"
+
+#: public/includes/class-cherry-services-shortcode.php:197
+msgid "Enter order button text"
+msgstr "Зазначте бажаний підпис кнопки замовлення"
+
+#: public/includes/class-cherry-services-shortcode.php:202
+msgid "Boxes"
+msgstr "Контейнери"
+
+#: public/includes/class-cherry-services-shortcode.php:203
+msgid "Pricing Table"
+msgstr "Таблиця вартості"
+
+#: public/includes/class-cherry-services-shortcode.php:206
+msgid "Layout type"
+msgstr "Тип макету"
+
+#: public/includes/class-cherry-services-shortcode.php:207
+msgid "Select layout type"
+msgstr "Оберіть тип макету"
+
+#: public/includes/class-cherry-services-shortcode.php:217
+msgid "Column class"
+msgstr "Клас стовпця"
+
+#: public/includes/class-cherry-services-shortcode.php:218
+msgid "Column class for each item."
+msgstr "Клас стовпця кожного елемента"
+
+#: public/includes/class-cherry-services-shortcode.php:226
+msgid "Template"
+msgstr "Шаблон"
+
+#: public/includes/class-cherry-services-shortcode.php:227
+msgid "Shortcode template"
+msgstr "Шаблон шорткоду"
+
+#: public/includes/class-cherry-services-shortcode.php:231
+msgid "Class"
+msgstr "Клас"
+
+#: public/includes/class-cherry-services-shortcode.php:232
+msgid "Extra CSS class"
+msgstr "Користувацький клас CSS"
+
+#: public/includes/class-cherry-services-shortcode.php:251
+msgid "Icon (Services only)"
+msgstr "Іконка (лише для Послуг)"
+
+#: public/includes/class-cherry-services-shortcode.php:257
+msgid "Features (Services only)"
+msgstr "Властивості (лише для Послуг)"
+
+#: public/includes/class-cherry-services-shortcode.php:263
+msgid "Price (Services only)"
+msgstr "Ціна (лише для Послуг)"
+
+#: public/includes/class-cherry-services-shortcode.php:269
+msgid "Order button (Services only)"
+msgstr "Кнопка замовлення (лише для Послуг)"
+
+#: public/includes/class-cherry-services-shortcode.php:329
+msgid "Title"
+msgstr "Заголовок"
+
+#: public/includes/class-cherry-services-shortcode.php:335
+msgid "Image"
+msgstr "Зображення"
+
+#: public/includes/class-cherry-services-shortcode.php:341
+msgid "Icon"
+msgstr "Іконка"
+
+#: public/includes/class-cherry-services-shortcode.php:347
+msgid "Content"
+msgstr "Вміст"
+
+#: public/includes/class-cherry-services-shortcode.php:353
+msgid "Short description"
+msgstr "Стислий опис"
+
+#: public/includes/class-cherry-services-shortcode.php:359
+msgid "Features"
+msgstr "Властивості"
+
+#: public/includes/class-cherry-services-shortcode.php:371
+msgid "Order button"
+msgstr "Кнопка замовлення"
+
+#: public/includes/class-cherry-services-shortcode.php:377
+msgid "More button"
+msgstr "Кнопка \"Детальніше\""
+
+#: public/includes/class-cherry-services-templates.php:71
+msgid "Services Page"
+msgstr "Сторінка послуг"
+
+#~ msgid "Show service title?"
+#~ msgstr "Відображати назву послуги"
+
+#~ msgid "Show/hide service title?"
+#~ msgstr "Відображати/приховувати назву послуги"

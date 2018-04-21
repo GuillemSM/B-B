@@ -1,0 +1,2909 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cherry Framework\n"
+"POT-Creation-Date: 2015-12-09 13:44+0200\n"
+"PO-Revision-Date: 2015-12-09 13:47+0200\n"
+"Last-Translator: \n"
+"Language-Team: Cherry Team <support@cherryframework.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Uups! Esta página web no se ha podido encontrar."
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or use search."
+msgstr ""
+"Parece que no se puede encontrar nada en esta dirección. Tal vez pruebe uno "
+"de los enlaces de abajo o utilice la búsqueda."
+
+#: cherry-options.php:6
+msgid "Select a page:"
+msgstr "Eliga la página:"
+
+#: cherry-options.php:23 cherry-options.php:1837
+#: lib/admin/class-cherry-grid-type.php:57
+msgid "Header"
+msgstr "Cabezero"
+
+#: cherry-options.php:24
+msgid "Main menu"
+msgstr "Menú principal"
+
+#: cherry-options.php:25
+msgid "Header top static area"
+msgstr "Area estática de Cabecera Superior"
+
+#: cherry-options.php:37
+msgid "Favicon image"
+msgstr "Imagen de Favicon"
+
+#: cherry-options.php:38
+msgid ""
+"Icon image that is displayed in the browser address bar and browser tab "
+"heading."
+msgstr ""
+"Imagen del icono que se muestra en la barra de direcciones del navegador y "
+"el encabezado de la pestaña del navegador  "
+
+#: cherry-options.php:41
+msgid ""
+"Max icon size: 32x32 px <br>You can also upload favicon for retina displays. "
+"Max retina icon size: 152x152 px"
+msgstr ""
+"Tamaño máximo del icono: 32x32 px <br>También se puede subir favicon para  "
+"retina de pantallas. Tamaño máximo del icono de retina: 152x152 px"
+
+#: cherry-options.php:52
+#, php-format
+msgid "Maintenance mode. <a href=\"%s\" target=\"_blank\">Preview</a>"
+msgstr ""
+"Modo de mantenimiento. <a href=\"%s\" target=\"_blank\"> Vista previa </a>"
+
+#: cherry-options.php:55
+msgid "Enable/disable maintenance mode."
+msgstr "Activar/desactivar el modo de mantenimiento."
+
+#: cherry-options.php:58
+msgid ""
+"Logged in administrator gets full access to the site, while regular visitors "
+"will\\won't be redirected to the page chosen below."
+msgstr ""
+"Iniciando sesión como administrador obtiene el acceso completo a la página "
+"web, mientras que los visitantes regulares\n"
+"o serán redirigidos a la página elegida a continuación."
+
+#: cherry-options.php:64
+msgid "Maintenance page"
+msgstr "Página de Mantenimiento"
+
+#: cherry-options.php:65
+msgid ""
+"Select page that regular visitors will see if maintenance mode is enabled."
+msgstr ""
+"Seleccione la página que los visitantes podrán ver si el modo de "
+"mantenimiento es activo."
+
+#: cherry-options.php:72
+msgid "Document smooth scroll"
+msgstr "Desplazamiento suave del documento"
+
+#: cherry-options.php:73
+msgid ""
+"Enable/disable smooth vertical mousewheel scrolling (Chrome browser only)."
+msgstr ""
+"Activar/desactivar el fluido de desplazamiento vertical ( Solamente para el "
+"navegador Chrome) "
+
+#: cherry-options.php:78
+msgid "User CSS"
+msgstr "Usuario CSS"
+
+#: cherry-options.php:79
+msgid "Define custom CSS styling."
+msgstr "Definir el estilo CSS personalizado."
+
+#: cherry-options.php:91
+msgid "Responsive grid"
+msgstr "Rejilla Responsive"
+
+#: cherry-options.php:92
+msgid "Enable/disable responsive grid. "
+msgstr "Activar/desactivar la rejilla responsive."
+
+#: cherry-options.php:95
+msgid ""
+"If for any reason you want to disable responsive layout for your site, you "
+"are able to turn it off here."
+msgstr ""
+"Si por alguna razón usted desea desactivar el diseño sensible para su sitio, "
+"usted es capaz de apagarlo aquí."
+
+#: cherry-options.php:101
+msgid "Container width"
+msgstr "Anchura del contenedor"
+
+#: cherry-options.php:102
+msgid "Width of header/content/footer container in pixels."
+msgstr "Ancho de la cabecera/contenido/contenedor de pie de página en píxeles."
+
+#: cherry-options.php:112
+msgid "Pages"
+msgstr "Páginas "
+
+#: cherry-options.php:115 cherry-options.php:151
+msgid ""
+"You can choose if you want to display sidebars and how you want to display "
+"them."
+msgstr ""
+"Usted puede elegir si desea mostrar las barras laterales y cómo desea "
+"mostrarlas. "
+
+#: cherry-options.php:121 cherry-options.php:157
+msgid "Left sidebar"
+msgstr "Barra lateral izquierda  "
+
+#: cherry-options.php:125 cherry-options.php:161
+msgid "Right sidebar"
+msgstr "Barra lateral derecha "
+
+#: cherry-options.php:129 cherry-options.php:165
+msgid "Left and right sidebar"
+msgstr "Barra lateral izquierda y derecha"
+
+#: cherry-options.php:133 cherry-options.php:169
+msgid "Two sidebars on the left"
+msgstr "Dos barras laterales a la izquierda"
+
+#: cherry-options.php:137 cherry-options.php:173
+msgid "Two sidebars on the right"
+msgstr "Dos barras laterales  a la derecha"
+
+#: cherry-options.php:141 cherry-options.php:177
+msgid "No sidebar"
+msgstr "Sin barra lateral"
+
+#: cherry-options.php:148
+msgid "Blog posts"
+msgstr "Artículos de blog."
+
+#: cherry-options.php:190
+msgid "Featured Media"
+msgstr "Medios destacados"
+
+#: cherry-options.php:191
+msgid ""
+"Displays Featured Image, Gallery, Audio, Video in blog posts listing "
+"depending on post type."
+msgstr ""
+"Muestra de las Imágenes Destacadas, Galería, Audio, Video en la lista del "
+"blog dependiendo del tipo de puesto."
+
+#: cherry-options.php:196
+msgid "Featured Image Size"
+msgstr "El tamaño de las Imagines Destacadas "
+
+#: cherry-options.php:199 cherry-options.php:202
+msgid "Set dimensions for post featured images."
+msgstr "Ajuste las dimensiones para las imágenes destacadas."
+
+#: cherry-options.php:205 cherry-options.php:274
+msgid "Small"
+msgstr "Pequeño"
+
+#: cherry-options.php:206 cherry-options.php:275
+msgid "Large"
+msgstr "Grande"
+
+#: cherry-options.php:211
+msgid "Featured Image Alignment"
+msgstr "Ajuste de las Imágenes Destacadas"
+
+#: cherry-options.php:212
+msgid "Set alignment for post featured images."
+msgstr "Establecer la Alineación para el post de las imagines destacadas"
+
+#: cherry-options.php:216 cherry-options.php:233 cherry-options.php:285
+msgid "None"
+msgstr "Ningún "
+
+#: cherry-options.php:217 cherry-options.php:286
+#: lib/admin/ui-elements/ui-typography/ui-typography.php:80
+msgid "Left"
+msgstr "Izquierdo"
+
+#: cherry-options.php:218 cherry-options.php:287
+#: lib/admin/ui-elements/ui-typography/ui-typography.php:81
+msgid "Right"
+msgstr "Derecho"
+
+#: cherry-options.php:219 cherry-options.php:288
+#: lib/admin/ui-elements/ui-typography/ui-typography.php:82
+msgid "Center"
+msgstr "Centrado"
+
+#: cherry-options.php:224
+msgid "Post content"
+msgstr "Contenido del artículo"
+
+#: cherry-options.php:225
+msgid "Select how you want to display post content in blog listing"
+msgstr ""
+"Seleccione cómo desea mostrar el contenido del artículo en la lista de blog"
+
+#: cherry-options.php:228
+msgid ""
+"The following options are available:<br>`full` - display full post content, "
+"<br>`part` - display part of the post (you can specify content part length "
+"below), <br>`none` - hide post content."
+msgstr ""
+"Las siguientes opciones están disponibles para:<br>`full` - mostrar el "
+"contenido completo del artículo, <br>`part` - mostrar una parte del artículo "
+"(puede especificar contenido de la parte de abajo),  <br>`none` - ocultar el "
+"contenido del artículo."
+
+#: cherry-options.php:234
+msgid "Part"
+msgstr "Parte"
+
+#: cherry-options.php:235
+msgid "Full"
+msgstr "Completo"
+
+#: cherry-options.php:240
+msgid "Content Part length"
+msgstr "Longitud de la Parte del contenido"
+
+#: cherry-options.php:241
+msgid ""
+"Specify number of words displayed in blog listing content part. Will not "
+"work if post has an excerpt."
+msgstr "Especifique  el número de palabras  que aparece en la lista de blog. "
+
+#: cherry-options.php:248
+msgid "More button"
+msgstr "Botón Leer Más"
+
+#: cherry-options.php:249
+msgid "Enable/Disable read more button in blog listing."
+msgstr "Activar/desactivar el botón Leer Más en la lista de blog."
+
+#: cherry-options.php:254
+msgid "More button label"
+msgstr "Label del botón Leer Más"
+
+#: cherry-options.php:255
+msgid "Specify read more button label text. "
+msgstr "Especifique el texto del label del botón"
+
+#: cherry-options.php:256
+msgid "read more"
+msgstr "leer más"
+
+#: cherry-options.php:263
+msgid "Featured Image"
+msgstr "La imagen Principal"
+
+#: cherry-options.php:264
+msgid "Display featured image on the single post page."
+msgstr "Visualizar la imagen principal en la página de entrada."
+
+#: cherry-options.php:269
+msgid "Size of Featured Image"
+msgstr "Tamaño de la Imagen Principal"
+
+#: cherry-options.php:270
+msgid "Set dimensions for single post featured images."
+msgstr "Establecer las dimensiones de imágenes de un solo elemento."
+
+#: cherry-options.php:280
+msgid "Alignment of Featured Image"
+msgstr "Alineación de la Imagen Principal"
+
+#: cherry-options.php:281
+msgid "Set alignment for single post featured images."
+msgstr "Ajuste la alineación de las imágenes para un artículo individual. "
+
+#: cherry-options.php:293 cherry-options.php:1817
+msgid "Navigation"
+msgstr "Navigación"
+
+#: cherry-options.php:294
+msgid "Enable/disable post navigation block."
+msgstr "Activar/desactivar los breadcrumbs."
+
+#: cherry-options.php:299
+msgid "Author bio"
+msgstr "Autor bio "
+
+#: cherry-options.php:300
+msgid ""
+"Enable/disable author bio block. Author bio block is displayed on the post "
+"page."
+msgstr ""
+"Activar/desactivar el bloque del Autor bio. Visualizar el bloque del Autor "
+"bio  "
+
+#: cherry-options.php:305
+msgid "Related posts"
+msgstr "Artículos relacionados"
+
+#: cherry-options.php:306
+msgid ""
+"Enable/disable related posts block. Related posts block is displayed on the "
+"post page."
+msgstr ""
+"Activar/desactivar el bloque de artículos relacionados. El bloque de "
+"artículos relacionados se muestra en la página del artículo."
+
+#: cherry-options.php:311
+msgid "Allow comments"
+msgstr "Permitir comentarios"
+
+#: cherry-options.php:312
+msgid "Enable/disable comments for blog posts."
+msgstr "Activar/desactivar comentarios para las entradas del blog."
+
+#: cherry-options.php:315
+msgid ""
+"Make sure comments are enabled in Wordpress 'settings->discussion'. For "
+"posts that have already been published you need to enable comments "
+"individually in post settings."
+msgstr ""
+"Para los artículos que ya han sido publicados debe activar los comentarios "
+"por separado en la sección de configuración."
+
+#: cherry-options.php:321
+msgid "Gallery slider"
+msgstr "Galería de slider"
+
+#: cherry-options.php:322
+msgid ""
+"Replace default Wordpress gallery shortcode with enhanced jQuery carousel."
+msgstr ""
+"Reemplazar la galería por defecto del  WordPress  abreviado por el carrusel "
+"jQuery mejorado."
+
+#: cherry-options.php:327
+msgid "Lightbox for images in a content"
+msgstr "Lightbox para imagines en el contenido"
+
+#: cherry-options.php:328
+msgid "Automatically adds lightbox for images in a post content."
+msgstr ""
+"Agrega automáticamente lightbox para imagines en el contenido del artículo."
+
+#: cherry-options.php:336
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:196
+#: lib/functions/template-media.php:153
+msgid "Date"
+msgstr "Fecha"
+
+#: cherry-options.php:337
+msgid "Show/Hide post publication date."
+msgstr "Mostrar / Ocultar la fecha de publicación del artículo."
+
+#: cherry-options.php:342
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:193
+msgid "Author"
+msgstr "Autor"
+
+#: cherry-options.php:343
+msgid "Show/Hide post author."
+msgstr "Mostrar / Ocultar el autor del artículo."
+
+#: cherry-options.php:348
+msgid "Comments"
+msgstr "Comentarios"
+
+#: cherry-options.php:349
+msgid "Show/Hide number of comments."
+msgstr "Mostrar / Ocultar el número de comentarios."
+
+#: cherry-options.php:354
+msgid "Categories"
+msgstr "Categorías"
+
+#: cherry-options.php:355
+msgid "Show/Hide post categories."
+msgstr "Mostrar / Ocultar categorías del artículo."
+
+#: cherry-options.php:360
+msgid "Tags"
+msgstr "Palabras clave"
+
+#: cherry-options.php:361
+msgid "Show/Hide post tags."
+msgstr "Mostrar / Ocultar palabras clave del artículo."
+
+#: cherry-options.php:372
+msgid "Body background"
+msgstr "Fondo del cuerpo"
+
+#: cherry-options.php:373
+msgid "Set background for body container. "
+msgstr "Establece el fondo de cuerpo del contenedor."
+
+#: cherry-options.php:376
+msgid ""
+"You can specify background image or color, set background repeat, position "
+"and attachment. "
+msgstr ""
+"Puede determinar la imagen de fondo o el color, ajustar la repetición de los "
+"antecedentes, la posición y el apego."
+
+#: cherry-options.php:397
+msgid "Primary color"
+msgstr "Color primario"
+
+#: cherry-options.php:402
+msgid "Secondary color"
+msgstr "Color secundario"
+
+#: cherry-options.php:407
+msgid "Success color"
+msgstr "Color de éxito"
+
+#: cherry-options.php:412
+msgid "Info color"
+msgstr "Info color"
+
+#: cherry-options.php:417
+msgid "Warning color"
+msgstr "Color de advertencia"
+
+#: cherry-options.php:422
+msgid "Danger color"
+msgstr "Color de peligro"
+
+#: cherry-options.php:427
+msgid "Primary gray color"
+msgstr "Color gris primario"
+
+#: cherry-options.php:447
+msgid "Header Menu Typography"
+msgstr "Tipografía del Menú de Cabecera"
+
+#: cherry-options.php:448
+msgid "Main header navigation typography settings."
+msgstr "Ajustes de la tipografía de la navegación principal del encabezado."
+
+#: cherry-options.php:463
+msgid "Footer Menu Typography"
+msgstr "Tipografía del Menú de Pie de página"
+
+#: cherry-options.php:464
+msgid "Main footer navigation typography settings."
+msgstr ""
+"Configuración de la tipografía de navegación principal  de pie de página."
+
+#: cherry-options.php:479
+msgid "Arrows markup"
+msgstr "Las flechas de marcado"
+
+#: cherry-options.php:480
+msgid "Do you want to generate arrow mark-up?"
+msgstr "¿Quiere generar flechas de marcado?"
+
+#: cherry-options.php:491 cherry-options.php:1823
+msgid "Breadcrumbs"
+msgstr "Breadcrumbs"
+
+#: cherry-options.php:492
+msgid "Enable/disable breadcrumbs navigation."
+msgstr "Activar/desactivar los breadcrumbs."
+
+#: cherry-options.php:498
+msgid "Page title"
+msgstr "Título de la página"
+
+#: cherry-options.php:499
+msgid "Show / hide current page title in breadcrumb navigation."
+msgstr ""
+"Mostrar/ocultar el título de la página actual en la breadcrumb de navegación."
+
+#: cherry-options.php:504
+msgid "Breadcrumbs mobile"
+msgstr "Breadcrumbs para el móvil"
+
+#: cherry-options.php:505
+msgid "Enable/disable breadcrumbs on mobile devices."
+msgstr "Activar/desactivar breadcrumbs en los dispositivos móviles."
+
+#: cherry-options.php:509
+msgid ""
+"Mobile &mdash; Extra small devices, phones (&lt;768px) <br>Tablet &mdash; "
+"Small devices, tablets (&lt;991px)"
+msgstr ""
+"Móvil &mdash; Dispositivos extra pequeños, teléfonos (&lt;768px) <br>Tablet "
+"&mdash; Dispositivos pequeños, tablets (&lt;991px)"
+
+#: cherry-options.php:512
+msgid "Mobile"
+msgstr "Móvil"
+
+#: cherry-options.php:513
+msgid "Tablet"
+msgstr "Tablet"
+
+#: cherry-options.php:518
+msgid "Home page breadcrumbs"
+msgstr "Breadcrumbs de la página principal"
+
+#: cherry-options.php:519
+msgid ""
+"If option defined in page setting, this global option will not be counted."
+msgstr ""
+"Si la opción se define en la configuración de la página, esta opción no se "
+"aplicará globalmente."
+
+#: cherry-options.php:524
+msgid "Customize a Home page title?"
+msgstr "Personalizar el título de la página Principal?"
+
+#: cherry-options.php:527 cherry-options.php:1107 cherry-options.php:1132
+#: lib/admin/class-cherry-admin.php:63
+#: lib/classes/class-cherry-interface-builder.php:470
+msgid "Yes"
+msgstr "Si"
+
+#: cherry-options.php:528 cherry-options.php:1108 cherry-options.php:1133
+#: lib/admin/class-cherry-admin.php:64
+#: lib/classes/class-cherry-interface-builder.php:471
+msgid "No"
+msgstr "No"
+
+#: cherry-options.php:535
+msgid "Home page title"
+msgstr "Título de la página de Inicio"
+
+#: cherry-options.php:536
+msgid "This is a customized title for a Home page."
+msgstr "Este es el título personalizado para la página de Inicio."
+
+#: cherry-options.php:537 lib/classes/class-cherry-breadcrumbs.php:270
+msgid "Home"
+msgstr "Página de inicio"
+
+#: cherry-options.php:543
+msgid "Item separator"
+msgstr "Separador de artículo"
+
+#: cherry-options.php:544
+msgid "Breadcrumbs separator symbol."
+msgstr "Carácter de separación entre los elementos de breadcrumbs."
+
+#: cherry-options.php:551
+msgid "Breadcrumbs prefix"
+msgstr "Prefijo para la ruta de Breadcrumbs"
+
+#: cherry-options.php:552
+msgid "Text displayed before breadcrumbs navigation."
+msgstr "Texo que se muestra antes de breadcrumbs de navegación."
+
+#: cherry-options.php:553
+msgid "You are here:"
+msgstr "Usted está aquí:"
+
+#: cherry-options.php:562
+msgid "Pagination position"
+msgstr "Posición de la paginación"
+
+#: cherry-options.php:563
+msgid "Select your pagination position."
+msgstr "Seleccione la posición de paginación"
+
+#: cherry-options.php:566
+msgid "After posts loop"
+msgstr "Después de los artículos de bucle"
+
+#: cherry-options.php:567
+msgid "Before posts loop"
+msgstr "Antes de los artículos de bucle"
+
+#: cherry-options.php:568
+msgid "Both"
+msgstr "Ambos"
+
+#: cherry-options.php:573
+msgid "Prev/next buttons"
+msgstr "Anterior/siguiente botones"
+
+#: cherry-options.php:574
+msgid "Show/hide previous and next buttons in pagination."
+msgstr "Mostrar/ocultar los botones anterior y siguiente en la paginación."
+
+#: cherry-options.php:579
+msgid "Pagination label"
+msgstr "Label de la paginación"
+
+#: cherry-options.php:580
+msgid ""
+"Pagination label. Displayed before pagination buttons. Text or HTML can be "
+"used."
+msgstr ""
+"Label de la paginación. Aparece antes de los botones de paginación. Se puede "
+"utilizar Texto o HTML."
+
+#: cherry-options.php:581 lib/functions/template-post.php:287
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: cherry-options.php:585
+msgid "Prev button label"
+msgstr "Label del botón anterior"
+
+#: cherry-options.php:586
+msgid "Previous button label text. Text or HTML can be used."
+msgstr ""
+"Texto del label del botón anterior. Se pueden utilizar el texto o HTML."
+
+#: cherry-options.php:591
+msgid "Next button label"
+msgstr "Label del botón Siguiente"
+
+#: cherry-options.php:592
+msgid "Next button label text. Text or HTML can be used."
+msgstr "Texto de label del botón Siguiente. Se puede utilizar el Texto o HTML."
+
+#: cherry-options.php:597
+msgid "Show all the pages"
+msgstr "Mostrar todas las páginas"
+
+#: cherry-options.php:598
+msgid ""
+"If set to On, then it will show all of the pages instead of a short list of "
+"the pages near the current page."
+msgstr ""
+"Si se establece en On, a continuación, se mostrarán todas las páginas en "
+"lugar de una lista corta de las páginas cerca de la página actual."
+
+#: cherry-options.php:603
+msgid "End size"
+msgstr "Tamaño final"
+
+#: cherry-options.php:604
+msgid "How many pages to display either at the top or at the end of the list."
+msgstr ""
+"Cuántas páginas se mostrarán en la parte superior o al final de la lista."
+
+#: cherry-options.php:612
+msgid "Mid size"
+msgstr "Tamaño medio"
+
+#: cherry-options.php:613
+msgid ""
+"How many numbers to display to either side of current page, but not "
+"including current page."
+msgstr ""
+"¿Cuántos números hay que mostrar a cada lado de la página actual, pero sin "
+"incluir la página actual."
+
+#: cherry-options.php:626 cherry-options.php:745 cherry-options.php:808
+msgid "Background"
+msgstr "Fondo"
+
+#: cherry-options.php:629 cherry-options.php:633
+msgid ""
+"Header background settings. You can select background color, upload header "
+"background image, set its background position, attachment and repeat."
+msgstr ""
+"Fondo de la cabecera. Puede seleccionar el color del fondo, subir una imagen "
+"del fondo, ajustar la posición, la fijación y la repetición."
+
+#: cherry-options.php:649 cherry-options.php:766 cherry-options.php:841
+msgid "Grid type"
+msgstr "Tipo rejilla"
+
+#: cherry-options.php:650
+msgid ""
+"Select layout pattern for header website. Wide layout will fit window width. "
+"Boxed layout will have fixed width."
+msgstr ""
+"Seleccione el formato de diseño para la cabecera de su página web. "
+"Disposición grande será adaptada a la anchura de la ventana. El formato "
+"enmarcado tendrá la anchura fija."
+
+#: cherry-options.php:655 cherry-options.php:772 cherry-options.php:847
+msgid "Wide"
+msgstr "Amplio"
+
+#: cherry-options.php:659 cherry-options.php:776 cherry-options.php:851
+msgid "Boxed"
+msgstr "Enmarcado"
+
+#: cherry-options.php:666 cherry-options.php:783 cherry-options.php:858
+msgid "Boxed width"
+msgstr "Ancho de la caja"
+
+#: cherry-options.php:667
+msgid ""
+"Header width for `boxed` layout. Should not be more than `Grid -> Container "
+"width` value."
+msgstr "El diseño del ancho de cabecera."
+
+#: cherry-options.php:674
+msgid "Sticky header"
+msgstr "Cabecera adjuntada"
+
+#: cherry-options.php:675
+msgid "Enable\\disable fixed header that sticks to the top."
+msgstr "Activar \\ desactivar la fijación de la cabecara "
+
+#: cherry-options.php:680
+msgid "Sticky selector"
+msgstr "Selector adjuntado"
+
+#: cherry-options.php:681
+msgid ""
+"Select the block selector that will be used to build sticky panel. You can "
+"use tag name, class name, or id."
+msgstr ""
+"Seleccione el selector de bloque que se utiliza para construir la panel "
+"adjuntiva. Puede utilizar el nombre de la etiqueta, nombre de la clase o del "
+"id."
+
+#: cherry-options.php:690 cherry-options.php:876
+msgid "Logo type"
+msgstr "Tipo de Logo"
+
+#: cherry-options.php:691
+msgid "Select whether you want your main logo to be an image or text. "
+msgstr ""
+"Seleccione si desea que su logotipo principal a de ser una imagen o texto."
+
+#: cherry-options.php:694
+msgid ""
+"If you select \"image\", you can choose logo image from the media library in "
+"the next option, and if you select \"text\", your WordPress Site Title will "
+"be shown instead."
+msgstr ""
+"Si selecciona \"image\", puede elegir imagen del logotipo de la biblioteca "
+"de medios de comunicación en la siguiente opción, y si selecciona \"texto\", "
+"su sitio de WordPress título será mostrado en su lugar."
+
+#: cherry-options.php:715 cherry-options.php:897
+msgid "Logo image"
+msgstr "Imagen de Logo"
+
+#: cherry-options.php:716 cherry-options.php:898
+msgid ""
+"Click Choose Media button to select logo image from the media library or "
+"upload your image."
+msgstr ""
+"Haga clic en el botón Seleccionar Media  para seleccionar imagen del "
+"logotipo de la biblioteca o cargar su imagen."
+
+#: cherry-options.php:723 cherry-options.php:905
+msgid "Logo typography"
+msgstr "Tipografía del Logo"
+
+#: cherry-options.php:724 cherry-options.php:906
+msgid ""
+"Configuration settings for text logo. Here you can select logo font family, "
+"size, color, etc."
+msgstr ""
+"Las opciones de configuración para el logotipo de texto. Aquí puede "
+"seleccionar el tipo de letra, tamaño de fuente, color, etc."
+
+#: cherry-options.php:748 cherry-options.php:750
+msgid ""
+"Page background settings. You can select background color, upload footer "
+"background image, set its background position, attachment and repeat."
+msgstr ""
+"Puede seleccionar el color del fondo, subir una imagen del fondo, ajustar la "
+"posición de los antecedentes, el apego y la repetición."
+
+#: cherry-options.php:767
+msgid ""
+"Select layout pattern for main website container. Wide layout will fit "
+"window width. Boxed layout will have fixed width and left/right indents. "
+msgstr ""
+"Seleccione el modelo de diseño para el contenedor principal de la página "
+"web. Disposición grande será adaptada a la anchura de la ventana. El formato "
+"enmarcado tendrá la anchura fija y guiones a la izquierda/derecha."
+
+#: cherry-options.php:784
+msgid ""
+"Main content width for `boxed` layout. Should not be more than `Grid -> "
+"Container width` value."
+msgstr ""
+"Ancho del contenido principal del formato de diseño `en caja`. No debe haber "
+"más del valor de  `Rejilla -> Ancho del contenedor`."
+
+#: cherry-options.php:791
+msgid "Featured Images"
+msgstr "Imagines Destacadas"
+
+#: cherry-options.php:792
+msgid "Enable/disable featured images for pages."
+msgstr "Activar/Desactivar las imagines destacadas en las páginas"
+
+#: cherry-options.php:797
+msgid "Page comments"
+msgstr "Comentarios para la página"
+
+#: cherry-options.php:798
+msgid ""
+"Enable/disable comments for pages by default. For pages that have already "
+"been published you need to enable comments individually in page settings."
+msgstr ""
+"Activar/desactivar los comentarios de las páginas por defecto. Para las "
+"páginas que ya han sido publicadas necesita activar comentarios "
+"individualmente en la configuración de página."
+
+#: cherry-options.php:809
+msgid ""
+"Footer background settings. You can select background color, upload footer "
+"background image, set its background position, attachment and repeat."
+msgstr ""
+"Parametros de los ajustes de pie de página. Puede seleccionar el color del "
+"fondo, subir una imagen del fondo, ajustar la posición de los antecedentes, "
+"el apego y la repetición."
+
+#: cherry-options.php:825 cherry-options.php:1426 cherry-options.php:1869
+msgid "Typography"
+msgstr "Tipografía"
+
+#: cherry-options.php:826
+msgid "Typography settings for footer text."
+msgstr "Ajustes de tipografía para el texto de pie de página."
+
+#: cherry-options.php:842
+msgid ""
+"Select layout pattern for footer website. Wide layout will fit window width. "
+"Boxed layout will have fixed width."
+msgstr ""
+"Seleccione el formato de diseño para el pie de su página web. Disposición "
+"grande será adaptada a la anchura de la ventana. El formato enmarcado tendrá "
+"la anchura fija."
+
+#: cherry-options.php:859
+msgid ""
+"Footer width for `boxed` layout. Should not be more than `Grid -> Container "
+"width` value."
+msgstr ""
+"Ancho de pie de página para la disposición de `enmarcado` . No debe de ser "
+"mayor el valor de `Rejilla ->  Anchura del contenedor`."
+
+#: cherry-options.php:866
+msgid "Footer Info text"
+msgstr "Texto de Información de pie de página"
+
+#: cherry-options.php:867
+msgid "Set custom text for Footer static info."
+msgstr "Establecer el texto personalizado para Footer static info."
+
+#: cherry-options.php:877
+msgid "Select whether you want your footer logo to be an image or text."
+msgstr ""
+"Seleccione si desea que su logo de pie de páginar sea una imagen o texto."
+
+#: cherry-options.php:928
+msgid "Body text"
+msgstr "Texto del cuerpo"
+
+#: cherry-options.php:929
+msgid "Main website text typography options."
+msgstr "Las opciones principales de tipografía de texto de página web."
+
+#: cherry-options.php:944
+msgid "Link color"
+msgstr "Enlace de color"
+
+#: cherry-options.php:945
+msgid "Color of links."
+msgstr "Color de enlaces."
+
+#: cherry-options.php:950
+msgid "Link hover color"
+msgstr "Color de enlace al desplazamiento del ratón"
+
+#: cherry-options.php:951
+msgid "Color of links on hover."
+msgstr "El color de enlaces al desplazamiento del ratón."
+
+#: cherry-options.php:956
+msgid "Input text"
+msgstr "Texto de entrada"
+
+#: cherry-options.php:957
+msgid "Styling text in forms."
+msgstr "Estilo de texto en las formas."
+
+#: cherry-options.php:972
+msgid "Breadcrumbs typography"
+msgstr "Tipografía de Breadcrumbs"
+
+#: cherry-options.php:973
+msgid "Styling text in breadcrumbs."
+msgstr "Estilo de texto en breadcrumbs."
+
+#: cherry-options.php:988
+msgid "Heading 1"
+msgstr "Título 1"
+
+#: cherry-options.php:990
+msgid "H1 heading font settings."
+msgstr "Título H1 parámetros de fuente."
+
+#: cherry-options.php:1005
+msgid "Heading 2"
+msgstr "Título 2"
+
+#: cherry-options.php:1007
+msgid "H2 heading font settings."
+msgstr "Título H2 parámetros de fuente."
+
+#: cherry-options.php:1022
+msgid "Heading 3"
+msgstr "Título 3"
+
+#: cherry-options.php:1024
+msgid "H3 heading font settings."
+msgstr "Título H3 parámetros de fuente."
+
+#: cherry-options.php:1039
+msgid "Heading 4"
+msgstr "Título 4"
+
+#: cherry-options.php:1041
+msgid "H4 heading font settings."
+msgstr "Título H4 parámetros de fuente."
+
+#: cherry-options.php:1056
+msgid "Heading 5"
+msgstr "Título 5"
+
+#: cherry-options.php:1058
+msgid "H5 heading font settings."
+msgstr "Título H5 parámetros de fuente."
+
+#: cherry-options.php:1073
+msgid "Heading 6"
+msgstr "Título 6"
+
+#: cherry-options.php:1075
+msgid "H6 heading font settings."
+msgstr "Título H6 parámetros de fuente."
+
+#: cherry-options.php:1090
+msgid "Webfonts"
+msgstr "Fuentes Web"
+
+#: cherry-options.php:1092
+msgid "Define custom Font style and Character Sets for selected web font."
+msgstr ""
+"Definir el Estilo de fuente personalizada y Establecer Carácter para la "
+"fuente web seleccionada."
+
+#: cherry-options.php:1103
+msgid "Concatenate/minify CSS"
+msgstr "Concatenar / reducir CSS"
+
+#: cherry-options.php:1104
+msgid ""
+"Select if you want to merge\\minify CSS files for performance optimization."
+msgstr ""
+"Seleccione si desea combinar \\ reducir los archivos CSS para optimizar el "
+"rendimiento."
+
+#: cherry-options.php:1114
+msgid "Output dynamic CSS into separate file or into style tag."
+msgstr "Salida dinámica de CSS de un archivo separado o estilo de etiqueta."
+
+#: cherry-options.php:1129
+msgid "Display Cookie Banner?"
+msgstr "¿Mostrar Cookies Banner?"
+
+#: cherry-options.php:1138
+msgid "Message"
+msgstr "Mensaje"
+
+#: cherry-options.php:1139
+msgid "Enter the cookie banner message."
+msgstr "Introduzca el mensaje para el cookie banner."
+
+#: cherry-options.php:1140
+msgid "We use cookies to ensure you get the best experience on our website."
+msgstr ""
+"Utilizamos cookies para asegurarse de obtener la mejor experiencia en "
+"nuestra página web."
+
+#: cherry-options.php:1150 cherry-options.php:1570
+msgid "Text input"
+msgstr "Texto de entrada"
+
+#: cherry-options.php:1155 cherry-options.php:1575 cherry-options.php:1670
+#: cherry-options.php:1682 cherry-options.php:1694 cherry-options.php:1729
+#: cherry-options.php:1740 cherry-options.php:1752
+msgid "Regular single line text input field."
+msgstr "Para un campo de entrada en línea."
+
+#: cherry-options.php:1161 cherry-options.php:1582
+msgid "Textarea input"
+msgstr "Textarea input"
+
+#: cherry-options.php:1166 cherry-options.php:1587
+msgid "Multiline text input field ( 16 rows x 20 cols )."
+msgstr ""
+"Campo de entrada de texto de líneas múltiples ( 16 filas x 20 columnas )."
+
+#: cherry-options.php:1172 cherry-options.php:1594
+msgid "Select box"
+msgstr "Select box"
+
+#: cherry-options.php:1177 cherry-options.php:1599
+msgid "Select box with single option."
+msgstr "Cuadro de selección con la única opción."
+
+#: cherry-options.php:1189 cherry-options.php:1612
+msgid "Filtered select"
+msgstr "Filtered select"
+
+#: cherry-options.php:1194 cherry-options.php:1617
+msgid "Select box with filter option."
+msgstr "Cuadro de selección con la opción de filtro."
+
+#: cherry-options.php:1211 cherry-options.php:1234
+msgid "Multi-select box"
+msgstr "Multi-select box"
+
+#: cherry-options.php:1216 cherry-options.php:1239
+msgid "Select box with multiple select capability."
+msgstr "Cuadro de selección con capacidad de selección múltiple."
+
+#: cherry-options.php:1257 cherry-options.php:1702
+msgid "Checkbox"
+msgstr "Casilla de verificación"
+
+#: cherry-options.php:1258 cherry-options.php:1703
+msgid "Checkbox label"
+msgstr "Etiqueta de la casilla de verificación "
+
+#: cherry-options.php:1262 cherry-options.php:1707
+msgid "Regular HTML checkbox."
+msgstr "Casilla de verificación HTML ordinaria."
+
+#: cherry-options.php:1272 cherry-options.php:1555
+msgid "Switcher"
+msgstr "Interruptor"
+
+#: cherry-options.php:1275 cherry-options.php:1558
+msgid "Analogue of the regular HTML radio buttons. "
+msgstr "Análogo de normales botones de opción en HTML."
+
+#: cherry-options.php:1280
+msgid "Switcher (alternative)"
+msgstr "Switcher (alternative)"
+
+#: cherry-options.php:1283
+msgid "Alternative switcher with custom labels."
+msgstr "Switcher alternativo con labels personalizados."
+
+#: cherry-options.php:1286 cherry-options.php:1561
+msgid "Enabled"
+msgstr "Activar"
+
+#: cherry-options.php:1287 cherry-options.php:1562
+msgid "Disabled"
+msgstr "Desactivar"
+
+#: cherry-options.php:1294
+msgid "Stepper"
+msgstr "Stepper"
+
+#: cherry-options.php:1297
+msgid "Adds a number input used to define numeric values."
+msgstr "Añade campo númerico utilizado para definir los valores numéricos."
+
+#: cherry-options.php:1306
+msgid "Slider"
+msgstr "Slider"
+
+#: cherry-options.php:1309
+msgid "Draggable slider with stepper. Used to define some numeric value."
+msgstr ""
+"Slider arrastrable con stepper. Se utiliza para definir un valor numérico."
+
+#: cherry-options.php:1316
+msgid "Slider (ranged)"
+msgstr "Slider (ranged)"
+
+#: cherry-options.php:1321
+msgid "Draggable slider with range capability. Used to define numeric range."
+msgstr ""
+"Deslizador arrastrable con rango de capacidad. Se utiliza para definir un "
+"rango numérico."
+
+#: cherry-options.php:1332
+msgid "Radio buttons"
+msgstr "Botones de opción"
+
+#: cherry-options.php:1335
+msgid "Adds radio buttons group. Lets user select one option from the list."
+msgstr ""
+"Añadir grupo de botones de opción. Deja que usuario seleccione una opción de "
+"la lista."
+
+#: cherry-options.php:1352 cherry-options.php:1635
+msgid "Radio buttons (image)"
+msgstr "Botones de opción (imagen)"
+
+#: cherry-options.php:1356 cherry-options.php:1358 cherry-options.php:1639
+#: cherry-options.php:1641
+msgid "Adds image based radio buttons group. Behaves as HTML radio buttons."
+msgstr ""
+"Añade grupo de botones de opción basada en imágenes. Se comporta como "
+"botones de opción HTML."
+
+#: cherry-options.php:1379
+msgid "Colorpicker"
+msgstr "Selector de Color"
+
+#: cherry-options.php:1384
+msgid "Adds a color picker."
+msgstr "Añade un selector de color"
+
+#: cherry-options.php:1390
+msgid "Media library element"
+msgstr "Elemento de la Mediateca"
+
+#: cherry-options.php:1395
+msgid "Allows user to add content from Wordpress media library."
+msgstr "Permite al usuario agregar contenido de Mediateca de Wordpress."
+
+#: cherry-options.php:1403
+msgid "Background image"
+msgstr "Imagen de fondo"
+
+#: cherry-options.php:1408
+msgid ""
+"Allows user to add background image from the media library and define its "
+"background settings like background repeat, position, attachment, origin."
+msgstr ""
+"Permite al usuario añadir una imagen de fondo de la mediateca y definir sus "
+"ajustes de fondo como fondo de repetición, la posición, el adjunto, el "
+"origen."
+
+#: cherry-options.php:1432
+msgid ""
+"Provides typography configuration options such as Google Font family name, "
+"font size, line height, style, letter spacing, characters sets, text align "
+"and color. Below options you can see font preview."
+msgstr ""
+"Tipografía ofrece opciones de configuración, como por ejemplo el Google Font "
+"family, tamaño de fuente, altura de la línea, estilo, espaciado entre "
+"letras, juegos de caracteres, alineación del texto y el color. A "
+"continuación se puede ver la vista previa de la fuente."
+
+#: cherry-options.php:1450
+msgid "CSS Editor"
+msgstr "CSS Editor"
+
+#: cherry-options.php:1455
+msgid "Embedded CSS editor with syntax highlighting."
+msgstr "Editor de CSS incrustado con el resaltado de sintáxis."
+
+#: cherry-options.php:1461
+msgid "title layout editor"
+msgstr "Editor de la disposición de títulos."
+
+#: cherry-options.php:1463
+msgid "description layout editor"
+msgstr "Editor de la disposición de la descripción"
+
+#: cherry-options.php:1504
+msgid "Links repeater"
+msgstr "Repetidor de enlaces"
+
+#: cherry-options.php:1509
+msgid ""
+"This option allows you to create a custom links list. For each link you can "
+"define URL, class and label."
+msgstr ""
+"Esta opción le permite crear una lista de enlaces personalizados. Para cada "
+"enlace puede definir URL, clase y label."
+
+#: cherry-options.php:1531
+msgid "Webfont"
+msgstr "Fuente Web"
+
+#: cherry-options.php:1538
+msgid "WYSIWYG editor"
+msgstr "WYSIWYG editor"
+
+#: cherry-options.php:1543
+msgid ""
+"Adds an input section with WYSIWYG editor. Behaves as Wordpress post or page "
+"editing area."
+msgstr ""
+"Añade una sección de entrada con el editor WYSIWYG. Se comporta como el área "
+"de edición del artículo o página de Wordpress."
+
+#: cherry-options.php:1665 cherry-options.php:1724
+msgid "Text input 1"
+msgstr "Entrada de texto 1"
+
+#: cherry-options.php:1677 cherry-options.php:1735
+msgid "Text input 2"
+msgstr "Entrada de texto 2"
+
+#: cherry-options.php:1689 cherry-options.php:1747
+msgid "Text input 3"
+msgstr "Entrada de texto 3"
+
+#: cherry-options.php:1764
+msgid "General"
+msgstr "General"
+
+#: cherry-options.php:1770
+msgid "Grid"
+msgstr "Rejilla"
+
+#: cherry-options.php:1776
+msgid "Layouts"
+msgstr "Disposición"
+
+#: cherry-options.php:1784
+msgid "Blog"
+msgstr "Blog"
+
+#: cherry-options.php:1790
+msgid "Post"
+msgstr "Artículo"
+
+#: cherry-options.php:1797
+msgid "Meta"
+msgstr "Méta"
+
+#: cherry-options.php:1804
+msgid "Styling"
+msgstr "Estilo"
+
+#: cherry-options.php:1810
+msgid "Color scheme"
+msgstr "Esquema de color"
+
+#: cherry-options.php:1830
+msgid "Pagination"
+msgstr "Paginación"
+
+#: cherry-options.php:1843 cherry-options.php:1862
+#: init/statics/header-logo.php:35
+msgid "Logo"
+msgstr "Logo"
+
+#: cherry-options.php:1850
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:197
+msgid "Page"
+msgstr "Página"
+
+#: cherry-options.php:1856 lib/admin/class-cherry-grid-type.php:65
+msgid "Footer"
+msgstr "Pie de página"
+
+#: cherry-options.php:1875
+msgid "Optimization"
+msgstr "Optimización"
+
+#: cherry-options.php:1881
+msgid "Cookie Banner"
+msgstr "Cookie Banner"
+
+#: cherry-options.php:1887
+msgid "Interface elements (for UI developers)"
+msgstr "Elementos de interfez (para los UI desarrolladores )"
+
+#: init/config/menus.php:22
+msgid "Primary"
+msgstr "Primario"
+
+#: init/config/menus.php:23
+msgid "Secondary"
+msgstr "Secundario"
+
+#: init/config/sidebars.php:25
+msgid "Main Sidebar"
+msgstr "Barra lateral Principal"
+
+#: init/config/sidebars.php:26
+msgid ""
+"This is the main sidebar if you are using a two or three column site layout "
+"option."
+msgstr ""
+"Esta es la barra lateral principal, si se utiliza una opción de diseño en "
+"dos o tres columnas."
+
+#: init/config/sidebars.php:33
+msgid "Secondary Sidebar"
+msgstr "Barra lateral Secudaria"
+
+#: init/config/sidebars.php:34
+msgid ""
+"This is the secondary sidebar if you are using a three column site layout "
+"option."
+msgstr ""
+"Esta es la barra lateral secundaria y se usa si se utiliza una opción de "
+"diseño en tres columnas."
+
+#: init/config/sidebars.php:41 init/statics/header-sidebar.php:32
+msgid "Header Sidebar"
+msgstr "Barra lateral de la Cabecera"
+
+#: init/config/sidebars.php:42
+msgid "A sidebar located in the header of the site."
+msgstr "Barra lateral situada en la cabecera de la página web."
+
+#: init/config/sidebars.php:49
+msgid "Footer Sidebar 1"
+msgstr "Barra lateral de Pie de página 1"
+
+#: init/config/sidebars.php:50 init/config/sidebars.php:58
+#: init/config/sidebars.php:66 init/config/sidebars.php:74
+msgid "A sidebar located in the footer of the site."
+msgstr "Barra lateral situada en el pie de página del sitio web."
+
+#: init/config/sidebars.php:57
+msgid "Footer Sidebar 2"
+msgstr "Barra lateral de Pie de página 2"
+
+#: init/config/sidebars.php:65
+msgid "Footer Sidebar 3"
+msgstr "Barra lateral de Pie de página 3"
+
+#: init/config/sidebars.php:73
+msgid "Footer Sidebar 4"
+msgstr "Barra lateral de Pie de página 4"
+
+#: init/config/static-areas.php:24
+msgid "Header Top"
+msgstr "Cabecera Superior"
+
+#: init/config/static-areas.php:30
+msgid "Header Bottom"
+msgstr "Fondo de la Cabecera"
+
+#: init/config/static-areas.php:36
+msgid "Showcase Area"
+msgstr "Área de la Exposición"
+
+#: init/config/static-areas.php:42
+msgid "Footer Top"
+msgstr "Pie de página Superior"
+
+#: init/config/static-areas.php:48
+msgid "Footer Bottom"
+msgstr "Fondo de Pie de página"
+
+#: init/statics/example.php:29
+msgid "Example"
+msgstr "Ejemplo"
+
+#: init/statics/footer-info.php:71
+msgid "Footer Info"
+msgstr "Información de Pie de página"
+
+#: init/statics/footer-logo.php:32
+msgid "Footer Logo"
+msgstr "Logo de pie de página"
+
+#: init/statics/footer-menu.php:31
+msgid "Footer Menu"
+msgstr "Munú de Pie de página"
+
+#: init/statics/footer-sidebars.php:73
+msgid "Footer Sidebars"
+msgstr "Barras laterales de Pie de página "
+
+#: init/statics/header-menu.php:33
+msgid "Header Menu"
+msgstr "Menú de la Cabecera"
+
+#: init/statics/moto-slider.php:46
+msgid "Select MotoSlider to appear in header"
+msgstr "Seleccione MotoSlider para que aparezca en la cabecera"
+
+#: init/statics/moto-slider.php:47
+msgid "Select main theme slider"
+msgstr "Seleccione el slider principal del tema"
+
+#: init/statics/moto-slider.php:67
+msgid "No Moto Sliders was found "
+msgstr "No se encontraron Moto Sliders"
+
+#: init/statics/moto-slider.php:85
+msgid "MotoPress Slider"
+msgstr "MotoPress Slider"
+
+#: init/statics/search-form.php:32
+msgid "Search Form"
+msgstr "Formulario de búsqueda"
+
+#: lib/admin/class-cherry-admin.php:57
+msgid "Please, select a file to import"
+msgstr "Por favor, seleccione el archivo para importar"
+
+#: lib/admin/class-cherry-admin.php:58 lib/admin/class-cherry-admin.php:79
+msgid "Invalid file type"
+msgstr "Tipo de archivo inválido"
+
+#: lib/admin/class-cherry-admin.php:59
+msgid "Cherry Options imported. "
+msgstr "Cherry Options han sido importados."
+
+#: lib/admin/class-cherry-admin.php:60
+msgid "section restored."
+msgstr "sección restaurada."
+
+#: lib/admin/class-cherry-admin.php:61
+msgid "All options restored"
+msgstr "Todas las opciones restauradas"
+
+#: lib/admin/class-cherry-admin.php:62
+msgid "options loaded."
+msgstr "opciones cargadas."
+
+#: lib/admin/class-cherry-admin.php:65
+msgid "Neither option is not selected"
+msgstr "Ninguna opción está seleccionada"
+
+#: lib/admin/class-cherry-admin.php:66
+msgid "File download started..."
+msgstr "Descarga del archivo comenzó ..."
+
+#: lib/admin/class-cherry-admin.php:78
+msgid "Please, select import file"
+msgstr "Por favor, seleccione el archivo para importar"
+
+#: lib/admin/class-cherry-admin.php:80
+msgid "Statics settings imported. "
+msgstr "Parámetros estáticos importados."
+
+#: lib/admin/class-cherry-admin.php:81
+msgid "Statics restored"
+msgstr "Zona estática "
+
+#: lib/admin/class-cherry-grid-type.php:61
+msgid "Content"
+msgstr "Contenido"
+
+#: lib/admin/class-cherry-grid-type.php:101
+msgid "Grid Type"
+msgstr "Tipo Rejilla"
+
+#: lib/admin/class-cherry-grid-type.php:249
+#: lib/admin/class-cherry-layouts.php:220
+#: lib/admin/ui-elements/ui-typography/ui-typography.php:79
+msgid "Inherit"
+msgstr "Heredar"
+
+#: lib/admin/class-cherry-layouts.php:80
+msgid "Layout"
+msgstr "Disposición"
+
+#: lib/admin/class-cherry-post-style.php:77
+msgid "Style"
+msgstr "Estilo"
+
+#: lib/admin/class-cherry-post-style.php:125
+msgid "Header background"
+msgstr "Fondo de la cabecera"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:63
+msgid "No repeat"
+msgstr "No repetir"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:64
+msgid "Repeat All"
+msgstr "Repetir Todo"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:65
+msgid "Repeat Horizontally"
+msgstr "Repetir Horizontalmente"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:66
+msgid "Repeat Vertically"
+msgstr "Repetir Varticalmente"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:69
+msgid "Top Left"
+msgstr "Arriba a la Izquierda"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:70
+msgid "Top Center"
+msgstr "Arriba al Centro"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:71
+msgid "Top Right"
+msgstr "Arriba a la Rerecha"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:72
+msgid "Middle Left"
+msgstr "En Medio a la Izquierda"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:73
+msgid "Middle Center"
+msgstr "En Medio al Centro"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:74
+msgid "Middle Right"
+msgstr "En Medio a la Derecha"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:75
+msgid "Bottom Left"
+msgstr "Abajo a la Izquierda"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:76
+msgid "Bottom Center"
+msgstr "Abajo al Centro"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:77
+msgid "Bottom Right"
+msgstr "Abajo a la Derecha"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:80
+#: lib/admin/ui-elements/ui-background/ui-background.php:85
+#: lib/admin/ui-elements/ui-background/ui-background.php:91
+#: lib/admin/ui-elements/ui-background/ui-background.php:97
+#: lib/admin/ui-elements/ui-typography/ui-typography.php:78
+msgid "Not defined"
+msgstr "No definido"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:81
+msgid "Scroll Normally"
+msgstr "Desplazar Normalmente"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:82
+msgid "Fixed in Place"
+msgstr "Fijado en Lugar"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:86
+#: lib/admin/ui-elements/ui-background/ui-background.php:98
+msgid "Padding box"
+msgstr "Padding box"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:87
+#: lib/admin/ui-elements/ui-background/ui-background.php:99
+msgid "Border box"
+msgstr "Border box"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:88
+#: lib/admin/ui-elements/ui-background/ui-background.php:100
+msgid "Content box"
+msgstr "Content box"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:92
+msgid "Auto"
+msgstr "Auto"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:93
+msgid "Cover"
+msgstr "Cubrir"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:94
+msgid "Contain"
+msgstr "Contener"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:130
+msgid "Background Settings"
+msgstr "Parámetros del Fondo"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:132
+msgid "Background Color"
+msgstr "Color de Fondo"
+
+#: lib/admin/ui-elements/ui-background/ui-background.php:146
+#, php-format
+msgid "Background %s"
+msgstr "Fondo %s"
+
+#: lib/admin/ui-elements/ui-layout-editor/ui-layout-editor.php:93
+msgid "position"
+msgstr "position"
+
+#: lib/admin/ui-elements/ui-layout-editor/ui-layout-editor.php:95
+msgid "margin"
+msgstr "margin"
+
+#: lib/admin/ui-elements/ui-layout-editor/ui-layout-editor.php:101
+msgid "border"
+msgstr "border"
+
+#: lib/admin/ui-elements/ui-layout-editor/ui-layout-editor.php:107
+msgid "padding"
+msgstr "padding"
+
+#: lib/admin/ui-elements/ui-layout-editor/ui-layout-editor.php:113
+msgid "size"
+msgstr "size"
+
+#: lib/admin/ui-elements/ui-layout-editor/ui-layout-editor.php:125
+msgid "solid"
+msgstr "continuo"
+
+#: lib/admin/ui-elements/ui-layout-editor/ui-layout-editor.php:126
+msgid "dashed"
+msgstr "discontinuo"
+
+#: lib/admin/ui-elements/ui-layout-editor/ui-layout-editor.php:127
+msgid "dotted"
+msgstr "punteado"
+
+#: lib/admin/ui-elements/ui-layout-editor/ui-layout-editor.php:128
+msgid "double"
+msgstr "doble"
+
+#: lib/admin/ui-elements/ui-layout-editor/ui-layout-editor.php:129
+msgid "groove"
+msgstr "hundimiento del borde"
+
+#: lib/admin/ui-elements/ui-layout-editor/ui-layout-editor.php:130
+msgid "ridge"
+msgstr "saliente del borde"
+
+#: lib/admin/ui-elements/ui-layout-editor/ui-layout-editor.php:131
+msgid "inset"
+msgstr "hundimiento de la caja"
+
+#: lib/admin/ui-elements/ui-layout-editor/ui-layout-editor.php:132
+msgid "outset"
+msgstr "saliente de la caja"
+
+#: lib/admin/ui-elements/ui-layout-editor/ui-layout-editor.php:133
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:126
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:141
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:156
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:171
+msgid "none"
+msgstr "nada"
+
+#: lib/admin/ui-elements/ui-layout-editor/ui-layout-editor.php:136
+msgid "Border style"
+msgstr "Estilo del borde"
+
+#: lib/admin/ui-elements/ui-layout-editor/ui-layout-editor.php:151
+msgid "Border radius"
+msgstr "Radio del borde"
+
+#: lib/admin/ui-elements/ui-layout-editor/ui-layout-editor.php:163
+msgid "Border color"
+msgstr "Color del borde"
+
+#: lib/admin/ui-elements/ui-repeater/ui-repeater.php:77
+#: lib/admin/ui-elements/ui-repeater/ui-repeater.php:96
+msgid "External link"
+msgstr "Enlace externo"
+
+#: lib/admin/ui-elements/ui-repeater/ui-repeater.php:80
+#: lib/admin/ui-elements/ui-repeater/ui-repeater.php:99
+msgid "Font class"
+msgstr "Clase de fuente"
+
+#: lib/admin/ui-elements/ui-repeater/ui-repeater.php:83
+#: lib/admin/ui-elements/ui-repeater/ui-repeater.php:102
+msgid "Link label"
+msgstr "Enlace del label"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:127
+msgid "col-xs-1"
+msgstr "col-xs-1"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:128
+msgid "col-xs-2"
+msgstr "col-xs-2"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:129
+msgid "col-xs-3"
+msgstr "col-xs-3"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:130
+msgid "col-xs-4"
+msgstr "col-xs-4"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:131
+msgid "col-xs-5"
+msgstr "col-xs-5"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:132
+msgid "col-xs-6"
+msgstr "col-xs-6"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:133
+msgid "col-xs-7"
+msgstr "col-xs-7"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:134
+msgid "col-xs-8"
+msgstr "col-xs-8"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:135
+msgid "col-xs-9"
+msgstr "col-xs-9"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:136
+msgid "col-xs-10"
+msgstr "col-xs-10"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:137
+msgid "col-xs-11"
+msgstr "col-xs-11"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:138
+msgid "col-xs-12"
+msgstr "col-xs-12"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:142
+msgid "col-sm-1"
+msgstr "col-sm-1"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:143
+msgid "col-sm-2"
+msgstr "col-sm-2"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:144
+msgid "col-sm-3"
+msgstr "col-sm-3"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:145
+msgid "col-sm-4"
+msgstr "col-sm-4"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:146
+msgid "col-sm-5"
+msgstr "col-sm-5"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:147
+msgid "col-sm-6"
+msgstr "col-sm-6"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:148
+msgid "col-sm-7"
+msgstr "col-sm-7"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:149
+msgid "col-sm-8"
+msgstr "col-sm-8"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:150
+msgid "col-sm-9"
+msgstr "col-sm-9"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:151
+msgid "col-sm-10"
+msgstr "col-sm-10"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:152
+msgid "col-sm-11"
+msgstr "col-sm-11"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:153
+msgid "col-sm-12"
+msgstr "col-sm-12"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:157
+msgid "col-md-1"
+msgstr "col-md-1"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:158
+msgid "col-md-2"
+msgstr "col-md-2"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:159
+msgid "col-md-3"
+msgstr "col-md-3"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:160
+msgid "col-md-4"
+msgstr "col-md-4"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:161
+msgid "col-md-5"
+msgstr "col-md-5"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:162
+msgid "col-md-6"
+msgstr "col-md-6"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:163
+msgid "col-md-7"
+msgstr "col-md-7"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:164
+msgid "col-md-8"
+msgstr "col-md-8"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:165
+msgid "col-md-9"
+msgstr "col-md-9"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:166
+msgid "col-md-10"
+msgstr "col-md-10"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:167
+msgid "col-md-11"
+msgstr "col-md-11"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:168
+msgid "col-md-12"
+msgstr "col-md-12"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:172
+msgid "col-lg-1"
+msgstr "col-lg-1"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:173
+msgid "col-lg-2"
+msgstr "col-lg-2"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:174
+msgid "col-lg-3"
+msgstr "col-lg-3"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:175
+msgid "col-lg-4"
+msgstr "col-lg-4"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:176
+msgid "col-lg-5"
+msgstr "col-lg-5"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:177
+msgid "col-lg-6"
+msgstr "col-lg-6"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:178
+msgid "col-lg-7"
+msgstr "col-lg-7"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:179
+msgid "col-lg-8"
+msgstr "col-lg-8"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:180
+msgid "col-lg-9"
+msgstr "col-lg-9"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:181
+msgid "col-lg-10"
+msgstr "col-lg-10"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:182
+msgid "col-lg-11"
+msgstr "col-lg-11"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:183
+msgid "col-lg-12"
+msgstr "col-lg-12"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:186
+msgid "Show"
+msgstr "Mostrar"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:187
+msgid "Hide"
+msgstr "Ocultar"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:190
+msgid "-- Select --"
+msgstr "-- Seleccionar --"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:191
+msgid "Category"
+msgstr "Categoría"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:192
+#: lib/classes/class-cherry-statics-page.php:243
+msgid "Logged in"
+msgstr "Conectado"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:194
+msgid "Role"
+msgstr "Papel"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:195
+msgid "Tag"
+msgstr "Palabra clave"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:198
+msgid "Taxonomy"
+msgstr "Taxonomía"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:212
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:379
+msgid ".col-xs-*"
+msgstr ".col-xs-*"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:225
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:392
+msgid ".col-sm-*"
+msgstr ".col-sm-*"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:238
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:405
+msgid ".col-md-*"
+msgstr ".col-md-*"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:251
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:418
+msgid ".col-lg-*"
+msgstr ".col-lg-*"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:264
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:431
+msgid "Custom class"
+msgstr "Custom class"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:278
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:445
+msgid "Conditions"
+msgstr "Condiciones"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:289
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:456
+msgid "if"
+msgstr "si"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:305
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:336
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:472
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:503
+msgid "is"
+msgstr "es"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:356
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:523
+msgid "Add rule"
+msgstr "Añadir regla"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:371
+msgid "Available statics"
+msgstr "Zonas estáticas disponibles"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:544
+#: lib/classes/class-cherry-statics-page.php:233
+msgid "All category pages"
+msgstr "Todas las páginas de categoría"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:554
+msgid "Logged In"
+msgstr "Conectado"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:555
+msgid "Logged Out"
+msgstr "Desconectado"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:560
+#: lib/classes/class-cherry-statics-page.php:247
+msgid "All author pages"
+msgstr "Todas las paginas del autor"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:576
+#: lib/classes/class-cherry-statics-page.php:259
+msgid "All tag pages"
+msgstr "Todas las páginas de palabras claves"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:586
+#: lib/classes/class-cherry-statics-page.php:269
+msgid "All date archives"
+msgstr "Todos los archivos de fecha "
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:587
+#: lib/classes/class-cherry-statics-page.php:270
+msgid "Daily archives"
+msgstr "Archivos diarios"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:588
+#: lib/classes/class-cherry-statics-page.php:271
+msgid "Monthly archives"
+msgstr "Archivos mensuales"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:589
+#: lib/classes/class-cherry-statics-page.php:272
+msgid "Yearly archives"
+msgstr "Archivos anuales"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:594
+#: lib/classes/class-cherry-statics-page.php:276
+msgid "Front page"
+msgstr "Página principal"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:595
+#: lib/classes/class-cherry-statics-page.php:277
+msgid "Posts page"
+msgstr "Página de artículos"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:596
+#: lib/classes/class-cherry-statics-page.php:278
+msgid "Archive page"
+msgstr "Página de archivo"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:597
+#: lib/classes/class-cherry-statics-page.php:279
+msgid "404 error page"
+msgstr "Página de error 404"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:598
+#: lib/classes/class-cherry-statics-page.php:280
+msgid "Search results"
+msgstr "Resultados de busqueda"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:601
+#: lib/classes/class-cherry-statics-page.php:282
+msgid "Post type:"
+msgstr "Tipo de publicación:"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:608
+#: lib/classes/class-cherry-statics-page.php:289
+msgid "Static page:"
+msgstr "Página estática:"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:617
+#: lib/classes/class-cherry-statics-page.php:297
+msgid "All taxonomy pages"
+msgstr "Todas las páginas de taxonomía"
+
+#: lib/admin/ui-elements/ui-static-area-editor/ui-static-area-editor.php:623
+#: lib/classes/class-cherry-statics-page.php:302
+#, php-format
+msgid "%s:"
+msgstr ""
+
+#: lib/admin/ui-elements/ui-stepper/ui-stepper.php:60
+msgid "Step Up"
+msgstr "Aumentar"
+
+#: lib/admin/ui-elements/ui-stepper/ui-stepper.php:60
+msgid "Step Down"
+msgstr "Bajar"
+
+#: lib/admin/ui-elements/ui-typography/ui-typography.php:83
+msgid "Justify"
+msgstr "Justificar"
+
+#: lib/admin/ui-elements/ui-typography/ui-typography.php:98
+msgid "Font Family"
+msgstr "Tipo de Fuente"
+
+#: lib/admin/ui-elements/ui-typography/ui-typography.php:101
+msgid "Standard Webfonts"
+msgstr "Web Fuentes Estándar"
+
+#: lib/admin/ui-elements/ui-typography/ui-typography.php:127
+msgid "Google Webfonts"
+msgstr "Google Webfonts"
+
+#: lib/admin/ui-elements/ui-typography/ui-typography.php:181
+msgid "Size"
+msgstr "Tamaño"
+
+#: lib/admin/ui-elements/ui-typography/ui-typography.php:198
+msgid "Line-height"
+msgstr "Altura de la línea"
+
+#: lib/admin/ui-elements/ui-typography/ui-typography.php:214
+msgid "Letter-spacing"
+msgstr "Espaciamiento de Carta"
+
+#: lib/admin/ui-elements/ui-typography/ui-typography.php:230
+msgid "Font color"
+msgstr "Color de fuente"
+
+#: lib/admin/ui-elements/ui-typography/ui-typography.php:243
+msgid "Text align"
+msgstr "Alineación del texto"
+
+#: lib/admin/ui-elements/ui-typography/ui-typography.php:312
+#: lib/admin/ui-elements/ui-webfont/ui-webfont.php:166
+msgid "Font Style"
+msgstr "Estilo de Fuente"
+
+#: lib/admin/ui-elements/ui-typography/ui-typography.php:361
+#: lib/admin/ui-elements/ui-webfont/ui-webfont.php:213
+msgid "Character Sets"
+msgstr "Conjuntos de Caracteres"
+
+#: lib/classes/class-cherry-breadcrumbs.php:276
+msgid "Browse:"
+msgstr "Navegar:"
+
+#: lib/classes/class-cherry-breadcrumbs.php:278
+msgid "404 Not Found"
+msgstr "404 No Encontrada"
+
+#: lib/classes/class-cherry-breadcrumbs.php:279
+msgid "Archives"
+msgstr "Archivos"
+
+#: lib/classes/class-cherry-breadcrumbs.php:281
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Resultados de busqueda para &#8220;%s&#8221;"
+
+#: lib/classes/class-cherry-breadcrumbs.php:283
+#, php-format
+msgid "Page %s"
+msgstr "Página %s"
+
+#: lib/classes/class-cherry-breadcrumbs.php:285
+#, php-format
+msgid "Minute %s"
+msgstr "Minuto %s"
+
+#: lib/classes/class-cherry-breadcrumbs.php:287
+#, php-format
+msgid "Week %s"
+msgstr "Semana %s"
+
+#: lib/classes/class-cherry-breadcrumbs.php:911
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr "g:i a "
+
+#: lib/classes/class-cherry-breadcrumbs.php:930
+msgctxt "minute archives time format"
+msgid "i"
+msgstr "i"
+
+#: lib/classes/class-cherry-breadcrumbs.php:950
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr "g a"
+
+#: lib/classes/class-cherry-breadcrumbs.php:969
+#: lib/classes/class-cherry-breadcrumbs.php:1023
+#: lib/classes/class-cherry-breadcrumbs.php:1065
+#: lib/classes/class-cherry-breadcrumbs.php:1105
+#: lib/classes/class-cherry-breadcrumbs.php:1312
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: lib/classes/class-cherry-breadcrumbs.php:974
+#: lib/classes/class-cherry-breadcrumbs.php:1069
+#: lib/classes/class-cherry-breadcrumbs.php:1323
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr "F"
+
+#: lib/classes/class-cherry-breadcrumbs.php:979
+#: lib/classes/class-cherry-breadcrumbs.php:1336
+msgctxt "daily archives date format"
+msgid "j"
+msgstr "j"
+
+#: lib/classes/class-cherry-breadcrumbs.php:1027
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr "W"
+
+#: lib/classes/class-cherry-css-parser.php:188
+msgid "Variable not found"
+msgstr "Variable no encontrada"
+
+#: lib/classes/class-cherry-css-parser.php:231
+msgid "Function does not exist"
+msgstr "La función no existe"
+
+#: lib/classes/class-cherry-interface-builder.php:132
+msgid "Choose Media"
+msgstr "Elija Media"
+
+#: lib/classes/class-cherry-interface-builder.php:133
+msgid "Remove Media"
+msgstr "Retirar Media"
+
+#: lib/classes/class-cherry-interface-builder.php:144
+msgid "On"
+msgstr "On"
+
+#: lib/classes/class-cherry-interface-builder.php:145
+msgid "Off"
+msgstr "Off"
+
+#: lib/classes/class-cherry-interface-builder.php:475
+msgid "Use for partial export"
+msgstr "Utilice para la exportación parcial"
+
+#: lib/classes/class-cherry-optionsframework-admin.php:125
+#: lib/classes/class-cherry-optionsframework-admin.php:155
+#, php-format
+msgid "Theme %s"
+msgstr "Tema %s"
+
+#: lib/classes/class-cherry-optionsframework-admin.php:126
+msgid "Cherry"
+msgstr "Cherry"
+
+#: lib/classes/class-cherry-optionsframework-admin.php:148
+#: lib/classes/class-cherry-statics-page.php:102
+msgid "Feel free to view detailed "
+msgstr "No dude en verlo detalladamente"
+
+#: lib/classes/class-cherry-optionsframework-admin.php:156
+msgid "Options"
+msgstr "Opciones"
+
+#: lib/classes/class-cherry-optionsframework-admin.php:203
+#: lib/classes/class-cherry-optionsframework-admin.php:207
+#: lib/classes/class-cherry-optionsframework-admin.php:251
+#: lib/classes/class-cherry-optionsframework-admin.php:276
+#: lib/classes/class-cherry-statics-page.php:330
+#: lib/classes/class-cherry-statics-page.php:334
+msgid "Invalid request"
+msgstr "Solicitud invalida "
+
+#: lib/classes/class-cherry-optionsframework-admin.php:203
+#: lib/classes/class-cherry-optionsframework-admin.php:207
+#: lib/classes/class-cherry-optionsframework-admin.php:251
+#: lib/classes/class-cherry-optionsframework-admin.php:276
+#: lib/classes/class-cherry-statics-page.php:330
+#: lib/classes/class-cherry-statics-page.php:334
+msgid "Error. Invalid request"
+msgstr "Error. Solocitud invalida"
+
+#: lib/classes/class-cherry-optionsframework-admin.php:436
+msgid "Options have been saved"
+msgstr "Opciones han sido guardadas"
+
+#: lib/classes/class-cherry-optionsframework-admin.php:492
+msgid "Default options backup has been created"
+msgstr "Se ha creado la copia de seguridad de opciones por defecto"
+
+#: lib/classes/class-cherry-optionsframework-admin.php:497
+msgid "Default options backup has been overwrite"
+msgstr "Opciones de copia de seguridad por defecto han sido sobrescritas"
+
+#: lib/classes/class-cherry-optionsframework-admin.php:657
+msgid "Export/Import"
+msgstr "Exportar/Importar"
+
+#: lib/classes/class-cherry-optionsframework-admin.php:662
+msgid "Default options"
+msgstr "Opciones por defecto"
+
+#: lib/classes/class-cherry-optionsframework-admin.php:669
+msgid "Save options"
+msgstr "Guardar opciones"
+
+#: lib/classes/class-cherry-optionsframework-admin.php:675
+msgid "Restore section"
+msgstr "Restaurar Sección"
+
+#: lib/classes/class-cherry-optionsframework-admin.php:680
+msgid "Restore options"
+msgstr "Opciones de restauración"
+
+#: lib/classes/class-cherry-optionsframework-admin.php:687
+#: lib/classes/class-cherry-optionsframework-admin.php:688
+msgid "Export"
+msgstr "Exportar"
+
+#: lib/classes/class-cherry-optionsframework-admin.php:690
+msgid "Partial export"
+msgstr "Exportación parcial"
+
+#: lib/classes/class-cherry-optionsframework-admin.php:698
+msgid "Attach statics settings"
+msgstr "Adjuntar configuraciones estáticas"
+
+#: lib/classes/class-cherry-optionsframework-admin.php:707
+msgid "Import"
+msgstr "Importar"
+
+#: lib/classes/class-cherry-optionsframework-admin.php:711
+msgid "Select file"
+msgstr "Seleccionar archivo"
+
+#: lib/classes/class-cherry-optionsframework-admin.php:712
+msgid "Start import"
+msgstr "Iniciar importación"
+
+#: lib/classes/class-cherry-optionsframework-admin.php:717
+#: lib/classes/class-cherry-optionsframework-admin.php:721
+msgid "Are you sure?"
+msgstr "¿Está seguro?"
+
+#: lib/classes/class-cherry-optionsframework-admin.php:719
+msgid "Current options will be reset to the defaults, page will be refreshed."
+msgstr ""
+"Las opciones actuales se restablecerán a los valores predeterminados, la "
+"página se actualizará."
+
+#: lib/classes/class-cherry-optionsframework-admin.php:723
+msgid "Active section will be reset to the defaults, page will be refreshed."
+msgstr ""
+"Sección activa se restablecerá a los valores por defecto, la página se "
+"actualizará."
+
+#: lib/classes/class-cherry-statics-page.php:95
+#: lib/classes/class-cherry-statics-page.php:96
+msgid "Static Area Builder"
+msgstr "Constructor de Área Estática"
+
+#: lib/classes/class-cherry-statics-page.php:105
+msgid ""
+"Use static area builder to arrange static blocks. You can drag-n-drop static "
+"blocks to arrange them or add new ones."
+msgstr ""
+"Utilice el constructor de área estática para organizar bloques estáticos. "
+"Puede arrastrar y soltar los bloques estáticos para organizarlos o agregar "
+"otros nuevos."
+
+#: lib/classes/class-cherry-statics-page.php:143
+msgid "Statics have been saved"
+msgstr "Zonas estáticas han sido guardadas"
+
+#: lib/classes/class-cherry-statics-page.php:187
+msgid "Default statics backup has been created"
+msgstr "Backup de zonas estáticas predeterminadas por defecto han sido creadas"
+
+#: lib/classes/class-cherry-statics-page.php:192
+msgid "Default statics backup has been overwritten"
+msgstr "Copia de seguridad de estáticas por defecto se ha sobrescrito"
+
+#: lib/classes/class-cherry-statics-page.php:244
+msgid "Logged out"
+msgstr "Desconectado"
+
+#: lib/classes/class-cherry-statics-page.php:496
+msgid "Save statics"
+msgstr "Guardar zonas estáticas"
+
+#: lib/classes/class-cherry-statics-page.php:502
+msgid "Restore statics"
+msgstr "Restaurar zonas estáticas"
+
+#: lib/classes/class-cherry-statics-page.php:507
+msgid "Export statics"
+msgstr "Exportar zonas estáticas"
+
+#: lib/classes/class-cherry-statics-page.php:512
+msgid "Default statics"
+msgstr "Zonas estáticas por defecto"
+
+#: lib/classes/class-cherry-statics.php:132
+#, php-format
+msgid "Static Area %d"
+msgstr "Área Estática %d"
+
+#: lib/classes/class-cherry-statics.php:198
+#, php-format
+msgid "Static %d"
+msgstr "Estático %d"
+
+#: lib/functions/core.php:155
+#, php-format
+msgid "File %s doesn't exist"
+msgstr "El Archivo %s no existe"
+
+#: lib/functions/core.php:156
+msgid "Doing it wrong"
+msgstr "Es incorrecto"
+
+#: lib/functions/core.php:258
+msgid "Documentation"
+msgstr "Documentación"
+
+#: lib/functions/core.php:260
+msgid "Cherry Framework 4 documentation"
+msgstr "Documentación de Cherry Framework 4"
+
+#: lib/functions/filters.php:491
+msgid "Menu"
+msgstr "Menú"
+
+#: lib/functions/media.php:41
+msgid "Post Thumbnail"
+msgstr "Artículo en miniatura"
+
+#: lib/functions/media.php:63
+msgid "File Size"
+msgstr "Tamaño Del Archivo"
+
+#: lib/functions/media.php:64
+msgid "Mime Type"
+msgstr "Tipo Mime"
+
+#: lib/functions/media.php:65
+msgid "Run Time"
+msgstr "Tiempo de Ejecución"
+
+#: lib/functions/media.php:70
+msgid "Genre"
+msgstr "Género"
+
+#: lib/functions/media.php:71
+msgid "Year"
+msgstr "Año"
+
+#: lib/functions/structure.php:205
+#, php-format
+msgid "%s Info"
+msgstr "%s Info"
+
+#: lib/functions/template-comments.php:65
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarios más Viejos"
+
+#: lib/functions/template-comments.php:66
+msgid "Newer Comments &rarr;"
+msgstr "Comentarios más nuevos &rarr;"
+
+#: lib/functions/template-comments.php:185
+msgid "Edit"
+msgstr "Editar"
+
+#: lib/functions/template-general.php:105
+#: lib/functions/template-general.php:110
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: lib/functions/template-general.php:106
+#: lib/functions/template-general.php:111
+msgid "WordPress"
+msgstr "WordPress"
+
+#: lib/functions/template-general.php:142
+#, php-format
+msgid "%s WordPress Theme"
+msgstr "%s Tema de WordPress"
+
+#: lib/functions/template-media.php:116
+#, php-format
+msgid "%1$s &#215; %2$s"
+msgstr "%1$s &#215; %2$s"
+
+#: lib/functions/template-media.php:116 lib/functions/template-media.php:147
+msgid "Dimensions"
+msgstr "Dimensiones"
+
+#: lib/functions/template-media.php:146
+#, php-format
+msgid "%1$s &times; %2$s"
+msgstr "%1$s &times; %2$s"
+
+#: lib/functions/template-media.php:158
+msgid "Camera"
+msgstr "Cámara"
+
+#: lib/functions/template-media.php:163
+msgid "Aperture"
+msgstr "Apertura"
+
+#: lib/functions/template-media.php:170
+#, php-format
+msgid "%s mm"
+msgstr "%s mm"
+
+#: lib/functions/template-media.php:170
+msgid "Focal Length"
+msgstr "Longitud Focal"
+
+#: lib/functions/template-media.php:177
+msgid "International Organization for Standardization"
+msgstr "Organización Internacional de Estandarización"
+
+#: lib/functions/template-media.php:177
+msgid "ISO"
+msgstr "ISO"
+
+#: lib/functions/template-tags.php:394
+msgid "Related Posts"
+msgstr "Artículos Relacionados"
+
+#: templates/comments.php:28
+#, php-format
+msgid "Comment"
+msgid_plural "Comments (%s)"
+msgstr[0] "Comentario"
+msgstr[1] "Comentarios (%s)"
+
+#: templates/comments.php:71
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: templates/none.php:5
+msgid "Nothing Found"
+msgstr "No se ha encontrado nada"
+
+#: templates/none.php:12
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"¿Listo para publicar su primer artículo? <a href=\"%1$s\">Comience aquí</a>."
+
+#: templates/none.php:16
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Lo sentimos, pero no coincide con los términos de búsqueda. Por favor, "
+"inténtelo de nuevo con algunas palabras clave diferentes."
+
+#: templates/none.php:21
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Parece que no podemos encontrar lo que busca. Tal vez la búsqueda puede "
+"ayudar."
+
+#: content/aside.tmpl:4 content/attachment.tmpl:4 content/audio.tmpl:5
+#: content/chat.tmpl:5 content/content.tmpl:7 content/gallery.tmpl:5
+#: content/image.tmpl:5 content/link.tmpl:5 content/quote.tmpl:4
+#: content/standard.tmpl:5 content/status.tmpl:6 content/video.tmpl:5
+#, php-format
+msgid "Posted on %s"
+msgstr "Publicado en %s"
+
+#: content/aside.tmpl:5 content/attachment.tmpl:5 content/audio.tmpl:6
+#: content/chat.tmpl:6 content/content.tmpl:8 content/gallery.tmpl:6
+#: content/image.tmpl:6 content/link.tmpl:6 content/quote.tmpl:5
+#: content/standard.tmpl:6 content/status.tmpl:7 content/video.tmpl:6
+#, php-format
+msgid "by %s"
+msgstr "por %s"
+
+#: content/aside.tmpl:7 content/audio.tmpl:8 content/gallery.tmpl:8
+#: content/image.tmpl:8 content/status.tmpl:9 content/video.tmpl:8
+#, php-format
+msgid "in %s"
+msgstr ""
+
+#: content/author-bio.tmpl:1
+#, php-format
+msgid "Written by %s"
+msgstr ""
+
+#: content/chat.tmpl:14 content/content.tmpl:16 content/link.tmpl:13
+#: content/quote.tmpl:13 content/standard.tmpl:14
+#, php-format
+msgid "Posted in %s"
+msgstr ""
+
+#: content/comment.tmpl:4
+msgid "says:"
+msgstr ""
+
+#: content/page.tmpl:5
+msgid "Posted on "
+msgstr "Publicado en "
+
+#: content/page.tmpl:6
+msgid "by "
+msgstr "por "
+
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgid "Feel free to view details "
+#~ msgstr "No dude en ver los detalles"
+
+#~ msgid "Default options backup has been overwrited"
+#~ msgstr "Se ha sobreescrito la copia de seguridad de opciones por defecto"
+
+#~ msgid ""
+#~ "Select layout pattern for main website container. Wide layout will fit "
+#~ "window width. Boxed layout will have fixed width and left / right "
+#~ "indents. "
+#~ msgstr ""
+#~ "Seleccione el formato de diseño para el contenedor principal de su página "
+#~ "web. Disposición grande será adaptada a la anchura de la ventana. El "
+#~ "formato enmarcado tendrá la anchura fija y guiones de izquierda / y de "
+#~ "derecha."
+
+#~ msgid "http://wordpress.org/"
+#~ msgstr "http://wordpress.org/"
+
+#~ msgid "Static areas"
+#~ msgstr "Zonas estáticas"
+
+#~ msgid ""
+#~ "Use static area editor to arrange static blocks. You can drag-n-drop "
+#~ "static blocks, remove them or add new ones using 'Create new static' "
+#~ "field below."
+#~ msgstr ""
+#~ "Utilice editor de área estática para organizar los bloques estáticos. "
+#~ "Puede arrastrar y soltar los bloques estáticos, eliminar o añadir otros "
+#~ "nuevos, mediante  'Crear' en campo de abajo."
+
+#~ msgid "Enable/disable a post navigation block."
+#~ msgstr "Activar/desactivar el bloque de navegación de correos."
+
+#~ msgid "EnaEnable/disable comments for blog posts."
+#~ msgstr "Activar/desactivar comentarios para los artículos del blog."
+
+#~ msgid "Enable/disable page title in breadcrumbs."
+#~ msgstr "Activar/desactivar el título de la página en breadcrumbs."
+
+#~ msgid "Enable/disable breadcrumbs on home page."
+#~ msgstr "Activar/desactivar breadcrumbs de la página principal."
+
+#~ msgid ""
+#~ "Enable/disable comments by default for pages. For pages that have already "
+#~ "been published you need to enable comments individually in page settings."
+#~ msgstr ""
+#~ "Activar / desactivar comentarios para páginas predeterminadas. Para las "
+#~ "páginas que ya han sido publicadas, debe activar comentarios "
+#~ "individualmente en la página de configuración."
+
+#~ msgid "Typography settings for footer texts."
+#~ msgstr "Configuración de la tipografía de texto de pie de página."
+
+#~ msgid "Set custom text for Footer info static"
+#~ msgstr ""
+#~ "Establecer el texto de encargo para información estática de Pie de página"
+
+#~ msgid ""
+#~ "Adds radio buttons group. Lets user to select one option from the list."
+#~ msgstr ""
+#~ "Añade un grupo de botones de opción. Permite al usuario seleccionar "
+#~ "solamente una opción de la lista."
+
+#~ msgid "Lets user to add content from Wordpress media library. "
+#~ msgstr "Añade el contenido de la mediateca de WordPress."
+
+#~ msgid ""
+#~ "Lets user to add background image from the media library and define its "
+#~ "background settings like background repeat, position, attachment, origin."
+#~ msgstr ""
+#~ "Permite agregar la imagen de fondo de la biblioteca de medios y "
+#~ "establecer los parámetros de fondo, como la repetición de los "
+#~ "antecedentes, la posición, el apego, el origen."
+
+#~ msgid "Select MotoSlider to show in header"
+#~ msgstr "Seleccione MotoSlider para mostrarlo en la cabecera"
+
+#~ msgid "Loggedin"
+#~ msgstr "Conectado"
+
+#~ msgid "Standart Webfonts"
+#~ msgstr "Standart Webfonts"
+
+#~ msgid "Varaible not found"
+#~ msgstr "Variable no se encuentra"
+
+#~ msgid "Theme Cherry Framework"
+#~ msgstr "Tema de Cherry Framework"
+
+#~ msgid "Statics editor"
+#~ msgstr "Editor de la zona estática"
+
+#~ msgid ""
+#~ "Use static area editor to arrange static blocks. You can drag-n-drop "
+#~ "static blocks to arrange them or add new ones."
+#~ msgstr ""
+#~ "Utilice el editor de área estática para organizar bloques estáticos. "
+#~ "Puede arrastrar y soltar los bloques estáticos para organizarlos o "
+#~ "agregar otros nuevos."
+
+#~ msgid "Default statics backup has been overwrited"
+#~ msgstr ""
+#~ "Backup de zonas estáticas predeterminadas por defecto han sido "
+#~ "reemplazadas"
+
+#~ msgid "in "
+#~ msgstr "en"
+
+#~ msgid "Written by"
+#~ msgstr "Escrito por "
+
+#~ msgid "Posted in "
+#~ msgstr "Publicado en"
+
+#~ msgid "Excerpt length"
+#~ msgstr "Longitud del extracto"
+
+#~ msgid "Specify number of words displayed in excerpt in blog listing."
+#~ msgstr ""
+#~ "Especifique el número de palabras en el extracto que aparece en la lista "
+#~ "de blog."
+
+#~ msgid "Select where you want to display pagination."
+#~ msgstr "Seleccione dónde desea mostrar la paginación."
+
+#~ msgid "Most Used Categories"
+#~ msgstr "Las Categorías Más Usadas"
+
+#~ msgid "Try looking in the monthly archives. %1$s"
+#~ msgstr "Trate de buscar en los archivos mensuales. %1$s"
+
+#~ msgid "Set dimensions for post featured images in pixels."
+#~ msgstr "Dimensiones para el post ofrecieron imágenes en píxeles."
+
+#~ msgid ""
+#~ "Select if you want to merge\\minify CSS files to performance optimization."
+#~ msgstr ""
+#~ "Seleccione si desea combinar \\ reducir los archivos CSS para optimizar "
+#~ "el rendimiento."
+
+#~ msgid "Column class(.col-xs-*)"
+#~ msgstr "Clase de columna(.col-xs-*)"
+
+#~ msgid "Column class(.col-sm-*)"
+#~ msgstr "Clase de columna(.col-sm-*)"
+
+#~ msgid "Column class(.col-md-*)"
+#~ msgstr "Clase de columna(.col-md-*)"
+
+#~ msgid "Column class(.col-lg-*)"
+#~ msgstr "Clase de columna(.col-lg-*)"
+
+#~ msgid "Add new static"
+#~ msgstr "Añadir"
+
+#~ msgid "Cherry Options"
+#~ msgstr "Opciones de Cherry"
+
+#~ msgid "Options saved"
+#~ msgstr "Opciones guardadas"
+
+#~ msgid "Section %s restored"
+#~ msgstr "Sección %s restaurada"
+
+#~ msgid ""
+#~ "Icon image that is displayed in the browser address bar and browser tab "
+#~ "heading. Max icon size: 32x32 px <br>You can also upload favicon for "
+#~ "retina displays. Max retina icon size: 152x152 px"
+#~ msgstr ""
+#~ "Es un pequeño icono que aparece en la barra de dirección del navegador "
+#~ "cuando usted visita una página web. El tamaño máximo del icono es: 32x32 "
+#~ "px <br> También puede cargar favicon para Retina displays. Tamaño máx. de "
+#~ "Retina ícono: 152x152 px"
+
+#~ msgid ""
+#~ "Enable/disable maintenance mode. Logged in administrator gets full access "
+#~ "to the site, while regular visitors will\\won't be redirected to the page "
+#~ "chosen below."
+#~ msgstr ""
+#~ "Activar/desactivar el modo de mantenimiento. Iniciando sesión como "
+#~ "administrador obtiene el acceso completo a la página web, mientras que "
+#~ "los visitantes regulares\\no serán redirigidos a la página elegida a "
+#~ "continuación."
+
+#~ msgid ""
+#~ "Enable/disable responsive grid. If for any reason you want to disable "
+#~ "responsive layout for your site, you are able to turn it off here."
+#~ msgstr ""
+#~ "Activar/desactivar la rejilla responsive. Si por cualquier razón usted "
+#~ "desea ocultar la disposición  sensible para su página, usted es capaz de "
+#~ "desactivar aquí."
+
+#~ msgid ""
+#~ "Select blog page layout. You can choose if you want to display sidebars "
+#~ "and how you want to display them."
+#~ msgstr ""
+#~ "Seleccione el diseño de la página del blog.  Usted puede elegir si desea "
+#~ "mostrar las barras laterales y cómo desea mostrarlas. "
+
+#~ msgid "Width of main website container in pixels."
+#~ msgstr "Anchura del contenedor principal de la página web en píxeles."
+
+#~ msgid "Header grid type"
+#~ msgstr "Header de tipo rejilla"
+
+#~ msgid "Content grid type"
+#~ msgstr "Contenido tipo rejilla"
+
+#~ msgid "Footer grid type"
+#~ msgstr "Pie de página tipo rejilla"
+
+#~ msgid ""
+#~ "Select how you want to display post content in blog listing: full - "
+#~ "display full post content, excerpt - display part of the post (you can "
+#~ "specify excerpt length below), none - hide post content."
+#~ msgstr ""
+#~ "Seleccione cómo desea mostrar el contenido del artículo en la lista de "
+#~ "blog: completo - visualización del contenido completo del artículo, "
+#~ "extraer de - mostrar una parte del artículo (se puede especificar la "
+#~ "longitud del extracto a continuación), nada - ocultar el contenido del "
+#~ "artículo."
+
+#~ msgid ""
+#~ "Enable/disable comments for blog posts. Make sure comments are enabled in "
+#~ "Wordpress 'settings->discussion'. For posts that have already been "
+#~ "published you need to enable comments individually in post settings."
+#~ msgstr ""
+#~ "Activar / desactivar comentarios para los artículos del blog. Asegúrese "
+#~ "de que los comentarios esten activados en Wordpress 'preferencias-"
+#~ ">discusión \". Para los artículos que ya han sido publicados debe activar "
+#~ "los comentarios por separado en la sección de configuración."
+
+#~ msgid ""
+#~ "Set background for body container. You can specify background image or "
+#~ "color, set background repeat, position and attachment. "
+#~ msgstr ""
+#~ "Establecer el fondo del cuerpo del recipiente. Puede determinar la imagen "
+#~ "de fondo o el color, ajustar la repetición de los antecedentes, la "
+#~ "posición y el apego"
+
+#~ msgid ""
+#~ "Select whether you want your main logo to be an image or text. If you "
+#~ "select \"image\", you can choose logo image from the media library in the "
+#~ "next option, and if you select \"text\", your WordPress Site Title will "
+#~ "be shown instead."
+#~ msgstr ""
+#~ "Seleccione si desea que su logotipo principal sea una imagen o texto. Si "
+#~ "selecciona \"imagen \", se puede elegir la imagen del logotipo de la "
+#~ "medioteca en la siguiente opción, y si selecciona \"texto \" en su lugar "
+#~ "se mostrará Título de su página web de WordPress."
+
+#~ msgid "Footer background"
+#~ msgstr "Fondo de Pie de página"
+
+#~ msgid "Footer typography"
+#~ msgstr "Tipografía de pie de página"
+
+#~ msgid "Mulli-select box"
+#~ msgstr "Mulli-select box"
+
+#~ msgid "Multiple checkboxes"
+#~ msgstr "Múltiples casillas de verificación"
+
+#~ msgid ""
+#~ "Adds checkboxes group. Lets user to select several options from the list."
+#~ msgstr ""
+#~ "Añade un grupo de casillas de verificación. Permite al usuario "
+#~ "seleccionar varias opciones de la lista."
+
+#~ msgid "Info panel"
+#~ msgstr "Panel de información"
+
+#~ msgid "Primary Menu"
+#~ msgstr "Menú Principal"
+
+#~ msgid "Secondary Menu"
+#~ msgstr "Menú Secundario"
+
+#~ msgid "Copyright &copy; %1$s %2$s. Powered by %3$s and %4$s."
+#~ msgstr "Copyright &copy; %1$s %2$s. Creado por %3$s and %4$s."
+
+#~ msgid "Please select file to import"
+#~ msgstr "Por favor, seleccione el archivo que desea importar"
+
+#~ msgid ""
+#~ "Cherry Options have been imported. Page will be refreshed to apply "
+#~ "changes..."
+#~ msgstr ""
+#~ "Opciones de Cherry han sido importados. Para aplicar los cambios debe "
+#~ "refrescar la página..."
+
+#~ msgid "Create new static"
+#~ msgstr "Crear"
+
+#~ msgid "Auto Auto"
+#~ msgstr "Auto Auto"
+
+#~ msgid "Background Image"
+#~ msgstr "Imagen de Fondo"
+
+#~ msgid "Font Size"
+#~ msgstr "Tamaño de fuente"
+
+#~ msgid "Cherry page"
+#~ msgstr "Página de Cherry"
+
+#~ msgid "Save Options"
+#~ msgstr "Guardar Opciones"
+
+#~ msgid "Restore Section"
+#~ msgstr "Restaurar la Sección"
+
+#~ msgid "Restore Options"
+#~ msgstr "Opciones de Restauración"

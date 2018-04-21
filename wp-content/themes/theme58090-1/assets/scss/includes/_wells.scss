@@ -1,0 +1,30 @@
+/*
+* @subsection Wells
+*/
+
+.well-sm {
+	padding-top: 94px;
+	padding-bottom: 125px;
+}
+
+.well-md {
+	padding-top: 82px;
+	padding-bottom: 110px;
+
+	&.well-md--offset-1 {
+		padding-bottom: 95px;
+	}
+
+	&.well-md--offset-2 {
+		padding-bottom: 40px;
+	}
+}
+
+.well-lg {
+	padding-top: 182px;
+	padding-bottom: 138px;
+}
+
+.offset-1 {
+	margin-top: -40px;
+}

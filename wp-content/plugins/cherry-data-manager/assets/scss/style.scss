@@ -1,0 +1,568 @@
+// variables
+$extra-text: #2a445d;
+
+.cherry-ui-core {
+	.hidden_ {
+		display: none !important;
+	}
+
+	// Base and resets
+	&.cherry-wizard_ {
+		max-width: 800px;
+	}
+
+	&.updated {
+		background: none;
+		box-shadow: none;
+		padding: 0;
+		margin: 0;
+		border: none;
+	}
+	.box-default_.content-wrap_ {
+		border: 1px solid #d0d0d0;
+		background: #fcfcfc;
+		margin: 0 0 15px 0;
+	}
+	.wizard-form-row_ {
+		padding: 5px 0;
+		&:after {
+			clear: both;
+			content: "";
+			width: 100%;
+			display: block;
+		}
+		&.submit-row_,
+		&.info-row_ {
+			width: 300px;
+			max-width: 100%;
+			margin: 0 0 0 110px;
+			position: relative;
+		}
+		&.info-row_ {
+			text-align: center;
+		}
+	}
+	.wizard-form-col-label_ {
+		float: left;
+		width: 105px;
+		padding: 10px 5px 10px 0;
+		font-size: 13px;
+		line-height: 20px;
+		label {
+			color: #333;
+			font-weight: 600;
+			font-size: 13px;
+		}
+	}
+	.wizard-form-col-control_ {
+		float: left;
+		width: 300px;
+		max-width: 100%;
+		position: relative;
+		input[type="text"],
+		input[type="email"],
+		input[type="password"],
+		input[type="url"] {
+			width: 300px;
+			margin: 0;
+			&.error {
+				border-color: #f62e46;
+			}
+		}
+	}
+	.button-primary_,
+	.button-default_ {
+		&.fullwidth_ {
+			width: 100%;
+			-webkit-box-sizing:border-box;
+			-moz-box-sizing:border-box;
+			box-sizing:border-box;
+			text-align: center;
+			font-size: 20px;
+		}
+	}
+
+	.submit-wrap_ {
+		padding: 10px 0 0 0;
+	}
+
+	.box-inner_ {
+		margin: 15px -15px -15px;
+		padding: 15px;
+		background: #f2f3f4;
+		border-top: 1px solid #d4d5d6;
+	}
+
+	.wizard-popup-message {
+		position: absolute;
+		left: 100%;
+		top: 0;
+		border:none !important;
+		margin: 0 0 0 10px !important;
+		background: #f62e46;
+		padding: 5px 10px;
+		color: #fff;
+		min-width: 200px;
+	}
+	.wizard-message.error {
+		margin: 15px 0 0 !important;
+		border:none;
+		background: #f62e46;
+		padding: 10px;
+		color: #fff;
+	}
+
+	// progress bar
+	.progress-bar_ {
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+		position: relative;
+		height: 10px;
+		overflow: hidden;
+		&:after {
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 10px;
+			width: 100%;
+			border: 1px solid #dddcdc;
+			border-radius: 5px;
+			background: #f7f7f7;
+			z-index: 1;
+			-webkit-box-sizing:border-box;
+			-moz-box-sizing:border-box;
+			box-sizing:border-box;
+			content: "";
+		}
+
+		.wizard-install-progress-group {
+			float: left;
+			font-size: 0;
+			line-height: 0;
+			&:first-child {
+				.wizard-install-progress-step {
+					&:before {
+						display: none;
+					}
+				}
+			}
+		}
+
+		.wizard-install-progress-step {
+			background: $extra-text;
+			border-radius: 5px;
+			height: 10px;
+			position: relative;
+			z-index: 2;
+			width: 0;
+			display: inline-block;
+			vertical-align: top;
+			&:before {
+				content: "";
+				width: 10px;
+				height: 10px;
+				left: -5px;
+				top: 0;
+				position: absolute;
+				background: $extra-text;
+			}
+			&.empty {
+				&:before {
+					width: 0;
+				}
+			}
+		}
+	}
+	.progress-bar-load_ {
+		background: $extra-text;
+		height: 10px;
+		width: 0;
+		border-radius: 5px;
+		display: block;
+		position: relative;
+		z-index: 2;
+	}
+	.progress-bar-counter_ {
+		color: $extra-text;
+		font-weight: bold;
+		padding: 5px 0;
+	}
+
+	.button-default_,
+	.button-primary_ {
+		&.button-extra_ {
+			padding: 20px;
+			font-size: 20px;
+			line-height: 20px;
+			text-align: center;
+		}
+		.button-desc_ {
+			display: block;
+			font-size: 12px;
+		}
+	}
+
+	/* Import & Export */
+	*[class^="button"].not_active{
+		opacity: 0.5;
+		cursor: default;
+		/* pointer-events: none; */
+	}
+
+	.dm-import-wrap {
+		position: relative;
+	}
+	.dm-import-type-selector {
+		position: absolute;
+		top: -16px;
+		bottom: -1px;
+		left: -16px;
+		right: -16px;
+		background: #fff;
+		padding: 40px !important;
+		z-index: 99;
+		margin: 0 !important;
+	}
+
+	.dm-selector-message_ {
+		font-size: 15px;
+		line-height: 23px;
+		padding: 10px 0 50px;
+	}
+	.dm-selector-buttons_ {
+		a {
+			margin: 0 5px 0 0;
+		}
+	}
+
+	#area-drag-drop{
+	}
+
+	.dm-return-to-switcher {
+		padding: 0 0 5px 0;
+		text-align: right;
+	}
+	.drag-drop #area-drag-drop .drag-drop-inside {
+		margin-top: 160px;
+	}
+	.drag-drop-inside {
+		text-align: center;
+		display: block;
+		overflow: hidden;
+		padding: 150px 0;
+	}
+	.drag-drop-inside p {
+		font-size: 20px;
+		color: #AAA;
+		display: block;
+	}
+	.drag-drop-inside p.max-upload-size {
+		font-size: 12px;
+		color: #2c89ae;
+		margin: 10px 0 25px;
+	}
+
+	form#upload_files {
+		overflow: hidden;
+		border: 1px solid #d0d0d0;
+		border-radius: 5px;
+		height: 470px;
+		position: relative;
+		z-index: 0;
+		background: #fff;
+	}
+	form#upload_files.hover{
+		background-color: #F0FFED;
+		border-color: #C7FABE;
+	}
+	#import_step_2{
+		position: relative;
+		z-index: 1;
+	}
+	.error_file{
+		background: #FFD2D2 !important;
+		border-top: 1px solid #FFF;
+	}
+	#file_list_holder{
+		height: 520px;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.dm-files-list {
+		width: 100%;
+		overflow: hidden;
+		background: #fff;
+		border: 1px solid #dddcdc;
+		border-radius: 5px;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.dm-files-list-header {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		padding-right: 18px;
+		font-size: 14px;
+		line-height: 20px;
+		color: #fff;
+		font-weight: bold;
+		background: #2a445d;
+		border-radius: 5px 5px 0 0;
+	}
+	.dm-files-list-body {
+		overflow-y: scroll;
+		max-height: 450px;
+		min-height: 450px;
+		display: block;
+		overflow-x: hidden;
+		font-size: 13px;
+		line-height: 20px;
+		color: #444;
+		border-radius: 0 0 5px 5px;
+	}
+
+	.dm-files-list .row div[class^="column"]{
+		padding: 15px 20px;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.dm-files-list .column_1{
+		width: 55%;
+	}
+	.dm-files-list .column_2{
+		width: 15%;
+	}
+	.dm-files-list .column_3{
+		width: 30%;
+		position: relative;
+	}
+	.dm-install-item {
+		background: #fff;
+		border-radius: 6px;
+		border:1px solid #dddcdc;
+		background: #fcfcfc;
+		padding: 14px 20px;
+		font-size: 13px;
+		line-height: 20px;
+		margin: 5px 0;
+		font-weight: bold;
+		color: #444;
+	}
+	.dm-install-item-message {
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 0 0 10px;
+		color: #f00;
+	}
+	.dm-install-item:before {
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 10px 0 0;
+		content: '';
+		background: url('../images/loader.gif') no-repeat center top;
+	}
+	.item-error.dm-install-item:before {
+		background: none;
+		content: "\f153";
+		-webkit-font-smoothing: antialiased;
+		font-family:'dashicons';
+		font-size: 22px;
+		color: #f62e46;
+	}
+	.item-success.dm-install-item:before {
+		background: none;
+		content: "\f147";
+		-webkit-font-smoothing: antialiased;
+		font-family:'dashicons';
+		font-size: 24px;
+		color: #2a445d;
+	}
+
+	#import_status{
+		width: 100%;
+		margin: 0;
+	}
+
+	#upload_status, #import_data{
+		width: 50%;
+		width: 100%;
+		position: relative;
+		z-index: 1;
+	}
+
+	#counters{
+		display: inline-block;
+		line-height: 20px;
+	}
+
+	.items_name{
+		margin-left: 2px;
+	}
+
+	#info_holder{
+		vertical-align: top;
+		padding: 0;
+	}
+
+	.cherry-ui-core .dm-loaders {
+		overflow: hidden;
+		padding: 0 0 10px 0;
+	}
+
+	.loader_bar{
+		position: relative;
+	}
+	#import_data{
+		overflow: hidden;
+		position: relative;
+		z-index: 0;
+	}
+
+	#browser_nag{
+		background-color: #E29808;
+		background-image: none;
+		border-color: #EDC048;
+		color: #FFF;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	#browser_nag h3.hndle {
+		border: 0;
+		font-weight: 600;
+		font-size: 20px;
+		padding-top: 10px;
+		background: rgba(0, 0, 0, 0) none;
+		color: #FFF;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		cursor: default;
+	}
+	#import_xml_status{
+		min-height: 480px;
+		overflow: auto;
+		box-sizing: border-box;
+	}
+	#status_log p>i{
+		padding-right: 10px;
+		display: block;
+		float: left;
+		margin: 0;
+		width: 20px;
+		vertical-align: bottom;
+		text-align: center;
+		height: 20px;
+		line-height: inherit;
+		font-size: 15px;
+	}
+	#status_log p{
+		color: #BBB;
+		font-size: 14px;
+		margin: 10px 0;
+	}
+	#status_log p.done_import{
+		color: #4BBD00;
+	}
+	#status_log p.error_import{
+		color: #F50000;
+	}
+	#import_step_3>div{
+		padding: 100px 0;
+		text-align: center;
+	}
+	#import_title{
+		font-size: 50px;
+		font-weight: 700;
+		color: #4BBD00;
+		padding: 0 0 30px 0;
+		text-align: center;
+	}
+	@media screen and (max-width: 600px){
+		#import_title{
+			font-size: 35px;
+		}
+	}
+	#import_description{
+		font-size: 14px;
+		padding-bottom: 40px;
+		display: inline-block;
+	}
+	#import_links > a{
+		text-decoration: underline;
+		font-weight: 700;
+	}
+	.impotr_export_wrapper .spinner{
+		margin: 4px 0px 0 5px;
+		float: left;
+	}
+	#import-demo-video a{
+		text-decoration: none;
+		font-size: 12px;
+	}
+	#import-demo-video {
+		line-height: inherit;
+		font-size: inherit;
+	}
+	#info_link{
+		text-decoration: none;
+	}
+	#info_link i{
+		font-size: 16px;
+		margin-left: 5px;
+	}
+	.thickbox i{
+		font-size: 14px;
+
+	}
+	#not_load_file{
+		color: #B43C38;
+		font-weight: 700;
+		margin: 7px 10px;
+		display: inline-block;
+	}
+
+	.dm-load-status {
+		display: block;
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		margin: 0 5px 0 0;
+		position: relative;
+	}
+	.row-preload .dm-load-status {
+		background: url('../images/loader.gif') no-repeat center center;
+	}
+	.row-success .dm-load-status:after {
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		background: none;
+		content: "\f147";
+		-webkit-font-smoothing: antialiased;
+		font-family:'dashicons';
+		font-size: 24px;
+		color: #2a445d;
+	}
+	.row-error .dm-load-status:after {
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		background: none;
+		content: "\f153";
+		-webkit-font-smoothing: antialiased;
+		font-family:'dashicons';
+		font-size: 20px;
+		color: #f62e46;
+	}
+}
+/* End Import & Export */

@@ -1,0 +1,10 @@
+@font-face{font-family:Flaticon;src:url(flaticon.eot);src:url(flaticon.eot#iefix) format("embedded-opentype"),url(flaticon.woff) format("woff"),url(flaticon.ttf) format("truetype"),url(flaticon.svg) format("svg");font-weight:400;font-style:normal}
+[class*=" flaticon-"]:after,[class*=" flaticon-"]:before,[class^=flaticon-]:after,[class^=flaticon-]:before{font-family:Flaticon;font-size:14px;font-style:normal}
+.flaticon-facebook:before{content:"\e001"}
+.flaticon-googleplus:before{content:"\e002"}
+.flaticon-linkedin:before{content:"\e003"}
+.flaticon-tumblr:before{content:"\e004"}
+.flaticon-reddit:before{content:"\e005"}
+.flaticon-pinterest:before{content:"\e006"}
+.flaticon-stumbleupon:before{content:"\e007"}
+.flaticon-twitter:before{content:"\e008"}

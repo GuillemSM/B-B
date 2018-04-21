@@ -1,0 +1,469 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cherry-testimonials\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-05 18:53+0200\n"
+"PO-Revision-Date: 2015-11-05 18:53+0200\n"
+"Last-Translator: J.L.Dokter <jldokter@gmail.com>\n"
+"Language-Team: Cherry Team <support@cherryframework.com>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/includes/class-cherry-testimonials-admin.php:95
+#: public/includes/class-cherry-testimonials-widget.php:302
+msgid "Title"
+msgstr "Заголовок"
+
+#: admin/includes/class-cherry-testimonials-admin.php:96
+msgid "Author"
+msgstr "Автор"
+
+#: admin/includes/class-cherry-testimonials-admin.php:97
+#: public/includes/class-cherry-testimonials-shortcode.php:133
+msgid "Date"
+msgstr "Дата"
+
+#: admin/includes/class-cherry-testimonials-admin.php:98
+msgid "Thumbnail"
+msgstr "Мініатюра"
+
+#: admin/includes/class-cherry-testimonials-meta-boxes.php:45
+msgid "Testimonial Options"
+msgstr "Параметри відгуків"
+
+#: admin/includes/class-cherry-testimonials-meta-boxes.php:51
+msgid "Name:"
+msgstr "Ім'я:"
+
+#: admin/includes/class-cherry-testimonials-meta-boxes.php:52
+msgid "Enter author's name."
+msgstr "Вкажіть ім'я автора"
+
+#: admin/includes/class-cherry-testimonials-meta-boxes.php:57
+msgid "E-mail:"
+msgstr "Електронна адреса:"
+
+#: admin/includes/class-cherry-testimonials-meta-boxes.php:58
+msgid "Enter an e-mail address."
+msgstr "Вкажіть електронну адресу."
+
+#: admin/includes/class-cherry-testimonials-meta-boxes.php:63
+msgid "URL:"
+msgstr "Посилання:"
+
+#: admin/includes/class-cherry-testimonials-meta-boxes.php:64
+msgid "Enter the URL."
+msgstr "Введіть посилання."
+
+#: admin/views/widget.php:11
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: admin/views/widget.php:16
+msgid "Limit:"
+msgstr "Обмеження:"
+
+#: admin/views/widget.php:21
+msgid "Image Size (in pixels):"
+msgstr "Розміри зображення (у пікселях):"
+
+#: admin/views/widget.php:27
+msgid "Display Author"
+msgstr "Відображати автора"
+
+#: admin/views/widget.php:32
+msgid "Display Avatar"
+msgstr "Відображати аватар"
+
+#: admin/views/widget.php:36
+msgid "Specific ID:"
+msgstr "Певні ідентифікатори (ID):"
+
+#: admin/views/widget.php:39
+msgid "Testimonials Post IDs, separated by commas."
+msgstr "Ідентифікатори (IDs) публікацій відгуків, відокремлені комами."
+
+#: admin/views/widget.php:42
+msgid "Order By:"
+msgstr "Упорядкувати за:"
+
+#: admin/views/widget.php:51
+msgid "Order Direction:"
+msgstr "Напрям впорядкування:"
+
+#: admin/views/widget.php:60
+msgid "Post content:"
+msgstr "Вміст публікації:"
+
+#: admin/views/widget.php:69
+msgid "Content Length:"
+msgstr "Довжина вмісту:"
+
+#: admin/views/widget.php:74
+msgid "Template:"
+msgstr "Шаблон:"
+
+#: admin/views/widget.php:79
+msgid "Custom CSS Class:"
+msgstr "Користувацький клас CSS:"
+
+#: cherry-testimonials.php:216
+msgid "Testimonials posts"
+msgstr "Публікації відгуків"
+
+#: cherry-testimonials.php:219
+msgid ""
+"You can choose if you want to display sidebars and how you want to display "
+"them."
+msgstr ""
+"Тут можна вибрати, чи відображати бічні панелі і яким саме чином це робити."
+
+#: cherry-testimonials.php:225
+msgid "Left sidebar"
+msgstr "Ліва бічна панель"
+
+#: cherry-testimonials.php:229
+msgid "Right sidebar"
+msgstr "Права бічна панель"
+
+#: cherry-testimonials.php:233
+msgid "Left and right sidebar"
+msgstr "Ліва та права бічні панелі"
+
+#: cherry-testimonials.php:237
+msgid "Two sidebars on the left"
+msgstr "Дві бічні панелі зліва"
+
+#: cherry-testimonials.php:241
+msgid "Two sidebars on the right"
+msgstr "Дві бічні панелі справа"
+
+#: cherry-testimonials.php:245
+msgid "No sidebar"
+msgstr "Жодної бічної панелі"
+
+#: public/includes/class-cherry-testimonials-page-template.php:69
+#: public/includes/class-cherry-testimonials-registration.php:47
+#: public/includes/class-cherry-testimonials-shortcode.php:101
+msgid "Testimonials"
+msgstr "Відгуки"
+
+#: public/includes/class-cherry-testimonials-registration.php:48
+msgid "Testimonial"
+msgstr "Відгук"
+
+#: public/includes/class-cherry-testimonials-registration.php:49
+msgid "Add New"
+msgstr "Створити"
+
+#: public/includes/class-cherry-testimonials-registration.php:50
+msgid "Add New Testimonial"
+msgstr "Створити новий відгук"
+
+#: public/includes/class-cherry-testimonials-registration.php:51
+msgid "Edit Testimonial"
+msgstr "Редагувати відгук"
+
+#: public/includes/class-cherry-testimonials-registration.php:52
+msgid "New Testimonial"
+msgstr "Новий відгук"
+
+#: public/includes/class-cherry-testimonials-registration.php:53
+msgid "View Testimonial"
+msgstr "Переглянути відгук"
+
+#: public/includes/class-cherry-testimonials-registration.php:54
+msgid "Search Testimonials"
+msgstr "Шукати відгуки"
+
+#: public/includes/class-cherry-testimonials-registration.php:55
+msgid "No testimonials found"
+msgstr "Відгуків немає."
+
+#: public/includes/class-cherry-testimonials-registration.php:56
+msgid "No testimonials found in trash"
+msgstr "В кошику відгуків немає."
+
+#: public/includes/class-cherry-testimonials-registration.php:100
+msgid "Testimonials Categories"
+msgstr "Категорії відгуків"
+
+#: public/includes/class-cherry-testimonials-registration.php:101
+#: public/includes/class-cherry-testimonials-registration.php:107
+msgid "Edit Category"
+msgstr "Редагувати категорію"
+
+#: public/includes/class-cherry-testimonials-registration.php:102
+msgid "Search Categories"
+msgstr "Шукати категорії"
+
+#: public/includes/class-cherry-testimonials-registration.php:103
+msgid "Popular Categories"
+msgstr "Популярні категорії"
+
+#: public/includes/class-cherry-testimonials-registration.php:104
+msgid "All Categories"
+msgstr "Всі категорії"
+
+#: public/includes/class-cherry-testimonials-registration.php:108
+msgid "Update Category"
+msgstr "Оновити категорію"
+
+#: public/includes/class-cherry-testimonials-registration.php:109
+msgid "Add New Category"
+msgstr "Створити нову категорію"
+
+#: public/includes/class-cherry-testimonials-registration.php:110
+msgid "New Category Name"
+msgstr "Назва нової категорії"
+
+#: public/includes/class-cherry-testimonials-registration.php:111
+msgid "Separate categories with commas"
+msgstr "Відокремлюйте категорії комами"
+
+#: public/includes/class-cherry-testimonials-registration.php:112
+msgid "Add or remove categories"
+msgstr "Створити чи видалити категорії"
+
+#: public/includes/class-cherry-testimonials-registration.php:113
+msgid "Choose from the most used categories"
+msgstr "Обрати з найчастіше вживаних категорій"
+
+#: public/includes/class-cherry-testimonials-registration.php:114
+msgid "No categories found."
+msgstr "Категорій немає"
+
+#: public/includes/class-cherry-testimonials-registration.php:115
+msgid "Categories"
+msgstr "Категорії"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:112
+msgid "Limit"
+msgstr "Обмеження"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:113
+msgid "Maximum number of posts."
+msgstr "Найбільша дозволена кількість публікацій."
+
+#: public/includes/class-cherry-testimonials-shortcode.php:118
+#: public/includes/class-cherry-testimonials-widget.php:318
+msgid "Descending"
+msgstr "Спадний"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:119
+#: public/includes/class-cherry-testimonials-widget.php:317
+msgid "Ascending"
+msgstr "Висхідний"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:122
+msgid "Order"
+msgstr "Порядок"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:123
+msgid "Posts order"
+msgstr "Порядок публікацій"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:128
+msgid "None"
+msgstr "Жодного"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:129
+msgid "Post ID"
+msgstr "ID публікації"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:130
+msgid "Post author"
+msgstr "Автор публікації"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:131
+msgid "Post title"
+msgstr "Заголовок публікації"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:132
+msgid "Post slug"
+msgstr "Скорочення (slug) публікації"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:134
+msgid "Last modified date"
+msgstr "Дата внесення останніх змін"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:135
+msgid "Post parent"
+msgstr "Батьківська публікація"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:136
+msgid "Random"
+msgstr "Випадковий"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:137
+msgid "Comments number"
+msgstr "Кількість коментарів"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:138
+msgid "Menu order"
+msgstr "Порядок меню"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:139
+msgid "Meta key values"
+msgstr "Метадані"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:142
+msgid "Order by"
+msgstr "Упорядкувати за"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:143
+msgid "Order posts by"
+msgstr "Упорядкувати публікації за"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:150
+msgid "Category"
+msgstr "Категорія"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:151
+msgid "Select category to show testimonials from"
+msgstr "Оберіть категорії публікацій відгуків, що будуть відображатись"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:155
+msgid "Post ID's"
+msgstr "ID публікацій"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:156
+msgid "Enter comma separated ID's of the posts that you want to show"
+msgstr "Введіть ID публікацій, що будуть відображатися, відділяючи їх комами"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:161
+#: public/includes/class-cherry-testimonials-shortcode.php:162
+msgid "Display author?"
+msgstr "Відображати автора"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:167
+#: public/includes/class-cherry-testimonials-shortcode.php:168
+msgid "Display avatar?"
+msgstr "Відображати аватар"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:176
+msgid "Avatar size"
+msgstr "Розмір аватару"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:177
+msgid "Avatar size (in pixels)"
+msgstr "Розміри аватару (у пікселях):"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:182
+#: public/includes/class-cherry-testimonials-widget.php:330
+msgid "Part of content"
+msgstr "Частина вмісту"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:183
+#: public/includes/class-cherry-testimonials-widget.php:331
+msgid "Full content"
+msgstr "Увесь вміст"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:186
+msgid "Post content"
+msgstr "Вміст публікації"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:187
+msgid "Choose to display a part or full content"
+msgstr ""
+"Виберіть, скільки вмісту публікації відображати - частково чи повністю."
+
+#: public/includes/class-cherry-testimonials-shortcode.php:195
+msgid "Content Length"
+msgstr "Довжина вмісту"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:196
+msgid "Insert the number of words you want to show in the post content."
+msgstr ""
+"Введіть максимальну кількість слів для вмісту публікації, що "
+"відображатиметься."
+
+#: public/includes/class-cherry-testimonials-shortcode.php:204
+msgid "Template"
+msgstr "Шаблон"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:205
+msgid "Shortcode template"
+msgstr "Шаблон шорткоду"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:209
+msgid "Class"
+msgstr "Клас"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:210
+msgid "Extra CSS class"
+msgstr "Користувацький клас CSS"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:316
+msgid "Author's name"
+msgstr "Ім'я автора"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:322
+msgid "Author's avatar"
+msgstr "Аватар автора"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:328
+msgid "Author's email"
+msgstr "Електронна адреса автора"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:334
+msgid "Author's URL"
+msgstr "Посилання автора"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:340
+msgid "Content"
+msgstr "Вміст"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:357
+msgid "Author's name (Testimonials only)"
+msgstr "Ім'я автора (лише для Відгуків)"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:363
+msgid "Author's email (Testimonials only)"
+msgstr "Електронна адреса автора (лише для Відгуків)"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:369
+msgid "Author's URL (Testimonials only)"
+msgstr "Посилання автора (лише для Відгуків)"
+
+#: public/includes/class-cherry-testimonials-widget.php:42
+msgid "Cherry Testimonials"
+msgstr "Відгуки Cherry"
+
+#: public/includes/class-cherry-testimonials-widget.php:45
+msgid "Your site's most recent Testimonials."
+msgstr "Найновіші відгуки на вашому сайті."
+
+#: public/includes/class-cherry-testimonials-widget.php:300
+msgid "No Order"
+msgstr "Порядку немає"
+
+#: public/includes/class-cherry-testimonials-widget.php:301
+msgid "Entry ID"
+msgstr "ID запису"
+
+#: public/includes/class-cherry-testimonials-widget.php:303
+msgid "Date Added"
+msgstr "Дата створення"
+
+#: public/includes/class-cherry-testimonials-widget.php:304
+msgid "Attributes Order"
+msgstr "Порядок атрибутів"
+
+#: public/includes/class-cherry-testimonials-widget.php:305
+msgid "Random Order"
+msgstr "Випадковий порядок"
+
+#~ msgid "Author's avatar (Testimonials only)"
+#~ msgstr "Аватар автора (лише для Відгуків)"

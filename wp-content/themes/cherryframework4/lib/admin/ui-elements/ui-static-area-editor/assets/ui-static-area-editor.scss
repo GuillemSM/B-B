@@ -1,0 +1,273 @@
+.cherry-static-area-editor-wrap{
+	.area-units{
+		width: 60%;
+		padding-right: 15px;
+		float: left;
+		box-sizing: border-box;
+	}
+	.area-unit{
+		background: none repeat scroll 0 0 #fcfcfc;
+		border: 1px solid #fff;
+		//border-radius: 6px;
+		margin-bottom: 20px;
+		padding: 5px;
+		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+			.area-name{
+				margin: 5px 0 20px 0;
+				text-align: center;
+			}
+			&.drag-target{
+				border: 1px dashed #8BC735;
+			}
+	}
+	.accordion-unit{
+		padding: 5px;
+		background: transparent;
+		.group{
+			margin: 4px 0;
+			border-radius: 6px;
+					.ui-accordion-header{
+						font-size: 16px;
+						margin: 0;
+						padding: 10px 10px 10px 30px;
+						color: #444;
+						background-image: none;
+						background: #f2f3f4;
+						border-radius: 6px;
+						font-weight: normal;
+						border: none;
+						border: 1px solid #dddcdc;
+						cursor: -webkit-grab;
+							.ui-accordion-header-icon{
+								background-image: url("../ui-images/ui-icons_228ef1_256x240.png");
+							}
+							.delete-group{
+								float: right;
+								color: #2a445d;
+								cursor: pointer;
+								width: 20px;
+								height: 20px;
+								position: relative;
+								text-align: right;
+								overflow: hidden;
+									&:before{
+										width: 20px;
+										height: 20px;
+										top: 0;
+										transition: all 0.3s ease;
+									}
+									&:hover{
+										&:before{
+											color: #f62e46 ;
+										}
+									}
+							}
+							&.ui-state-active{
+								border: 1px solid #cccccc;
+							}
+							&.ui-state-hover{
+								background: #fff;
+								border: 1px solid #cccccc;
+							}
+					}
+					>div{
+						background: #fff;
+						border-radius: 6px;
+						padding: 1em 1.2em;
+						overflow: hidden;
+							.field-col-lg{
+								width: 25%;
+								padding-left: 5px;
+								margin-bottom: 10px;
+								float: left;
+								box-sizing: border-box;
+							}
+							.field-col-md{
+								width: 25%;
+								padding-right: 5px;
+								padding-left: 5px;
+								margin-bottom: 10px;
+								float: left;
+								box-sizing: border-box;
+							}
+							.field-col-sm{
+								width: 25%;
+								padding-right: 5px;
+								padding-left: 5px;
+								margin-bottom: 10px;
+								float: left;
+								box-sizing: border-box;
+							}
+							.field-col-xs{
+								width: 25%;
+								padding-right: 5px;
+								margin-bottom: 10px;
+								float: left;
+								box-sizing: border-box;
+							}
+							.field-class{
+								width: 100%;
+								float: left;
+								margin-bottom: 10px;
+								box-sizing: border-box;
+									input{
+										margin: 0;
+										height: 42px;
+									}
+							}
+							.conditions{
+								background-color: #FCFCFC;
+								border: 1px solid #cccccc;
+								padding: 10px;
+								border-radius: 6px;
+								&.empty{
+									.label-if{
+										display: none;
+									}
+								}
+								.label{
+									color: #2a445d;
+									font-size: 20px;
+									line-height: 20px;
+									&.label-if{
+										margin-bottom: 10px;
+										span{
+											margin: 0 10px;
+										}
+									}
+									&.label-is{
+										position: absolute;
+										display: inline-block;
+										top: 0;
+										left: 50%;
+										margin: 10px 0 10px -25px;
+									}
+								}
+								.conditions-action{
+									margin-bottom: 10px;
+								}
+								.conditions-rules{
+									.rule-item{
+										position: relative;
+										margin-bottom: 10px;
+										.rule-major{
+											width: 50%;
+											float: left;
+											padding-right: 5px;
+											padding-right: 40px;
+											box-sizing: border-box;
+										}
+										.rule-minor{
+											width: 50%;
+											float: left;
+											padding-left: 5px;
+											padding-right: 40px;
+											box-sizing: border-box;
+												select.loading-state{
+													opacity: 0.5;
+												}
+										}
+										.remove-rule-button{
+											position: absolute;
+											top: 0;
+											right: 0;
+											color: #2a445d;
+											margin: 5px;
+											cursor: pointer;
+											transition: all 0.3s ease;
+												&:hover{
+													color: #f62e46;
+												}
+												span{
+													width: 30px;
+													height: 30px;
+													font-size: 30px;
+												}
+										}
+
+									}
+									.dublicate-item{
+										display: none;
+									}
+								}
+								.add-rule-button{
+									color: #2a445d;
+									display: inline-block;
+									cursor: pointer;
+									line-height: 25px;
+									transition: all 0.3s ease;
+										&:hover{
+											color: #8bc735;
+										}
+										span{
+											width: 30px;
+											height: 30px;
+											font-size: 30px;
+											line-height: 30px;
+										}
+								}
+							}
+							select{
+								margin: 0;
+							}
+					}
+			}
+			.ui-state-highlight {
+				height: 42px;
+				margin: 4px 0;
+				border-radius: 6px;
+				border: 1px dashed #8BC735;
+				background: rgba(139, 199, 53, 0.3);
+				box-sizing:  border-box;
+			}
+	}
+	.cherry-accordion-control{
+		width: 40%;
+		float: left;
+		box-sizing: border-box;
+		.cherry-label{
+			text-align: right;
+			border-bottom: 1px solid #cccccc;
+			margin-bottom: 10px;
+			padding-bottom: 5px;
+		}
+		.field-static{
+			width: 100%;
+			margin-bottom: 10px;
+				.static-selector{
+					option{
+						&.hidden{
+							display: none;
+						}
+					}
+				}
+		}
+		.add-new-btn{
+			float: right;
+		}
+	}
+	.available-statics{
+		width: 40%;
+		float: left;
+		box-sizing: border-box;
+		border: 1px solid #2a445d;
+		background: none repeat scroll 0 0 #2a445d;
+			&.drag-target{
+				border: 1px dashed #fff;
+			}
+			h3{
+				color: #fff;
+			}
+			.delete-group{
+				display: none;
+			}
+			.ui-state-highlight {
+				height: 42px;
+				margin: 4px 0;
+				border-radius: 6px;
+				border: 1px dashed #fff;
+				background: rgba(255, 255, 255, 0.3);
+				box-sizing:  border-box;
+			}
+	}
+}

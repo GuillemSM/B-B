@@ -1,0 +1,863 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cherry-charts\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-14 15:23+0200\n"
+"PO-Revision-Date: 2015-12-14 15:23+0200\n"
+"Last-Translator: J.L.Dokter <jldokter@gmail.com>\n"
+"Language-Team: Cherry Team <support@cherryframework.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cherry-data-manager.php:135
+msgid "Upload Error"
+msgstr "Fehler beim Hochladen"
+
+#: cherry-data-manager.php:136
+msgid "The file is too big!"
+msgstr "Die Datei ist zu groß!"
+
+#: cherry-data-manager.php:137
+msgid "The file type is error!"
+msgstr "Der Dateityp ist Fehler!"
+
+#: cherry-data-manager.php:138
+msgid "Folder cannot be uploaded!"
+msgstr "Ordner können nicht hochgeladen werden!"
+
+#: cherry-data-manager.php:139
+msgid "Uploading"
+msgstr "Hochladen "
+
+#: cherry-data-manager.php:140
+msgid "Upload"
+msgstr "Hochladen "
+
+#: cherry-data-manager.php:141
+msgid "Upload Complete"
+msgstr "Die Dateien wurden hochgeladen."
+
+#: cherry-data-manager.php:142 includes/views/cherry-content-import.php:76
+msgid "item"
+msgstr "Artikel"
+
+#: cherry-data-manager.php:143
+msgid "items"
+msgstr "Artikel"
+
+#: cherry-data-manager.php:144
+msgid ""
+"Sample data installing. Some steps may take some time depending on your "
+"server settings. Please be patient."
+msgstr ""
+"Beispieldaten werden installiert. Einige Schritte können  je nach Server-"
+"Einstellungen etwas dauern. Bitte haben Sie Geduld."
+
+#: cherry-data-manager.php:145
+msgid "Upload complete please click Continue Install button to proceed."
+msgstr ""
+"Das Hochladen ist beendet, bitte klicken Sie Installation fortsetzen um "
+"fortzufahren."
+
+#: cherry-data-manager.php:147
+msgid "Importing XML"
+msgstr "XML wird importiert"
+
+#: cherry-data-manager.php:148
+msgid "Importing options"
+msgstr "Importiereinstellungen"
+
+#: cherry-data-manager.php:149
+msgid "Importing custom database tables"
+msgstr "Importieren von benutzerdefinierten Datenbanktabellen"
+
+#: cherry-data-manager.php:150
+msgid "Importing categories"
+msgstr "Kategorien werden importiert"
+
+#: cherry-data-manager.php:151
+msgid "Importing tags"
+msgstr "Tags werden importiert"
+
+#: cherry-data-manager.php:152
+msgid "Processing dependencies"
+msgstr "Verarbeiten der Abhängigkeiten"
+
+#: cherry-data-manager.php:153
+msgid "Importing posts. This may take some time. Please wait."
+msgstr "Beiträge importieren. Dies kann einige Zeit dauern. Bitte warten Sie."
+
+#: cherry-data-manager.php:154
+msgid ""
+"Attaching terms to imported posts. This may take some time. Please wait."
+msgstr ""
+"Zu importierten Beiträgen Begriffe hinzufügen.Dies kann einige Zeit dauern. "
+"Bitte warten Sie."
+
+#: cherry-data-manager.php:155
+msgid ""
+"Attaching comments to imported posts. This may take some time. Please wait."
+msgstr ""
+"Zu importierten Beiträgen Kommentare hinzufügen.Dies kann einige Zeit "
+"dauern. Bitte warten Sie."
+
+#: cherry-data-manager.php:156
+msgid ""
+"Attaching metadata to imported posts. This may take some time. Please wait."
+msgstr ""
+"Zu importierten Beiträgen Metadaten hinzufügen.Dies kann einige Zeit dauern. "
+"Bitte warten Sie."
+
+#: cherry-data-manager.php:157
+msgid "Importing menu items. This may take some time. Please wait."
+msgstr ""
+"Importieren von Menüelementen.Dies kann einige Zeit dauern. Bitte warten Sie."
+
+#: cherry-data-manager.php:158
+msgid "Importing media library."
+msgstr "Importieren von Medienbibliothek."
+
+#: cherry-data-manager.php:159
+msgid "Importing attachements meta."
+msgstr ""
+
+#: cherry-data-manager.php:160
+msgid ""
+"Generate attachements meta. Preparing. This may take some time. Please wait."
+msgstr ""
+
+#: cherry-data-manager.php:161
+msgid ""
+"Generate attachements meta. Processing. This may take some time. Please wait."
+msgstr ""
+
+#: cherry-data-manager.php:162
+msgid ""
+"Generate attachements meta. Finishing. This may take some time. Please wait."
+msgstr ""
+
+#: cherry-data-manager.php:163
+msgid ""
+"Cropping attachements meta. Preparing. This may take some time. Please wait."
+msgstr ""
+
+#: cherry-data-manager.php:164
+msgid ""
+"Cropping attachements meta. Processing. This may take some time. Please wait."
+msgstr ""
+
+#: cherry-data-manager.php:165
+msgid ""
+"Cropping attachements meta. Finishing. This may take some time. Please wait."
+msgstr ""
+
+#: cherry-data-manager.php:166
+msgid "Generating content hierarchy"
+msgstr "Generierung von Inhalten Hierarchie"
+
+#: cherry-data-manager.php:167
+msgid "Updating featured images"
+msgstr "Beitragsbilder aktualisieren"
+
+#: cherry-data-manager.php:168
+msgid "Updating attachments"
+msgstr "Anhänge werden aktualisiert"
+
+#: cherry-data-manager.php:169
+msgid "Importing JSON"
+msgstr "JSON wird importiert"
+
+#: cherry-data-manager.php:170
+msgid "Installing content complete"
+msgstr "Inhaltsintsallation beendet"
+
+#: cherry-data-manager.php:171
+msgid "Installing content error"
+msgstr "Inhaltsintsallationsfehler"
+
+#: cherry-data-manager.php:172
+msgid ""
+"ATTENTION! Installing Sample Data will overwrite your current content.\n"
+"So we don't recommend you to install Sample Data on a live website.\n"
+"\n"
+"Click OK to proceed"
+msgstr ""
+
+#: includes/cherry-data-manager-core-functions.php:110
+msgid "Install from cloud"
+msgstr "Installieren aus der Wolke"
+
+#: includes/cherry-data-manager-core-functions.php:115
+msgid "Install from folder"
+msgstr "Installieren aus dem Ordner"
+
+#: includes/cherry-data-manager-core-functions.php:119
+msgid "Skip this step"
+msgstr "Diesen Schritt überspringen"
+
+#: includes/cherry-data-manager-core-functions.php:128
+msgid "Return to switcher"
+msgstr "Zurück zum Schalter"
+
+#: includes/class-cherry-data-manager-content-exporter.php:156
+msgid "Export content done"
+msgstr "Exportieren von Inhalt beendet"
+
+#: includes/class-cherry-data-manager-content-importer.php:302
+msgid "Can't find link to sample data"
+msgstr "Der Link zu den Beispieldaten nicht gefunden"
+
+#: includes/class-cherry-data-manager-content-importer.php:314
+msgid "Can't connect to file system"
+msgstr "Es kann keine Verbindung zum Dateisystem hergestellt werden"
+
+#: includes/class-cherry-data-manager-content-importer.php:323
+msgid "File imported"
+msgstr "Dateien wurden importiert."
+
+#: includes/class-cherry-data-manager-content-installer.php:1803
+msgid "Invalid file type"
+msgstr "Ungültiger Dateityp"
+
+#: includes/class-cherry-data-manager-interface.php:38
+msgid "Cherry Content Import"
+msgstr "Cherry Dateityp"
+
+#: includes/class-cherry-data-manager-interface.php:38
+msgid "Cherry Import"
+msgstr "Cherry Import"
+
+#: includes/class-cherry-data-manager-interface.php:40
+msgid "Cherry Content Export"
+msgstr "Cherry Dateiexport"
+
+#: includes/class-cherry-data-manager-interface.php:40
+msgid "Cherry Export"
+msgstr "Cherry Export"
+
+#: includes/libs/parsers.php:48 includes/libs/parsers.php:80
+#: includes/libs/parsers.php:88
+msgid "There was an error when reading this WXR file"
+msgstr "Beim Lesen der WXR-Datei ist ein Fehler aufgetreten"
+
+#: includes/libs/parsers.php:49
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+"Details sind oben gezeigt. Der Importeur wird nun noch einmal versuchen mit "
+"einem anderen Parser ..."
+
+#: includes/libs/parsers.php:92 includes/libs/parsers.php:97
+#: includes/libs/parsers.php:299 includes/libs/parsers.php:496
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+"Dies scheint nicht ein WXR Datei zu sein, fehlende / ungültige WXR "
+"Versionsnummer"
+
+#: includes/views/cherry-content-export.php:26
+msgid ""
+"Export allows you to create a backup of your website content in one click. "
+"You'll get a downloaded archive containing all website data: images, audio, "
+"video and other files from your media library. XML file with your posts and "
+"categories data, JSON file with widget settings. You can use downloaded "
+"archive to move your website to other hosting server or restore website "
+"data. "
+msgstr ""
+"Export ermöglicht es Ihnen, eine Sicherungskopie Ihrer Website-Inhalte mit "
+"einem Klick zu erstellen. Sie werden einen heruntergeladenen Archiv mit "
+"allen Website-Daten  erhalten : Bilder, Audio-, Video- und andere Dateien "
+"von Ihrer Medienbibliothek . XML-Datei mit Ihren Beiträge und Kategorien "
+"Daten, JSON-Datei mit Widget-Einstellungen. Sie können heruntergeladene "
+"Archiv benutzen, um Ihre Website zu anderen Hosting-Server zu verschieben "
+"oder Website-Daten wiederherzustellen ."
+
+#: includes/views/cherry-content-export.php:29
+msgid "Please note! "
+msgstr "Bitte beachten Sie!"
+
+#: includes/views/cherry-content-export.php:30
+msgid ""
+"XML file doesn't contain any user data except name and email of the website "
+"administrator."
+msgstr ""
+"XML-Datei enthält keine Benutzerdaten, außer Namen und E-Mail des Website-"
+"Administrator ."
+
+#: includes/views/cherry-content-export.php:33
+msgid "Export Content"
+msgstr " Dateiexport"
+
+#: includes/views/cherry-content-import.php:37
+msgid "Import &amp; install content"
+msgstr "Inhalt importieren &amp; installieren"
+
+#: includes/views/cherry-content-import.php:39
+msgid ""
+"Please, install \"Sample data\" in order to make your webste looks exactly "
+"as our live demo including all images, pages, layout options etc."
+msgstr ""
+
+#: includes/views/cherry-content-import.php:46
+#: includes/views/cherry-content-import.php:50
+msgid "complete"
+msgstr "beendet"
+
+#: includes/views/cherry-content-import.php:59
+msgid "Please Drop all needed files here <br> to import sample data"
+msgstr ""
+"Bitte lassen fügen Sie alle benötigten Dateien hier hinzu <br> um "
+"Beispieldaten importieren"
+
+#: includes/views/cherry-content-import.php:60
+msgid "or"
+msgstr "oder"
+
+#: includes/views/cherry-content-import.php:62
+msgid "Browse local files"
+msgstr "Lokale Dateien durchsuchen"
+
+#: includes/views/cherry-content-import.php:65
+#, php-format
+msgid "Maximum upload file size: %s."
+msgstr "Maximale Uploaddateigröße: %s."
+
+#: includes/views/cherry-content-import.php:76
+msgid "File name"
+msgstr "Dateiname"
+
+#: includes/views/cherry-content-import.php:76
+msgid "File size"
+msgstr "Dateigröße"
+
+#: includes/views/cherry-content-import.php:76
+msgid "Uploaded file:"
+msgstr "Hochgeladene Datei:"
+
+#: includes/views/cherry-content-import.php:86
+msgid "Installing content started."
+msgstr "Inhaltsintsallation gestarted"
+
+#: includes/views/cherry-content-import.php:93
+msgid ""
+"Files successfully uploaded. Please make sure you have uploaded <b>.JSON</b> "
+"and <b>.XML</b> files to install theme sample data."
+msgstr ""
+"Dateien erfolgreich hochgeladen. Bitte stellen Sie sicher, dass Sie <b>."
+"JSON</b> and <b>.XML</b> Dateien hochgeladen haben um die Beispieldaten des "
+"Themas zu installieren."
+
+#: includes/views/cherry-content-import.php:95
+msgid "Add More Files"
+msgstr "Mehr Dateien hinzufügen"
+
+#: includes/views/cherry-content-import.php:97
+msgid "Continue Install"
+msgstr "Installation fortsetzen"
+
+#: includes/views/cherry-content-import.php:97
+msgid "Missing .XML or .JSON file"
+msgstr "Fehlende .XML oder .json Datei"
+
+#: includes/views/cherry-content-import.php:103
+msgid "Congratulations"
+msgstr "Glückwunsch"
+
+#: includes/views/cherry-content-import.php:105
+msgid "Content has been successfully installed"
+msgstr "Inhalt wurde erfolgreich installiert "
+
+#: includes/views/cherry-content-import.php:109
+msgid "View your site"
+msgstr "Sehen Sie sich Ihre Website an"
+
+#: includes/views/cherry-content-import.php:112
+msgid "Go to Cherry Options"
+msgstr "Zu den Cherry Options"
+
+#~ msgid "Importing attachments meta."
+#~ msgstr "Meta-Anhänge importieren."
+
+#~ msgid ""
+#~ "Generate attachments meta. Preparing. This may take some time. Please "
+#~ "wait."
+#~ msgstr ""
+#~ "Meta-Anhänge generieren . Vorbereitung.Dies kann einige Zeit dauern. "
+#~ "Bitte warten Sie."
+
+#~ msgid ""
+#~ "Generate attachments meta. Processing. This may take some time. Please "
+#~ "wait."
+#~ msgstr ""
+#~ "Meta-Anhänge generieren . Bearbeitung.Dies kann einige Zeit dauern. Bitte "
+#~ "warten Sie."
+
+#~ msgid ""
+#~ "Generate attachments meta. Finishing. This may take some time. Please "
+#~ "wait."
+#~ msgstr ""
+#~ "Meta-Anhänge generieren . Beenden.Dies kann einige Zeit dauern. Bitte "
+#~ "warten Sie."
+
+#~ msgid ""
+#~ "Cropping attachments meta. Preparing. This may take some time. Please "
+#~ "wait."
+#~ msgstr ""
+#~ "Meta-Anhänge zuschneiden . Vorbereitung.Dies kann einige Zeit dauern. "
+#~ "Bitte warten Sie."
+
+#~ msgid ""
+#~ "Cropping attachments meta. Processing. This may take some time. Please "
+#~ "wait."
+#~ msgstr ""
+#~ "Meta-Anhänge zuschneiden . Verarbeitung.Dies kann einige Zeit dauern. "
+#~ "Bitte warten Sie."
+
+#~ msgid ""
+#~ "Cropping attachments meta. Finishing. This may take some time. Please "
+#~ "wait."
+#~ msgstr ""
+#~ "Meta-Anhänge zuschneiden . Beenden.Dies kann einige Zeit dauern. Bitte "
+#~ "warten Sie."
+
+#~ msgid "Cherry Data Manager"
+#~ msgstr "Cherry Datenmanager"
+
+#~ msgid ""
+#~ "Please, install \"Sample data\" in order to make your website looks "
+#~ "exactly as our live demo including all images, pages, layout options etc."
+#~ msgstr ""
+#~ "Bitte installieren Sie \"Beispieldaten \", damit Ihre Website genauso "
+#~ "aussieht  wie unsere Live-Demo inklusive aller Bilder, Seiten, "
+#~ "Layoutoptionen usw."
+
+#~ msgid "Define chart settings"
+#~ msgstr "Diagrammeinstellungen definieren"
+
+#~ msgid "Set up content settings"
+#~ msgstr "Inhaltseinstellungen feststellen"
+
+#~ msgid "Set up chart data"
+#~ msgstr "Diagrammdaten feststellen"
+
+#~ msgid "Set up chart style"
+#~ msgstr "Diagrammstil feststellen"
+
+#~ msgid "Shortcode to paste"
+#~ msgstr "Shortcode einfügen"
+
+#~ msgid "Chart type"
+#~ msgstr "Diagrammtyp"
+
+#~ msgid "Select chart type"
+#~ msgstr "Diagrammtyp wählen"
+
+#~ msgid "Progress Bar"
+#~ msgstr "Fortschrittsbalken"
+
+#~ msgid "Pie"
+#~ msgstr "Kuchen"
+
+#~ msgid "Doughnut"
+#~ msgstr "Donut"
+
+#~ msgid "Bar"
+#~ msgstr "Bar"
+
+#~ msgid "Progress bar type"
+#~ msgstr "Typ des Fortschrittsbalkens"
+
+#~ msgid "Select progress bar type"
+#~ msgstr "Typ des Fortschrittsbalkens wählen"
+
+#~ msgid "Radial"
+#~ msgstr "Radial"
+
+#~ msgid "Horizontal"
+#~ msgstr "Horizontal"
+
+#~ msgid "Vertical"
+#~ msgstr "Vertikal"
+
+#~ msgid "Inner cutout percentage"
+#~ msgstr "Innenausschnitt Prozent"
+
+#~ msgid "Set inner cutout percentage (0 - for pie, > 0 for doughnut)"
+#~ msgstr ""
+#~ "Inneren Prozentsatz des Ausschnitts (0 - für Kuchen, > 0 für Donut) "
+#~ "festlegen"
+
+#~ msgid "Width"
+#~ msgstr "Breite"
+
+#~ msgid "Chart width (for bar chart & non-radial progress bars)"
+#~ msgstr ""
+#~ "Breite des Diagramms (für Balkendiagramm und nicht radialen "
+#~ "Fortschrittsbalken)"
+
+#~ msgid "Height"
+#~ msgstr "Höhe"
+
+#~ msgid "Chart height (for bar chart & non-radial progress bars)"
+#~ msgstr ""
+#~ "Diagrammshöhe (für Balkendiagramm und nicht radialen Fortschrittsbalken)"
+
+#~ msgid "Progress bar template"
+#~ msgstr "Vorlage des Fortschrittsbalkens"
+
+#~ msgid ""
+#~ "Select progress bar template (this option allowed only for progress bars)"
+#~ msgstr ""
+#~ "Vorlage des Fortschrittsbalkens (diese Option nur für Fortschrittsbalken "
+#~ "erlaubt) wählen"
+
+#~ msgid "Chart Icon"
+#~ msgstr "Diagrammsymbol"
+
+#~ msgid "Select chart icon"
+#~ msgstr "Diagrammsymbol wählen"
+
+#~ msgid "Chart Icon size"
+#~ msgstr "Diagrammsymbolgröße"
+
+#~ msgid "Set chart icon size"
+#~ msgstr "Diagrammsyblolgröße festlegen"
+
+#~ msgid "Chart icon color"
+#~ msgstr "Diagrammsymbolfarbe"
+
+#~ msgid "Show chart title"
+#~ msgstr "Diagrammtitel anzeigen"
+
+#~ msgid "Show chart label"
+#~ msgstr "Diagramm-Bezeichnung anzeigen"
+
+#~ msgid "Show chart legend"
+#~ msgstr "Legende des Diagramms anzeigen"
+
+#~ msgid "Item #1 color"
+#~ msgstr "Farbe des Elements #1"
+
+#~ msgid "Item #2 color"
+#~ msgstr "Farbe des Elements #2"
+
+#~ msgid "Item #3 color"
+#~ msgstr "Farbe des Elements #3"
+
+#~ msgid "Item #4 color"
+#~ msgstr "Farbe des Elements #4"
+
+#~ msgid "Item #5 color"
+#~ msgstr "Farbe des Elements #5"
+
+#~ msgid "Item #6 color"
+#~ msgstr "Farbe des Elements #6"
+
+#~ msgid "Item #7 color"
+#~ msgstr "Farbe des Elements #7"
+
+#~ msgid "Item #8 color"
+#~ msgstr "Farbe des Elements #8"
+
+#~ msgid "Item #9 color"
+#~ msgstr "Farbe des Elements #9"
+
+#~ msgid "Item #10 color"
+#~ msgstr "Farbe des Elements #10"
+
+#~ msgid "Background color"
+#~ msgstr "Hintergrundfarbe"
+
+#~ msgid "Items opacity"
+#~ msgstr "Elementdeckkraft"
+
+#~ msgid "Set items opacity (0 - transparent, 100 - opaque)"
+#~ msgstr ""
+#~ "Deckkraft der Elemente (0 - transparent, 100 - undurchsichtig) festlegen"
+
+#~ msgid "Background opacity"
+#~ msgstr "Hintergrunddeckkraft"
+
+#~ msgid "Set Background opacity (0 - transparent, 100 - opaque)"
+#~ msgstr ""
+#~ "Hintergrunddeckkraft (0 - transparent, 100 - undurchsichtig) festlegen"
+
+#~ msgid "Chart stroke thickness"
+#~ msgstr "Diagramm-Strichstärke"
+
+#~ msgid "Set chart stroke thickness (0 - without stroke)"
+#~ msgstr "Diagramm-Strichstärke (0 - ohne Strich) festlegen"
+
+#~ msgid "Chart stroke color"
+#~ msgstr "Farbe des Diagramm-Strich"
+
+#~ msgid "Chart stroke opacity"
+#~ msgstr "Diagramm-Strichdeckkraft"
+
+#~ msgid "Set Chart stroke opacity (0 - transparent, 100 - opaque)"
+#~ msgstr ""
+#~ "Diagramm-Strichdeckkraft (0 - transparent, 100 - undurchsichtig) festlegen"
+
+#~ msgid "Choose Image"
+#~ msgstr "Bild wählen"
+
+#~ msgid "Remove Image"
+#~ msgstr "Bild entfernen"
+
+#~ msgid "On"
+#~ msgstr "Auf"
+
+#~ msgid "Off"
+#~ msgstr "Aus"
+
+#~ msgid "Step Up"
+#~ msgstr "Step Up"
+
+#~ msgid "Step Down"
+#~ msgstr "Step Down"
+
+#~ msgid "Column class(.col-xs-*)"
+#~ msgstr "Spalte class(.col-xs-*)"
+
+#~ msgid "Column class(.col-sm-*)"
+#~ msgstr "Spalte class(.col-sm-*)"
+
+#~ msgid "Column class(.col-md-*)"
+#~ msgstr "Spalte class(.col-md-*)"
+
+#~ msgid "Column class(.col-lg-*)"
+#~ msgstr "Spalte class(.col-lg-*)"
+
+#~ msgid "Custom class"
+#~ msgstr "Eigene Klasse"
+
+#~ msgid "Create new static"
+#~ msgstr "Neuen Block erstellen"
+
+#~ msgid "Add new static"
+#~ msgstr "Neuen Block hinzufügen"
+
+#~ msgid "Current Image"
+#~ msgstr "Aktuelles Bild"
+
+#~ msgid "No repeat"
+#~ msgstr "Nicht wiederholen"
+
+#~ msgid "Repeat All"
+#~ msgstr "Alle wiederholen"
+
+#~ msgid "Repeat Horizontally"
+#~ msgstr "Horizontal wiederholen"
+
+#~ msgid "Repeat Vertically"
+#~ msgstr "Vertikal wiederholen"
+
+#~ msgid "Top Left"
+#~ msgstr "Oben links"
+
+#~ msgid "Top Center"
+#~ msgstr "Oben zentriert"
+
+#~ msgid "Top Right"
+#~ msgstr "Oben rechts"
+
+#~ msgid "Middle Left"
+#~ msgstr "Mitte links"
+
+#~ msgid "Middle Center"
+#~ msgstr "Mitte zentriert"
+
+#~ msgid "Middle Right"
+#~ msgstr "Mitte rechts"
+
+#~ msgid "Bottom Left"
+#~ msgstr "Unten links"
+
+#~ msgid "Bottom Center"
+#~ msgstr "Unten zentriert"
+
+#~ msgid "Bottom Right"
+#~ msgstr "Unten rechts"
+
+#~ msgid "Scroll Normally"
+#~ msgstr "Normal scrollen"
+
+#~ msgid "Fixed in Place"
+#~ msgstr "Am Platz fixiert"
+
+#~ msgid "Padding box"
+#~ msgstr "Box-Padding"
+
+#~ msgid "Border box"
+#~ msgstr "Boxrahmen"
+
+#~ msgid "Content box"
+#~ msgstr "Box-Inhalt"
+
+#~ msgid "Auto Auto"
+#~ msgstr "Auto Auto"
+
+#~ msgid "Cover"
+#~ msgstr "Abdeckung"
+
+#~ msgid "Contain"
+#~ msgstr "Beinhaltet"
+
+#~ msgid "Background Color"
+#~ msgstr "Hintergrundfarbe"
+
+#~ msgid "Background Image"
+#~ msgstr "Hintergrundbild"
+
+#~ msgid "Background Settings"
+#~ msgstr "Hintergrund-Einstellungen"
+
+#~ msgid "Background %s"
+#~ msgstr "Hintergrund %s"
+
+#~ msgid "Not defined"
+#~ msgstr "Nicht definiert"
+
+#~ msgid "Inherit"
+#~ msgstr "Vererben"
+
+#~ msgid "Left"
+#~ msgstr "Links"
+
+#~ msgid "Right"
+#~ msgstr "Rechts"
+
+#~ msgid "Center"
+#~ msgstr "Zentriert"
+
+#~ msgid "Justify"
+#~ msgstr "Ausrichten"
+
+#~ msgid "Font Size"
+#~ msgstr "Schriftgröße"
+
+#~ msgid "Line height"
+#~ msgstr "Linienhöhe"
+
+#~ msgid "Font Family"
+#~ msgstr "Schrift-Familie"
+
+#~ msgid "Font Style"
+#~ msgstr "Schriftstil"
+
+#~ msgid "Character Sets"
+#~ msgstr "Zeichensätze"
+
+#~ msgid "Text align"
+#~ msgstr "Text-Ausrichtung"
+
+#~ msgid "Letter-spacing"
+#~ msgstr "Zeichenabstand"
+
+#~ msgid "Font color"
+#~ msgstr "Schriftfarbe"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Label"
+#~ msgstr "Bezeichnung"
+
+#~ msgid "Icon"
+#~ msgstr "Symbol"
+
+#~ msgid "Pie icon styles"
+#~ msgstr "Kuchensymbol-Styles"
+
+#~ msgid "Apply this only as style attribute value"
+#~ msgstr "Dies nur als Style-Attribut-Wert anwenden"
+
+#~ msgid "Progress bar (or pie)"
+#~ msgstr "Fortschrittsbalken (oder Kuchen)"
+
+#~ msgid "Progress value"
+#~ msgstr "Fortschrittswert"
+
+#~ msgid "Total"
+#~ msgstr "Gesamt"
+
+#~ msgid "Progress percent"
+#~ msgstr "Prozent des Fortschritts"
+
+#~ msgid "Charts"
+#~ msgstr "Diagramme"
+
+#~ msgid "Chart ID"
+#~ msgstr "Diagramm-ID"
+
+#~ msgid "Enter Chart ID to show"
+#~ msgstr "Geben Sie Diagramm-ID ein"
+
+#~ msgid "Class"
+#~ msgstr "Class"
+
+#~ msgid "Extra CSS class"
+#~ msgstr "Extra CSS-Class"
+
+#~ msgid "Please, provide correct Chart ID"
+#~ msgstr "Stellen Sie bitte den korrekten Diagramm-ID zur Verfügung"
+
+#~ msgid "Chart does not exist"
+#~ msgstr "Es gibt kein Diagramm"
+
+#~ msgid "Chart data is empty"
+#~ msgstr "Diagrammdaten sind leer"
+
+#~ msgid "Template file does not exist"
+#~ msgstr "Es gibt keine Vorlage-Datei"
+
+#~ msgid "No data to show"
+#~ msgstr "Keine Daten zu zeigen"
+
+#~ msgid "Chart"
+#~ msgstr "Diagramm"
+
+#~ msgid "Add New Chart"
+#~ msgstr "Neues Diagramm hinzufügen"
+
+#~ msgid "New Chart"
+#~ msgstr "Neues Diagramm"
+
+#~ msgid "Edit Chart"
+#~ msgstr "Diagramm ändern"
+
+#~ msgid "View Chart"
+#~ msgstr "Diagramme anschauen"
+
+#~ msgid "All Charts"
+#~ msgstr "Alle Diagramme"
+
+#~ msgid "Search Charts"
+#~ msgstr "Diagramme suchen"
+
+#~ msgid "Parent Charts:"
+#~ msgstr "Übergeordnete Diagramme:"
+
+#~ msgid "No Charts found."
+#~ msgstr "Keine Diagramme gefunden."
+
+#~ msgid "No Charts found in Trash."
+#~ msgstr "Keine Diagramme im Papierkorb gefunden."
+
+#~ msgid "Done"
+#~ msgstr "Fertig"
+
+#~ msgid "Value"
+#~ msgstr "Wert"

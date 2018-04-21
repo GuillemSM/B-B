@@ -1,0 +1,19 @@
+<div class="post-content">
+
+  %%TITLE where="loop" tag="h3"%%
+
+  <div class="entry-meta entry-meta-top">
+    <?php printf( __( 'by %s', 'child-theme-domain' ), '%%AUTHOR%%' ); ?>
+    <?php printf( __( 'on %s', 'child-theme-domain' ), '%%DATE%%' ); ?>
+    %%COMMENTS%%
+  </div>
+
+  %%CONTENT where="loop"%%
+
+  %%BUTTON class="cherry-btn cherry-btn-default cherry-btn-medium"%%
+
+  <div class="entry-meta entry-meta-bottom">
+    <?php printf( __( '%s', 'child-theme-domain' ), '%%TAXONOMY name="category"%%' ); ?>
+    %%TAXONOMY name="post_tag"%%
+  </div>
+</div>

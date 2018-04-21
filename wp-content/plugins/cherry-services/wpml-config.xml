@@ -1,0 +1,11 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">_cherry_services</custom-field>
+	</custom-fields>
+	<custom-types>
+		<custom-type translate="1">service</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">service_category</taxonomy>
+	</taxonomies>
+</wpml-config>

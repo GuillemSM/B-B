@@ -1,0 +1,62 @@
+label.cherry-label{
+	margin: 0 0 5px 0;
+	display: block;
+}
+.cherry-ui-stepper{
+	position: relative;
+	max-width: 100px;
+}
+.cherry-ui-stepper-input{
+	max-width: 100px;
+	border: 1px solid #dddcdc;
+	border-radius: 6px;
+	margin: 0;
+	padding: 10px 12px 10px 10px;
+	background-color: #fff;
+	transition: border-color 0.05s ease-in-out 0s;
+	outline: 0 none;
+	color: #333;
+}
+.cherry-stepper-controls{
+	display: inline-block;
+	vertical-align: top;
+	//margin: 3px 0 0 -24px;
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	.step-up{
+		border-radius: 0 3px 0 0;
+		border-bottom: 0;
+		height: 17px;
+		@media screen and (max-width: 782px){
+			border-bottom: 1px solid #CCC;
+		}
+	}
+	.step-down{
+		border-radius: 0 0 3px 0;
+	}
+	em{
+		background-color: #eeeded;
+		border: 1px solid #cccccc;
+		color: #444444;
+		cursor: pointer;
+		display: block;
+		font-size: 16px;
+		height: 16px;
+		line-height: 12px;
+		margin: 0 0 0 -1px;
+		position: relative;
+		text-align: center;
+		text-decoration: none;
+		width: 20px;
+		-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			 -o-user-select: none;
+				user-select: none;
+		@media screen and (max-width: 782px){
+			line-height: 16px;
+			height: 16px;
+		}
+	}
+}

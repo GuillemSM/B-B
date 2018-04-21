@@ -1,0 +1,379 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cherry-social\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-02 19:00+0200\n"
+"PO-Revision-Date: 2015-11-02 19:00+0200\n"
+"Last-Translator: J.L.Dokter <jldokter@gmail.com>\n"
+"Language-Team: Cherry Team <support@cherryframework.com>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-cherry-social-admin.php:116
+#: admin/class-cherry-social-admin.php:117
+msgid "Cherry Social"
+msgstr "Соцмережі Cherry"
+
+#: admin/class-cherry-social-admin.php:143
+msgid "Settings"
+msgstr "Налаштування"
+
+#: admin/views/facebook-like-box-admin.php:17
+#: admin/views/instagram-admin.php:17 admin/views/social-follow.php:17
+#: admin/views/twitter-timeline-admin.php:17
+msgid "Title:"
+msgstr "Заголовок"
+
+#: admin/views/facebook-like-box-admin.php:22
+msgid "Page URL:"
+msgstr "Адреса сторінки"
+
+#: admin/views/facebook-like-box-admin.php:25
+#, php-format
+msgid "The Like Box only works with %s."
+msgstr "Вподобання працюють лише для %s."
+
+#: admin/views/facebook-like-box-admin.php:29
+#: admin/views/twitter-timeline-admin.php:29
+msgid "Height (px):"
+msgstr "Висота (у пікселях)"
+
+#: admin/views/facebook-like-box-admin.php:30
+#: admin/views/twitter-timeline-admin.php:30
+#, php-format
+msgid "Default (%spx)"
+msgstr "За замовчуванням (%s пікселів)"
+
+#: admin/views/facebook-like-box-admin.php:35
+msgid "Hide cover photo in header"
+msgstr "Приховати зображення в хедері"
+
+#: admin/views/facebook-like-box-admin.php:40
+msgid "Use small header instead"
+msgstr "Натомість використовувати малий хедер"
+
+#: admin/views/facebook-like-box-admin.php:45
+msgid "Show profile photos when friends like this"
+msgstr "Показувати фото профілю, коли друзі вподобають це"
+
+#: admin/views/facebook-like-box-admin.php:50
+msgid "Show posts from the Page's timeline"
+msgstr "Показувати публікації зі сторінки хронології"
+
+#: admin/views/instagram-admin.php:22
+msgid "Content type:"
+msgstr "Тип вмісту:"
+
+#: admin/views/instagram-admin.php:31
+msgid "User Name:"
+msgstr "Ім'я Користувача:"
+
+#: admin/views/instagram-admin.php:33
+msgid ""
+"Widget will work only for users who have full rights opened in Instagram "
+"account."
+msgstr ""
+"Віджет буде працювати тільки для користувачів, які мають всі права доступу "
+"до облікового запису Instagram."
+
+#: admin/views/instagram-admin.php:37
+msgid "Hashtag:"
+msgstr "Хештег"
+
+#: admin/views/instagram-admin.php:39
+msgid "Enter without `#` symbol."
+msgstr "Вкажіть без символа `#`"
+
+#: admin/views/instagram-admin.php:43
+msgid "Client ID:"
+msgstr "Ідентифікатор (ID) клієнта"
+
+#: admin/views/instagram-admin.php:45
+#, php-format
+msgid "<a href='%s' target='_blank'>link</a>"
+msgstr "<a href='%s' target='_blank'>посилання</a>"
+
+#: admin/views/instagram-admin.php:46
+#, php-format
+msgid ""
+"Follow this %s and create the application. After that you will get your "
+"application data where you will see the CLIENT ID."
+msgstr ""
+"Перейдіть за %s і створіть застосунок. Тоді ви отримаєте дані з "
+"Ідентифікатором клієнта. "
+
+#: admin/views/instagram-admin.php:50
+msgid "Number of photos:"
+msgstr "Кількість параметрів"
+
+#: admin/views/instagram-admin.php:55
+msgid "Size of photos"
+msgstr "Розмір фото"
+
+#: admin/views/instagram-admin.php:65
+msgid "Linked photo?"
+msgstr "Фото з посиланням?"
+
+#: admin/views/instagram-admin.php:70
+msgid "Description"
+msgstr "Опис"
+
+#: admin/views/instagram-admin.php:75
+msgid "Date"
+msgstr "Дата"
+
+#: admin/views/instagram-admin.php:79
+msgid "User account button text:"
+msgstr "Підпис кнопки профілю користувача"
+
+#: admin/views/social-follow.php:22
+msgid "Networks:"
+msgstr "Мережі"
+
+#: admin/views/social-follow.php:35
+msgid "Custom CSS Class:"
+msgstr "Користувацький клас CSS:"
+
+#: admin/views/twitter-timeline-admin.php:22
+msgid "Widget ID:"
+msgstr "ID віджета"
+
+#: admin/views/twitter-timeline-admin.php:24
+#, php-format
+msgid "<a href='%s' target='_blank'>page</a>"
+msgstr "<a href='%s' target='_blank'>сторінка</a>"
+
+#: admin/views/twitter-timeline-admin.php:25
+#, php-format
+msgid ""
+"Your widget ID. First of all you need  to make a new widget on %s. After "
+"that copy and paste widget ID here. You can find it after creating the "
+"widget in browser's URL field. It contains only numbers."
+msgstr ""
+"ID вашого віджета. Спершу необхідно створити віджет в %s. Потім скопіювати "
+"та вставити сюди ID віджета. Ви отримаєте цей номер після створення віджета "
+"в рядку веб-адреси, він складатиметься лише з цифр."
+
+#: admin/views/twitter-timeline-admin.php:34
+msgid "Tweet limit:"
+msgstr "Обмеження для твітів:"
+
+#: admin/views/twitter-timeline-admin.php:36
+msgid "Value between 1 and 20 Tweets"
+msgstr "Довільне значення від 1го до 20 твітів."
+
+#: admin/views/twitter-timeline-admin.php:40
+msgid "Skin:"
+msgstr "Тема оформлення"
+
+#: admin/views/twitter-timeline-admin.php:49
+msgid "Link Color (#):"
+msgstr "Колір посилань (#):"
+
+#: admin/views/twitter-timeline-admin.php:51
+#: admin/views/twitter-timeline-admin.php:57
+msgid "e.g. 89c9fa"
+msgstr "наприклад, 89c9fa"
+
+#: admin/views/twitter-timeline-admin.php:55
+msgid "Border Color (#):"
+msgstr "Колір краю (#):"
+
+#: admin/views/twitter-timeline-admin.php:62
+msgid "Hide header?"
+msgstr "Приховати хедер?"
+
+#: admin/views/twitter-timeline-admin.php:67
+msgid "Hide footer?"
+msgstr "Приховати футер?"
+
+#: admin/views/twitter-timeline-admin.php:72
+msgid "Hide borders?"
+msgstr "Приховати межі?"
+
+#: admin/views/twitter-timeline-admin.php:77
+msgid "Hide scrollbar?"
+msgstr "Приховати смугу прокручування?"
+
+#: admin/views/twitter-timeline-admin.php:82
+msgid "Hide background?"
+msgstr "Приховати тло?"
+
+#: cherry-social.php:297
+msgid "Share on "
+msgstr "Поділитися в "
+
+#: cherry-social.php:680
+msgid "Sharing networks"
+msgstr "Соцмережі, де можна поділитися"
+
+#: cherry-social.php:681
+msgid "Select the social networks to display for sharing"
+msgstr "Кнопки яких соцмереж відображати  в розділі \"поділитися\""
+
+#: cherry-social.php:684
+msgid "Type a macros"
+msgstr "Вкажіть макрос"
+
+#: cherry-social.php:737
+msgid "Follow Us title"
+msgstr "Заголовок розділу \"Стежити за нами\""
+
+#: cherry-social.php:738
+msgid "This title is used in `Follow Us` static."
+msgstr "Заголовок використовується в статичній області \"Стежити за нами\""
+
+#: cherry-social.php:739 init/statics/social-follow.php:33
+msgid "Follow Us"
+msgstr "Стежити за нами"
+
+#: cherry-social.php:743
+msgid "Follow Us networks"
+msgstr "Соцмережі для слідкування"
+
+#: cherry-social.php:744
+msgid "Set the social networks to display for following"
+msgstr "Виберіть мережі, де можна буде слідкувати за вашими новинами"
+
+#: cherry-social.php:749
+msgid "Facebook"
+msgstr "Facebook"
+
+#: cherry-social.php:754
+msgid "Twitter"
+msgstr "Twitter"
+
+#: cherry-social.php:759
+msgid "Google+"
+msgstr "Google+"
+
+#: cherry-social.php:765
+msgid "Social"
+msgstr "Соцмережі"
+
+#: public/includes/class-cherry-facebook-likebox-widget.php:37
+msgid "Cherry Facebook Like Box"
+msgstr "Facebook - вподобання Cherry "
+
+#: public/includes/class-cherry-facebook-likebox-widget.php:40
+msgid "A widget for Facebook Like Box."
+msgstr "Віджет Cherry Facebook - вподобань"
+
+#: public/includes/class-cherry-facebook-likebox-widget.php:83
+msgid "Please, enter the URL of your facebook page."
+msgstr "Будь ласка, введіть веб-адресу вашої сторінки facebook"
+
+#: public/includes/class-cherry-instagram-widget.php:37
+msgid "Cherry Instagram"
+msgstr "Cherry Instagram"
+
+#: public/includes/class-cherry-instagram-widget.php:40
+msgid "A widget for Instagram."
+msgstr "Віджет для облікового запису Instagram"
+
+#: public/includes/class-cherry-instagram-widget.php:97
+msgid "Please, enter #hashtag."
+msgstr "Будь ласка, введіть #хештег."
+
+#: public/includes/class-cherry-instagram-widget.php:103
+msgid "Please, enter your username."
+msgstr "Будь ласка, вкажіть ім'я користувача."
+
+#: public/includes/class-cherry-instagram-widget.php:108
+msgid "Please, enter your Instagram CLIENT ID."
+msgstr "Будь ласка, Вкажіть ваш ID клієнта в Instagram "
+
+#: public/includes/class-cherry-instagram-widget.php:126
+msgid "Please, enter a valid username and CLIENT ID."
+msgstr "Будь ласка, вкажіть коректні ім'я профілю та ID клієнта"
+
+#: public/includes/class-cherry-instagram-widget.php:139
+msgid "Please, enter a valid CLIENT ID."
+msgstr "Будь ласка, вкажіть правильний ID клієнта"
+
+#: public/includes/class-cherry-instagram-widget.php:310
+msgid "My Photos"
+msgstr "Мої фото"
+
+#: public/includes/class-cherry-instagram-widget.php:311
+msgid "Tagged photos"
+msgstr "Позначені фото"
+
+#: public/includes/class-cherry-instagram-widget.php:323
+msgid "Large"
+msgstr "Великі"
+
+#: public/includes/class-cherry-instagram-widget.php:324
+msgid "Thumbnail"
+msgstr "Мініатюри"
+
+#: public/includes/class-cherry-social-follow-widget.php:38
+msgid "Cherry Follow Us"
+msgstr "\"Стежити за нами\" Cherry"
+
+#: public/includes/class-cherry-social-follow-widget.php:41
+msgid "A social follow widget."
+msgstr "Віджет слідкування за новинами в соцмережах."
+
+#: public/includes/class-cherry-social-follow-widget.php:96
+msgid "Sorry, but networks are not found."
+msgstr "На жаль, соцмереж немає."
+
+#: public/includes/class-cherry-social-shortcodes.php:172
+msgid "Sharing"
+msgstr "Поділитися"
+
+#: public/includes/class-cherry-social-shortcodes.php:182
+#: public/includes/class-cherry-social-shortcodes.php:226
+msgid "Networks"
+msgstr "Мережі"
+
+#: public/includes/class-cherry-social-shortcodes.php:183
+#: public/includes/class-cherry-social-shortcodes.php:227
+msgid "Select the social networks to display"
+msgstr "Виберіть, кнопки яких соцмереж відображати "
+
+#: public/includes/class-cherry-social-shortcodes.php:187
+#: public/includes/class-cherry-social-shortcodes.php:231
+msgid "Class"
+msgstr "Клас"
+
+#: public/includes/class-cherry-social-shortcodes.php:188
+#: public/includes/class-cherry-social-shortcodes.php:232
+msgid "Extra CSS class"
+msgstr "Користувацький клас CSS"
+
+#: public/includes/class-cherry-social-shortcodes.php:216
+msgid "Follow"
+msgstr "Стежити"
+
+#: public/includes/class-cherry-twitter-timeline-widget.php:37
+msgid "Cherry Twitter Timeline"
+msgstr "Шкала часу Cherry Twitter"
+
+#: public/includes/class-cherry-twitter-timeline-widget.php:40
+msgid "A widget for Twitter timeline."
+msgstr "Віджет для відображення шкали часу Twitter"
+
+#: public/includes/class-cherry-twitter-timeline-widget.php:87
+msgid "Please, enter your Twitter widget ID."
+msgstr "Будь ласка, Вкажіть ваш ID віджета в Twitter"
+
+#: public/includes/class-cherry-twitter-timeline-widget.php:245
+msgid "Light"
+msgstr "Світлий"
+
+#: public/includes/class-cherry-twitter-timeline-widget.php:246
+msgid "Dark"
+msgstr "Темний"

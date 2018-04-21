@@ -1,0 +1,470 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cherry-testimonials\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-05 18:52+0200\n"
+"PO-Revision-Date: 2015-11-05 18:52+0200\n"
+"Last-Translator: J.L.Dokter <jldokter@gmail.com>\n"
+"Language-Team: Cherry Team <support@cherryframework.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/includes/class-cherry-testimonials-admin.php:95
+#: public/includes/class-cherry-testimonials-widget.php:302
+msgid "Title"
+msgstr "Titolo"
+
+#: admin/includes/class-cherry-testimonials-admin.php:96
+msgid "Author"
+msgstr "Autore"
+
+#: admin/includes/class-cherry-testimonials-admin.php:97
+#: public/includes/class-cherry-testimonials-shortcode.php:133
+msgid "Date"
+msgstr "Data"
+
+#: admin/includes/class-cherry-testimonials-admin.php:98
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: admin/includes/class-cherry-testimonials-meta-boxes.php:45
+msgid "Testimonial Options"
+msgstr "Opzioni Testimonial"
+
+#: admin/includes/class-cherry-testimonials-meta-boxes.php:51
+msgid "Name:"
+msgstr "Nome:"
+
+#: admin/includes/class-cherry-testimonials-meta-boxes.php:52
+msgid "Enter author's name."
+msgstr "Inserisci il nome dell'autore."
+
+#: admin/includes/class-cherry-testimonials-meta-boxes.php:57
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: admin/includes/class-cherry-testimonials-meta-boxes.php:58
+msgid "Enter an e-mail address."
+msgstr "Inserisci un indirizzo e-mail."
+
+#: admin/includes/class-cherry-testimonials-meta-boxes.php:63
+msgid "URL:"
+msgstr "l'URL:"
+
+#: admin/includes/class-cherry-testimonials-meta-boxes.php:64
+msgid "Enter the URL."
+msgstr "Inserisci l'URL."
+
+#: admin/views/widget.php:11
+msgid "Title:"
+msgstr "Titolo:"
+
+#: admin/views/widget.php:16
+msgid "Limit:"
+msgstr "Limite:"
+
+#: admin/views/widget.php:21
+msgid "Image Size (in pixels):"
+msgstr "Dimensione Immagine (in pixel):"
+
+#: admin/views/widget.php:27
+msgid "Display Author"
+msgstr "Visualizza Autore"
+
+#: admin/views/widget.php:32
+msgid "Display Avatar"
+msgstr "Visualizza Avatar"
+
+#: admin/views/widget.php:36
+msgid "Specific ID:"
+msgstr "Specifica ID:"
+
+#: admin/views/widget.php:39
+msgid "Testimonials Post IDs, separated by commas."
+msgstr "ID dei Testimonials degli Articoli, separati da virgole."
+
+#: admin/views/widget.php:42
+msgid "Order By:"
+msgstr "Ordina Per:"
+
+#: admin/views/widget.php:51
+msgid "Order Direction:"
+msgstr "Direzione dell'Ordine"
+
+#: admin/views/widget.php:60
+msgid "Post content:"
+msgstr "Contenuto dell'Articolo"
+
+#: admin/views/widget.php:69
+msgid "Content Length:"
+msgstr "Contenuto Lunghezza:"
+
+#: admin/views/widget.php:74
+msgid "Template:"
+msgstr "Template:"
+
+#: admin/views/widget.php:79
+msgid "Custom CSS Class:"
+msgstr "Personalizza la Classe CSS:"
+
+#: cherry-testimonials.php:216
+msgid "Testimonials posts"
+msgstr "Articoli Testimonials"
+
+#: cherry-testimonials.php:219
+msgid ""
+"You can choose if you want to display sidebars and how you want to display "
+"them."
+msgstr ""
+"Se vuoi visualizzare le barre laterali puoi scegliere in che modo poterli "
+"visualizzazione."
+
+#: cherry-testimonials.php:225
+msgid "Left sidebar"
+msgstr "Barra laterale Sinistra"
+
+#: cherry-testimonials.php:229
+msgid "Right sidebar"
+msgstr "Barra laterale Destra"
+
+#: cherry-testimonials.php:233
+msgid "Left and right sidebar"
+msgstr "Barre laterali Sinistra e Destra"
+
+#: cherry-testimonials.php:237
+msgid "Two sidebars on the left"
+msgstr "Due barre laterali sulla Sinistra"
+
+#: cherry-testimonials.php:241
+msgid "Two sidebars on the right"
+msgstr "Due barre laterali sulla destra"
+
+#: cherry-testimonials.php:245
+msgid "No sidebar"
+msgstr "Barra laterale Assente"
+
+#: public/includes/class-cherry-testimonials-page-template.php:69
+#: public/includes/class-cherry-testimonials-registration.php:47
+#: public/includes/class-cherry-testimonials-shortcode.php:101
+msgid "Testimonials"
+msgstr "Testimonials"
+
+#: public/includes/class-cherry-testimonials-registration.php:48
+msgid "Testimonial"
+msgstr "Testimonial"
+
+#: public/includes/class-cherry-testimonials-registration.php:49
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: public/includes/class-cherry-testimonials-registration.php:50
+msgid "Add New Testimonial"
+msgstr "Aggiungi un Nuovo Testimonial"
+
+#: public/includes/class-cherry-testimonials-registration.php:51
+msgid "Edit Testimonial"
+msgstr "Edita Testimonial"
+
+#: public/includes/class-cherry-testimonials-registration.php:52
+msgid "New Testimonial"
+msgstr "Nuovo Testimonial"
+
+#: public/includes/class-cherry-testimonials-registration.php:53
+msgid "View Testimonial"
+msgstr "Visualizza Testimonial"
+
+#: public/includes/class-cherry-testimonials-registration.php:54
+msgid "Search Testimonials"
+msgstr "Cerca Testimonials"
+
+#: public/includes/class-cherry-testimonials-registration.php:55
+msgid "No testimonials found"
+msgstr "Testimonials non trovati"
+
+#: public/includes/class-cherry-testimonials-registration.php:56
+msgid "No testimonials found in trash"
+msgstr "Nessun testimonials trovato nel cestino"
+
+#: public/includes/class-cherry-testimonials-registration.php:100
+msgid "Testimonials Categories"
+msgstr "Categorie Testimonials"
+
+#: public/includes/class-cherry-testimonials-registration.php:101
+#: public/includes/class-cherry-testimonials-registration.php:107
+msgid "Edit Category"
+msgstr "Edita la Categoria"
+
+#: public/includes/class-cherry-testimonials-registration.php:102
+msgid "Search Categories"
+msgstr "Cerca Categorie"
+
+#: public/includes/class-cherry-testimonials-registration.php:103
+msgid "Popular Categories"
+msgstr "Categorie Popolari"
+
+#: public/includes/class-cherry-testimonials-registration.php:104
+msgid "All Categories"
+msgstr "Tutte le Categorie"
+
+#: public/includes/class-cherry-testimonials-registration.php:108
+msgid "Update Category"
+msgstr "Aggiorna Categoria"
+
+#: public/includes/class-cherry-testimonials-registration.php:109
+msgid "Add New Category"
+msgstr "Aggiungi Nuova Categoria"
+
+#: public/includes/class-cherry-testimonials-registration.php:110
+msgid "New Category Name"
+msgstr "Nome della Nuova Categoria"
+
+#: public/includes/class-cherry-testimonials-registration.php:111
+msgid "Separate categories with commas"
+msgstr "Separa le categorie con virgole"
+
+#: public/includes/class-cherry-testimonials-registration.php:112
+msgid "Add or remove categories"
+msgstr "Aggiungi o rimuovi le categorie"
+
+#: public/includes/class-cherry-testimonials-registration.php:113
+msgid "Choose from the most used categories"
+msgstr "Scegli tra le categorie più utilizzate"
+
+#: public/includes/class-cherry-testimonials-registration.php:114
+msgid "No categories found."
+msgstr "Categorie non trovate"
+
+#: public/includes/class-cherry-testimonials-registration.php:115
+msgid "Categories"
+msgstr "Categorie"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:112
+msgid "Limit"
+msgstr "Limite"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:113
+msgid "Maximum number of posts."
+msgstr "Numero Massimo di Articoli"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:118
+#: public/includes/class-cherry-testimonials-widget.php:318
+msgid "Descending"
+msgstr "Discendente"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:119
+#: public/includes/class-cherry-testimonials-widget.php:317
+msgid "Ascending"
+msgstr "Ascendente"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:122
+msgid "Order"
+msgstr "Ordine"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:123
+msgid "Posts order"
+msgstr "Ordine degli Articoli"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:128
+msgid "None"
+msgstr "Nessuno"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:129
+msgid "Post ID"
+msgstr "Articolo ID"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:130
+msgid "Post author"
+msgstr "Articolo dell'Autore"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:131
+msgid "Post title"
+msgstr "Titolo Articolo"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:132
+msgid "Post slug"
+msgstr "Slug Articolo"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:134
+msgid "Last modified date"
+msgstr "Data dell'ultima modifica"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:135
+msgid "Post parent"
+msgstr "Parente dell'Articolo"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:136
+msgid "Random"
+msgstr "Casuale"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:137
+msgid "Comments number"
+msgstr "Numero di commenti"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:138
+msgid "Menu order"
+msgstr "Ordine menu"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:139
+msgid "Meta key values"
+msgstr "Valori meta key"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:142
+msgid "Order by"
+msgstr "Ordina per"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:143
+msgid "Order posts by"
+msgstr "Ordina gli articoli per"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:150
+msgid "Category"
+msgstr "Categoria"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:151
+msgid "Select category to show testimonials from"
+msgstr "Seleziona una categoria per la visualizzazione dei testimonials da"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:155
+msgid "Post ID's"
+msgstr "ID dell'Articolo"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:156
+msgid "Enter comma separated ID's of the posts that you want to show"
+msgstr ""
+"Inserisci l'ID degli Articoli, separato dalla virgola, che vuoi visualizzare"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:161
+#: public/includes/class-cherry-testimonials-shortcode.php:162
+msgid "Display author?"
+msgstr "Visualizza l'autore?"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:167
+#: public/includes/class-cherry-testimonials-shortcode.php:168
+msgid "Display avatar?"
+msgstr "Visualizza avatar?"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:176
+msgid "Avatar size"
+msgstr "Dimensioni Avatar"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:177
+msgid "Avatar size (in pixels)"
+msgstr "Dimensioni Avatar (in pixels)"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:182
+#: public/includes/class-cherry-testimonials-widget.php:330
+msgid "Part of content"
+msgstr "Una parte del contenuto"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:183
+#: public/includes/class-cherry-testimonials-widget.php:331
+msgid "Full content"
+msgstr "Contenuto completo"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:186
+msgid "Post content"
+msgstr "Postare i contenuti"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:187
+msgid "Choose to display a part or full content"
+msgstr "Scegliere la visualizzazione di una parte o di un contenuto completo"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:195
+msgid "Content Length"
+msgstr "Lunghezza Contenuto"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:196
+msgid "Insert the number of words you want to show in the post content."
+msgstr ""
+"Inserire il numero di parole che si desidera visualizzare nel contenuto "
+"degli Articoli"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:204
+msgid "Template"
+msgstr "Template"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:205
+msgid "Shortcode template"
+msgstr "Shortcode template"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:209
+msgid "Class"
+msgstr "Classe"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:210
+msgid "Extra CSS class"
+msgstr "Classe CSS Extra"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:316
+msgid "Author's name"
+msgstr "Nome dell'Autore"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:322
+msgid "Author's avatar"
+msgstr "Avatar dell'Autore"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:328
+msgid "Author's email"
+msgstr "Indirizzo email dell'Autore"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:334
+msgid "Author's URL"
+msgstr "L'URL dell'Autore"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:340
+msgid "Content"
+msgstr "Contenuto"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:357
+msgid "Author's name (Testimonials only)"
+msgstr "Nome dell'Autore (Testimonials only)"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:363
+msgid "Author's email (Testimonials only)"
+msgstr "Email dell'Autore (solo Testimonials)"
+
+#: public/includes/class-cherry-testimonials-shortcode.php:369
+msgid "Author's URL (Testimonials only)"
+msgstr "L'URL dell'Autore (solo Testimonials)"
+
+#: public/includes/class-cherry-testimonials-widget.php:42
+msgid "Cherry Testimonials"
+msgstr "Cherry Testimonials"
+
+#: public/includes/class-cherry-testimonials-widget.php:45
+msgid "Your site's most recent Testimonials."
+msgstr "Testimonials più recenti del tuo sito."
+
+#: public/includes/class-cherry-testimonials-widget.php:300
+msgid "No Order"
+msgstr "Ordine Assente"
+
+#: public/includes/class-cherry-testimonials-widget.php:301
+msgid "Entry ID"
+msgstr "Inserisci ID"
+
+#: public/includes/class-cherry-testimonials-widget.php:303
+msgid "Date Added"
+msgstr "Data Aggiunta"
+
+#: public/includes/class-cherry-testimonials-widget.php:304
+msgid "Attributes Order"
+msgstr "Attributi Ordine"
+
+#: public/includes/class-cherry-testimonials-widget.php:305
+msgid "Random Order"
+msgstr "Ordine Casuale"
+
+#~ msgid "Author's avatar (Testimonials only)"
+#~ msgstr "Avatar dell'Autore (solo Testimonials)"

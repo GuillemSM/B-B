@@ -1,0 +1,856 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cherry-charts\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-14 15:31+0200\n"
+"PO-Revision-Date: 2015-12-14 15:31+0200\n"
+"Last-Translator: J.L.Dokter <jldokter@gmail.com>\n"
+"Language-Team: Cherry Team <support@cherryframework.com>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cherry-data-manager.php:135
+msgid "Upload Error"
+msgstr "Помилка завантаження"
+
+#: cherry-data-manager.php:136
+msgid "The file is too big!"
+msgstr "Надто великий файл!"
+
+#: cherry-data-manager.php:137
+msgid "The file type is error!"
+msgstr "Невірний тип файлу!"
+
+#: cherry-data-manager.php:138
+msgid "Folder cannot be uploaded!"
+msgstr "Не можна завантажувати папки!"
+
+#: cherry-data-manager.php:139
+msgid "Uploading"
+msgstr "Завантажується"
+
+#: cherry-data-manager.php:140
+msgid "Upload"
+msgstr "Завантажити"
+
+#: cherry-data-manager.php:141
+msgid "Upload Complete"
+msgstr "Завантаження завершено"
+
+#: cherry-data-manager.php:142 includes/views/cherry-content-import.php:76
+msgid "item"
+msgstr "елемент"
+
+#: cherry-data-manager.php:143
+msgid "items"
+msgstr "елементи"
+
+#: cherry-data-manager.php:144
+msgid ""
+"Sample data installing. Some steps may take some time depending on your "
+"server settings. Please be patient."
+msgstr ""
+"Зараз встановлюються демо-дані. Це може тривати деякий час, залежно від "
+"налаштувань вашого сервера, будь ласка, зачекайте."
+
+#: cherry-data-manager.php:145
+msgid "Upload complete please click Continue Install button to proceed."
+msgstr ""
+"Завантаження завершено, будь ласка, натисніть кнопку \"Продовжити установку"
+"\" для продовження."
+
+#: cherry-data-manager.php:147
+msgid "Importing XML"
+msgstr "Імпортується XML"
+
+#: cherry-data-manager.php:148
+msgid "Importing options"
+msgstr "Імпортуються параметри"
+
+#: cherry-data-manager.php:149
+msgid "Importing custom database tables"
+msgstr "Імпортуються таблиці бази даних"
+
+#: cherry-data-manager.php:150
+msgid "Importing categories"
+msgstr "Імпортуються категорії"
+
+#: cherry-data-manager.php:151
+msgid "Importing tags"
+msgstr "Імпортуються теґи"
+
+#: cherry-data-manager.php:152
+msgid "Processing dependencies"
+msgstr "Встановлюються залежності"
+
+#: cherry-data-manager.php:153
+msgid "Importing posts. This may take some time. Please wait."
+msgstr ""
+"Імпортуються публікації. Залежно від налаштувань вашого сервера, це може "
+"тривати певний час. Будь ласка, зачекайте."
+
+#: cherry-data-manager.php:154
+msgid ""
+"Attaching terms to imported posts. This may take some time. Please wait."
+msgstr "Прикріпляємо умови до імпортованих публікацій. Будь ласка, зачекайте."
+
+#: cherry-data-manager.php:155
+msgid ""
+"Attaching comments to imported posts. This may take some time. Please wait."
+msgstr ""
+"Прикріпляємо коментарі імпортованих публікацій. Це може тривати певний час. "
+"Будь ласка, зачекайте."
+
+#: cherry-data-manager.php:156
+msgid ""
+"Attaching metadata to imported posts. This may take some time. Please wait."
+msgstr ""
+"Прикріпляємо метадані імпортованих публікацій. Це може тривати певний час. "
+"Будь ласка, зачекайте."
+
+#: cherry-data-manager.php:157
+msgid "Importing menu items. This may take some time. Please wait."
+msgstr ""
+"Імпортуються пункти меню. Це може тривати певний час. Будь ласка, зачекайте."
+
+#: cherry-data-manager.php:158
+msgid "Importing media library."
+msgstr "Імпортується бібліотека медіафайлів."
+
+#: cherry-data-manager.php:159
+msgid "Importing attachements meta."
+msgstr ""
+
+#: cherry-data-manager.php:160
+msgid ""
+"Generate attachements meta. Preparing. This may take some time. Please wait."
+msgstr ""
+
+#: cherry-data-manager.php:161
+msgid ""
+"Generate attachements meta. Processing. This may take some time. Please wait."
+msgstr ""
+
+#: cherry-data-manager.php:162
+msgid ""
+"Generate attachements meta. Finishing. This may take some time. Please wait."
+msgstr ""
+
+#: cherry-data-manager.php:163
+msgid ""
+"Cropping attachements meta. Preparing. This may take some time. Please wait."
+msgstr ""
+
+#: cherry-data-manager.php:164
+msgid ""
+"Cropping attachements meta. Processing. This may take some time. Please wait."
+msgstr ""
+
+#: cherry-data-manager.php:165
+msgid ""
+"Cropping attachements meta. Finishing. This may take some time. Please wait."
+msgstr ""
+
+#: cherry-data-manager.php:166
+msgid "Generating content hierarchy"
+msgstr "Створюється ієрархія вмісту"
+
+#: cherry-data-manager.php:167
+msgid "Updating featured images"
+msgstr "Оновлюються головні зображення"
+
+#: cherry-data-manager.php:168
+msgid "Updating attachments"
+msgstr "Вкладення оновлюються."
+
+#: cherry-data-manager.php:169
+msgid "Importing JSON"
+msgstr "Імпортується JSON"
+
+#: cherry-data-manager.php:170
+msgid "Installing content complete"
+msgstr "Встановлення вмісту завершено."
+
+#: cherry-data-manager.php:171
+msgid "Installing content error"
+msgstr "Помилка встановлення вмісту."
+
+#: cherry-data-manager.php:172
+msgid ""
+"ATTENTION! Installing Sample Data will overwrite your current content.\n"
+"So we don't recommend you to install Sample Data on a live website.\n"
+"\n"
+"Click OK to proceed"
+msgstr ""
+
+#: includes/cherry-data-manager-core-functions.php:110
+msgid "Install from cloud"
+msgstr "Встановити з хмарки"
+
+#: includes/cherry-data-manager-core-functions.php:115
+msgid "Install from folder"
+msgstr "Встановити з папки"
+
+#: includes/cherry-data-manager-core-functions.php:119
+msgid "Skip this step"
+msgstr "Пропустити цей крок"
+
+#: includes/cherry-data-manager-core-functions.php:128
+msgid "Return to switcher"
+msgstr "Повернутись до перемикача"
+
+#: includes/class-cherry-data-manager-content-exporter.php:156
+msgid "Export content done"
+msgstr "Вміст експортовано"
+
+#: includes/class-cherry-data-manager-content-importer.php:302
+msgid "Can't find link to sample data"
+msgstr "Не вдається знайти посилання на демо-дані."
+
+#: includes/class-cherry-data-manager-content-importer.php:314
+msgid "Can't connect to file system"
+msgstr "Не вдається з'єднатись з файловою системою."
+
+#: includes/class-cherry-data-manager-content-importer.php:323
+msgid "File imported"
+msgstr "Файл імпортовано"
+
+#: includes/class-cherry-data-manager-content-installer.php:1803
+msgid "Invalid file type"
+msgstr "Невірний тип файлу."
+
+#: includes/class-cherry-data-manager-interface.php:38
+msgid "Cherry Content Import"
+msgstr "Імпорт вмісту Cherry"
+
+#: includes/class-cherry-data-manager-interface.php:38
+msgid "Cherry Import"
+msgstr "Cherry Імпорт "
+
+#: includes/class-cherry-data-manager-interface.php:40
+msgid "Cherry Content Export"
+msgstr "Експорт вмісту Cherry"
+
+#: includes/class-cherry-data-manager-interface.php:40
+msgid "Cherry Export"
+msgstr "Cherry Експорт"
+
+#: includes/libs/parsers.php:48 includes/libs/parsers.php:80
+#: includes/libs/parsers.php:88
+msgid "There was an error when reading this WXR file"
+msgstr "Під час читання WXR файлу виникла помилка."
+
+#: includes/libs/parsers.php:49
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr "Подробиці вгорі. Зараз імпортер спробує знову з іншим аналізатором."
+
+#: includes/libs/parsers.php:92 includes/libs/parsers.php:97
+#: includes/libs/parsers.php:299 includes/libs/parsers.php:496
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+"Здається, це невірний WXR  файл, відсутній/неправильний номер версії WXR. "
+
+#: includes/views/cherry-content-export.php:26
+msgid ""
+"Export allows you to create a backup of your website content in one click. "
+"You'll get a downloaded archive containing all website data: images, audio, "
+"video and other files from your media library. XML file with your posts and "
+"categories data, JSON file with widget settings. You can use downloaded "
+"archive to move your website to other hosting server or restore website "
+"data. "
+msgstr ""
+"З допомогою функції експорту можна створити резервну копію даних вашого "
+"сайту одним натисканням клавіші. Ми зможете завантажити архів з усіма даними "
+"сайту: зображеннями, відео, аудіо та іншими файлами з бібліотеки "
+"медіафайлів; XML файл з даними публікацій та категорій та JSON файл з "
+"налаштуваннями віджетів. Цей архів даних можна використовувати для "
+"перенесення сайту на інший хостинг чи для відновлення даних сайту."
+
+#: includes/views/cherry-content-export.php:29
+msgid "Please note! "
+msgstr "Зверніть увагу!"
+
+#: includes/views/cherry-content-export.php:30
+msgid ""
+"XML file doesn't contain any user data except name and email of the website "
+"administrator."
+msgstr ""
+"XML файл не містить жодних даних користувача окрім імені та електронної "
+"пошти адміністратора сайту."
+
+#: includes/views/cherry-content-export.php:33
+msgid "Export Content"
+msgstr "Експорт вмісту"
+
+#: includes/views/cherry-content-import.php:37
+msgid "Import &amp; install content"
+msgstr "Імпорт та встановлення вмісту"
+
+#: includes/views/cherry-content-import.php:39
+msgid ""
+"Please, install Sample data in order to make your webste looks exactly as "
+"our live demo including all images, pages, layout options etc."
+msgstr ""
+"Будь ласка, встановіть демо дані, щоб ваш сайт виглядав ідентично до демо-"
+"версії шаблону, з усіма зображеннями. сторінками, властивостями макету і т.д."
+
+#: includes/views/cherry-content-import.php:46
+#: includes/views/cherry-content-import.php:50
+msgid "complete"
+msgstr "завершено"
+
+#: includes/views/cherry-content-import.php:59
+msgid "Please Drop all needed files here <br> to import sample data"
+msgstr ""
+"Будь ласка, перетягніть сюди всі файли, необхідні <br> для імпорту демо-даних"
+
+#: includes/views/cherry-content-import.php:60
+msgid "or"
+msgstr "або"
+
+#: includes/views/cherry-content-import.php:62
+msgid "Browse local files"
+msgstr "Виберіть з локальних файлів"
+
+#: includes/views/cherry-content-import.php:65
+#, php-format
+msgid "Maximum upload file size: %s."
+msgstr "Максимальний розмір завантаження: %s."
+
+#: includes/views/cherry-content-import.php:76
+msgid "File name"
+msgstr "Назва файлу"
+
+#: includes/views/cherry-content-import.php:76
+msgid "File size"
+msgstr "Розмір файлу"
+
+#: includes/views/cherry-content-import.php:76
+msgid "Uploaded file:"
+msgstr "Завантажений файл:"
+
+#: includes/views/cherry-content-import.php:86
+msgid "Installing content started."
+msgstr "Почалось встановлення вмісту."
+
+#: includes/views/cherry-content-import.php:93
+msgid ""
+"Files successfully uploaded. Please make sure you have uploaded <b>.JSON</b> "
+"and <b>.XML</b> files to install theme sample data."
+msgstr ""
+"Файл успішно завантажено. Будь ласка, переконайтесь, що  <b>.JSON</b> та <b>."
+"XML</b> файли завантажено, щоб встановити демо-дані теми."
+
+#: includes/views/cherry-content-import.php:95
+msgid "Add More Files"
+msgstr "Додати більше файлів"
+
+#: includes/views/cherry-content-import.php:97
+msgid "Continue Install"
+msgstr "Продовжити встановлення"
+
+#: includes/views/cherry-content-import.php:97
+msgid "Missing .XML or .JSON file"
+msgstr "Немає  файлу  .JSON або .XML"
+
+#: includes/views/cherry-content-import.php:103
+msgid "Congratulations"
+msgstr "Вітаємо!"
+
+#: includes/views/cherry-content-import.php:105
+msgid "Content has been successfully installed"
+msgstr "Дані успішно встановлено"
+
+#: includes/views/cherry-content-import.php:109
+msgid "View your site"
+msgstr "Переглянути сайт"
+
+#: includes/views/cherry-content-import.php:112
+msgid "Go to Cherry Options"
+msgstr "Перейти до параметрів Cherry "
+
+#~ msgid "Importing attachments meta."
+#~ msgstr "Імпортуються мета-описи"
+
+#~ msgid ""
+#~ "Generate attachments meta. Preparing. This may take some time. Please "
+#~ "wait."
+#~ msgstr ""
+#~ "Створюється опис вкладень. Підготовка. Це може тривати деякий час. Будь "
+#~ "ласка, зачекайте."
+
+#~ msgid ""
+#~ "Generate attachments meta. Processing. This may take some time. Please "
+#~ "wait."
+#~ msgstr ""
+#~ "Створюється опис вкладень. Це може тривати деякий час. Будь ласка, "
+#~ "зачекайте."
+
+#~ msgid ""
+#~ "Generate attachments meta. Finishing. This may take some time. Please "
+#~ "wait."
+#~ msgstr ""
+#~ "Створюється опис вкладень. Завершення. Це може тривати деякий час. Будь "
+#~ "ласка, зачекайте."
+
+#~ msgid ""
+#~ "Cropping attachments meta. Preparing. This may take some time. Please "
+#~ "wait."
+#~ msgstr ""
+#~ "Обрізається опис вкладень. Підготовка. Це може тривати деякий час. Будь "
+#~ "ласка, зачекайте."
+
+#~ msgid ""
+#~ "Cropping attachments meta. Processing. This may take some time. Please "
+#~ "wait."
+#~ msgstr ""
+#~ "Обрізається опис вкладень. Це може тривати деякий час. Будь ласка, "
+#~ "зачекайте."
+
+#~ msgid ""
+#~ "Cropping attachments meta. Finishing. This may take some time. Please "
+#~ "wait."
+#~ msgstr ""
+#~ "Обрізається опис вкладень. Завершення. Це може тривати деякий час. Будь "
+#~ "ласка, зачекайте."
+
+#~ msgid "Cherry Data Manager"
+#~ msgstr "Менеджер даних Cherry"
+
+#~ msgid ""
+#~ "Please, install \"Sample data\" in order to make your website looks "
+#~ "exactly as our live demo including all images, pages, layout options etc."
+#~ msgstr ""
+#~ "Будь ласка, встановіть демо дані, щоб ваш сайт виглядав ідентично до демо-"
+#~ "версії шаблону, з усіма зображеннями. сторінками, властивостями макету і "
+#~ "т. д."
+
+#~ msgid "Define chart settings"
+#~ msgstr "Вкажіть параметри діаграми"
+
+#~ msgid "Set up content settings"
+#~ msgstr "Вкажіть налаштування вмісту"
+
+#~ msgid "Set up chart data"
+#~ msgstr "Вкажіть дані діаграми"
+
+#~ msgid "Set up chart style"
+#~ msgstr "Оформлення діаграми"
+
+#~ msgid "Shortcode to paste"
+#~ msgstr "Вставити такий шорткод"
+
+#~ msgid "Chart type"
+#~ msgstr "Тип діаграми"
+
+#~ msgid "Select chart type"
+#~ msgstr "Оберіть тип діаграми"
+
+#~ msgid "Progress Bar"
+#~ msgstr "Смужка поступу"
+
+#~ msgid "Pie"
+#~ msgstr "Кругова діаграма"
+
+#~ msgid "Doughnut"
+#~ msgstr "Кільцева діаграма"
+
+#~ msgid "Bar"
+#~ msgstr "Смужка"
+
+#~ msgid "Progress bar type"
+#~ msgstr "Тип смужки поступу"
+
+#~ msgid "Select progress bar type"
+#~ msgstr "Оберіть тип смужки поступу"
+
+#~ msgid "Radial"
+#~ msgstr "Кругова"
+
+#~ msgid "Horizontal"
+#~ msgstr "Горизонтальна"
+
+#~ msgid "Vertical"
+#~ msgstr "Вертикальна"
+
+#~ msgid "Inner cutout percentage"
+#~ msgstr "Внутрішній виріз у відсотках"
+
+#~ msgid "Set inner cutout percentage (0 - for pie, > 0 for doughnut)"
+#~ msgstr ""
+#~ "Зазначте внутрішній виріз у відсотках (0 - для кругової діаграми, > 0 для "
+#~ "кільця)"
+
+#~ msgid "Width"
+#~ msgstr "Ширина"
+
+#~ msgid "Chart width (for bar chart & non-radial progress bars)"
+#~ msgstr ""
+#~ "Ширина діаграми (для смужкової діаграми та некругових смужок поступу)"
+
+#~ msgid "Height"
+#~ msgstr "Висота"
+
+#~ msgid "Chart height (for bar chart & non-radial progress bars)"
+#~ msgstr ""
+#~ "Висота діаграми (для смужкової діаграми та некругових смужок поступу)"
+
+#~ msgid "Progress bar template"
+#~ msgstr "Шаблон смужки поступу"
+
+#~ msgid ""
+#~ "Select progress bar template (this option allowed only for progress bars)"
+#~ msgstr ""
+#~ "Вкажіть початкову модель смужки поступу (доступно лише для смужок поступу)"
+
+#~ msgid "Chart Icon"
+#~ msgstr "Іконка діаграми"
+
+#~ msgid "Select chart icon"
+#~ msgstr "Оберіть іконку діаграми"
+
+#~ msgid "Chart Icon size"
+#~ msgstr "Розмір іконки"
+
+#~ msgid "Set chart icon size"
+#~ msgstr "Зазначте розмір іконки"
+
+#~ msgid "Chart icon color"
+#~ msgstr "Колір іконки діаграми"
+
+#~ msgid "Show chart title"
+#~ msgstr "Відображати заголовок діаграми"
+
+#~ msgid "Show chart label"
+#~ msgstr "Відображати позначку діаграми"
+
+#~ msgid "Show chart legend"
+#~ msgstr "Відображати підпис діаграми"
+
+#~ msgid "Item #1 color"
+#~ msgstr "Колір елемента #1"
+
+#~ msgid "Item #2 color"
+#~ msgstr "Колір елемента #2"
+
+#~ msgid "Item #3 color"
+#~ msgstr "Колір елемента #3"
+
+#~ msgid "Item #4 color"
+#~ msgstr "Колір елемента #4"
+
+#~ msgid "Item #5 color"
+#~ msgstr "Колір елемента #5"
+
+#~ msgid "Item #6 color"
+#~ msgstr "Колір елемента #6"
+
+#~ msgid "Item #7 color"
+#~ msgstr "Колір елемента #7"
+
+#~ msgid "Item #8 color"
+#~ msgstr "Колір елемента #8"
+
+#~ msgid "Item #9 color"
+#~ msgstr "Колір елемента #9"
+
+#~ msgid "Item #10 color"
+#~ msgstr "Колір елемента #10"
+
+#~ msgid "Background color"
+#~ msgstr "Колір тла"
+
+#~ msgid "Items opacity"
+#~ msgstr "Прозорість елементів"
+
+#~ msgid "Set items opacity (0 - transparent, 100 - opaque)"
+#~ msgstr ""
+#~ "Зазначте рівень прозорості елементів (0 - цілком прозорий, 100 - видимий)"
+
+#~ msgid "Background opacity"
+#~ msgstr "Прозорість тла"
+
+#~ msgid "Set Background opacity (0 - transparent, 100 - opaque)"
+#~ msgstr "Зазначте рівень прозорості тла (0 - цілком прозоре, 100 - видиме)"
+
+#~ msgid "Chart stroke thickness"
+#~ msgstr "Товщина обведення діаграми"
+
+#~ msgid "Set chart stroke thickness (0 - without stroke)"
+#~ msgstr "Вкажіть товщину обведення діаграми (0 - без обведення)"
+
+#~ msgid "Chart stroke color"
+#~ msgstr "Колір обведення діаграми"
+
+#~ msgid "Chart stroke opacity"
+#~ msgstr "Прозорість обведення діаграми"
+
+#~ msgid "Set Chart stroke opacity (0 - transparent, 100 - opaque)"
+#~ msgstr ""
+#~ "Встановіть прозорість обведення діаграми (0 - прозорий, 100 - непрозорий)"
+
+#~ msgid "Choose Image"
+#~ msgstr "Оберіть зображення"
+
+#~ msgid "Remove Image"
+#~ msgstr "Видаліть зображення"
+
+#~ msgid "On"
+#~ msgstr "Увімкнути"
+
+#~ msgid "Off"
+#~ msgstr "Вимкнути"
+
+#~ msgid "Step Up"
+#~ msgstr "На крок вперед"
+
+#~ msgid "Step Down"
+#~ msgstr "На крок назад"
+
+#~ msgid "Column class(.col-xs-*)"
+#~ msgstr "Клас стовпця (.col-xs-*)"
+
+#~ msgid "Column class(.col-sm-*)"
+#~ msgstr "Клас стовпця (.col-sm-*)"
+
+#~ msgid "Column class(.col-md-*)"
+#~ msgstr "Клас стовпця(.col-md-*)"
+
+#~ msgid "Column class(.col-lg-*)"
+#~ msgstr "Клас стовпця(.col-lg-*)"
+
+#~ msgid "Custom class"
+#~ msgstr "Користувацький клас"
+
+#~ msgid "Create new static"
+#~ msgstr "Створіть новий статичний блок"
+
+#~ msgid "Add new static"
+#~ msgstr "Додайте новий статичний блок на сайт"
+
+#~ msgid "Current Image"
+#~ msgstr "Поточне зображення"
+
+#~ msgid "No repeat"
+#~ msgstr "Не повторювати"
+
+#~ msgid "Repeat All"
+#~ msgstr "Повторювати усе"
+
+#~ msgid "Repeat Horizontally"
+#~ msgstr "Повторювати горизонтально"
+
+#~ msgid "Repeat Vertically"
+#~ msgstr "Повторювати вертикально"
+
+#~ msgid "Top Left"
+#~ msgstr "Угорі зліва"
+
+#~ msgid "Top Center"
+#~ msgstr "Угорі посередині"
+
+#~ msgid "Top Right"
+#~ msgstr "Угорі справа"
+
+#~ msgid "Middle Left"
+#~ msgstr "Посередині зліва"
+
+#~ msgid "Middle Center"
+#~ msgstr "Посередині"
+
+#~ msgid "Middle Right"
+#~ msgstr "Посередині справа"
+
+#~ msgid "Bottom Left"
+#~ msgstr "Внизу зліва"
+
+#~ msgid "Bottom Center"
+#~ msgstr "Внизу посередині"
+
+#~ msgid "Bottom Right"
+#~ msgstr "Внизу справа"
+
+#~ msgid "Scroll Normally"
+#~ msgstr "Звичайне прокручування"
+
+#~ msgid "Fixed in Place"
+#~ msgstr "Закріплено у позиції"
+
+#~ msgid "Padding box"
+#~ msgstr "Область внутрішнього відступу (padding)"
+
+#~ msgid "Border box"
+#~ msgstr "Область з рамкою"
+
+#~ msgid "Content box"
+#~ msgstr "Область вмісту"
+
+#~ msgid "Auto Auto"
+#~ msgstr "Автоматично"
+
+#~ msgid "Cover"
+#~ msgstr "Заповнювати"
+
+#~ msgid "Contain"
+#~ msgstr "Вміщати"
+
+#~ msgid "Background Color"
+#~ msgstr "Колір тла"
+
+#~ msgid "Background Image"
+#~ msgstr "Зображення тла"
+
+#~ msgid "Background Settings"
+#~ msgstr "Налаштування тла."
+
+#~ msgid "Background %s"
+#~ msgstr "Тло %s"
+
+#~ msgid "Not defined"
+#~ msgstr "Не визначено"
+
+#~ msgid "Inherit"
+#~ msgstr "Успадковувати"
+
+#~ msgid "Left"
+#~ msgstr "Зліва"
+
+#~ msgid "Right"
+#~ msgstr "Справа"
+
+#~ msgid "Center"
+#~ msgstr "Посередині"
+
+#~ msgid "Justify"
+#~ msgstr "Припасувати"
+
+#~ msgid "Font Size"
+#~ msgstr "Розмір шрифту"
+
+#~ msgid "Line height"
+#~ msgstr "Висота рядка"
+
+#~ msgid "Font Family"
+#~ msgstr "Сімейство шрифтів"
+
+#~ msgid "Font Style"
+#~ msgstr "Стиль шрифту"
+
+#~ msgid "Character Sets"
+#~ msgstr "Набори символів"
+
+#~ msgid "Text align"
+#~ msgstr "Вирівнювання тексту"
+
+#~ msgid "Letter-spacing"
+#~ msgstr "Відстань між літерами"
+
+#~ msgid "Font color"
+#~ msgstr "Колір шрифта"
+
+#~ msgid "Title"
+#~ msgstr "Заголовок"
+
+#~ msgid "Label"
+#~ msgstr "Підпис"
+
+#~ msgid "Icon"
+#~ msgstr "Іконка"
+
+#~ msgid "Pie icon styles"
+#~ msgstr "Оформлення іконки кругової діаграми"
+
+#~ msgid "Apply this only as style attribute value"
+#~ msgstr "Застосувати як значення атрибута стилю"
+
+#~ msgid "Progress bar (or pie)"
+#~ msgstr "Смужка поступу (або диск)"
+
+#~ msgid "Progress value"
+#~ msgstr "Значення поступу"
+
+#~ msgid "Total"
+#~ msgstr "В загальному"
+
+#~ msgid "Progress percent"
+#~ msgstr "Відсоткове значення поступу"
+
+#~ msgid "Charts"
+#~ msgstr "Діаграми"
+
+#~ msgid "Chart ID"
+#~ msgstr "ID діаграми"
+
+#~ msgid "Enter Chart ID to show"
+#~ msgstr "Зазначте ID діаграми, що буде відображатися"
+
+#~ msgid "Class"
+#~ msgstr "Клас"
+
+#~ msgid "Extra CSS class"
+#~ msgstr "Користувацький клас CSS"
+
+#~ msgid "Please, provide correct Chart ID"
+#~ msgstr "Будь ласка, Вкажіть правильний ID діаграми"
+
+#~ msgid "Chart does not exist"
+#~ msgstr "Діаграми немає"
+
+#~ msgid "Chart data is empty"
+#~ msgstr "Дані діаграми відсутні"
+
+#~ msgid "Template file does not exist"
+#~ msgstr "Немає файлу шаблона"
+
+#~ msgid "No data to show"
+#~ msgstr "Дані для відображення відсутні"
+
+#~ msgid "Chart"
+#~ msgstr "Діаграма"
+
+#~ msgid "Add New Chart"
+#~ msgstr "Створити нову діаграму"
+
+#~ msgid "New Chart"
+#~ msgstr "Нова діаграма"
+
+#~ msgid "Edit Chart"
+#~ msgstr "Редагувати діаграму"
+
+#~ msgid "View Chart"
+#~ msgstr "Переглянути діаграму"
+
+#~ msgid "All Charts"
+#~ msgstr "Всі діаграми"
+
+#~ msgid "Search Charts"
+#~ msgstr "Шукати діаграми"
+
+#~ msgid "Parent Charts:"
+#~ msgstr "Батьківські діаграми:"
+
+#~ msgid "No Charts found."
+#~ msgstr "Діаграм немає."
+
+#~ msgid "No Charts found in Trash."
+#~ msgstr "В кошику діаграм немає."
+
+#~ msgid "Done"
+#~ msgstr "Готово"
+
+#~ msgid "Value"
+#~ msgstr "Значення"

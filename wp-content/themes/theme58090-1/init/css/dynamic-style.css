@@ -1,0 +1,798 @@
+*::selection {
+  background: $color-primary;
+  color: #fff;
+}
+
+/*
+* @subsection Site Branding
+*/
+
+.site-description:before {
+  background: $color-info;
+}
+
+/*
+* @subsection Backgrounds
+*/
+
+.bg-primary {
+  background-color: $color-primary!important;
+}
+
+.bg-secondary {
+  background-color: $color-secondary!important;
+}
+
+.bg-additional {
+  background-color: $color-additional!important;
+}
+
+.link-color h1,
+.link-color h2,
+.link-color h3,
+.link-color h4,
+.link-color h5,
+.link-color h6 {
+  color: $color-link;
+}
+
+.bg-secondary .cherry-btn-secondary {
+  background: $color-link;
+}
+
+.bg-secondary .cherry-btn-secondary:hover {
+  background: $color-secondary;
+}
+
+
+
+/*
+* @subsection Buttons
+*/
+
+.cherry-btn-primary {
+  background: $color-link;
+}
+
+.cherry-btn-primary:hover {
+  background: $color-secondary;
+}
+
+.cherry-btn-secondary {
+  background: $color-secondary;
+}
+
+.cherry-btn-secondary:hover {
+  background: $color-link;
+}
+
+.cherry-btn-default:before, .btn-default:before,
+.cherry-btn-default:after, .btn-default:after {
+  border-color: $color-info;
+}
+
+.cherry-btn-primary-light {
+  background: @lighten($color-primary, 10);
+}
+
+.cherry-btn-primary-light:hover {
+  background: @lighten($color-secondary, 10);
+}
+
+.cherry-btn-gray {
+  background: $color-info;
+}
+
+.cherry-btn-gray:hover {
+  background: $color-gray-variations;
+}
+
+/*
+* @subsection Pagination
+*/
+
+.navigation.pagination .nav-links .page-numbers.current {
+  background: $color-primary;
+  border-color: $color-primary;
+}
+
+.navigation.pagination .nav-links .page-numbers {
+  color: $color-secondary;
+}
+
+.navigation.pagination .nav-links .page-numbers.current:hover,
+.navigation.pagination .nav-links .page-numbers:hover,
+.portfolio-wrap .portfolio-container .portfolio-pagination ul.page-link li a:hover,
+.portfolio-wrap .portfolio-container .portfolio-pagination .page-nav a:hover {
+  background: $color-primary;
+  border-color: $color-primary;
+}
+
+/*
+* @subsection Back to Top
+*/
+
+#back-top a {
+  background: $color-primary;
+}
+
+#back-top a:hover {
+  background: $color-secondary;
+}
+
+/*
+* @subsection Cherry Follow
+*/
+
+.cherry-follow_list .cherry-follow_item .cherry-follow_link {
+  color: $color-secondary;
+}
+
+.cherry-follow_list .cherry-follow_item .cherry-follow_link:hover {
+  color: $color-link;
+}
+
+/*
+* @subsection Swiper Carousel
+*/
+
+.swiper-button-next:before,
+.swiper-button-prev:before {
+  color: $color-info;
+}
+
+.swiper-button-next:hover:before,
+.swiper-button-prev:hover:before {
+  color: $color-link;
+}
+
+.carousel_1 h5, .carousel_2 h5 {
+  color: $color-link;
+}
+
+
+/*
+* @subsection Testimonial
+*/
+
+.swiper-wrapper blockquote cite {
+  color: $color-link;
+}
+
+/*
+* @subsection Portfolio
+*/
+
+.portfolio-item .item-content h5 a {
+  color: $color-link;
+}
+
+.portfolio-item .item-content h5 a:hover {
+  color: $color-secondary;
+}
+
+.portfolio-item .item-content p {
+  color: $color-gray-variations;
+}
+
+/*
+* @subsection Contact Form
+*/
+
+.wpcf7 form input[type="text"],
+.wpcf7 form input[type="email"],
+.wpcf7 form input[type="tel"],
+.wpcf7 form textarea {
+  border-color: $color-info;
+  color: $color-secondary;
+}
+
+.wpcf7 form input::-webkit-input-placeholder,
+.wpcf7 form textarea::-webkit-input-placeholder {
+  color: $color-secondary;
+}
+
+.wpcf7 form input:-moz-placeholder,
+.wpcf7 form textarea:-moz-placeholder { /* Firefox 18- */
+  color: $color-secondary;
+}
+
+.wpcf7 form input::-moz-placeholder,
+.wpcf7 form textarea::-moz-placeholder {  /* Firefox 19+ */
+  color: $color-secondary;
+}
+
+.wpcf7 form input:-ms-input-placeholder,
+.wpcf7 form textarea:-ms-input-placeholder {
+  color: $color-secondary;
+}
+
+.search-form .search-field {
+  border-color: $color-info;
+  color: $color-secondary;
+}
+
+/*
+* @subsection Comments
+*/
+
+.comment-respond form input[type="text"],
+.comment-respond form input[type="email"],
+.comment-respond form input[type="tel"],
+.comment-respond form textarea {
+  border-color: $color-info!important;
+  color: $color-secondary;
+}
+
+.comment-respond form input::-webkit-input-placeholder,
+.comment-respond form textarea::-webkit-input-placeholder {
+  color: $color-secondary;
+}
+
+.comment-respond form input:-moz-placeholder,
+.comment-respond form textarea:-moz-placeholder { /* Firefox 18- */
+  color: $color-secondary;
+}
+
+.comment-respond form input::-moz-placeholder,
+.comment-respond form textarea::-moz-placeholder {  /* Firefox 19+ */
+  color: $color-secondary;
+}
+
+.comment-respond form input:-ms-input-placeholder,
+.comment-respond form textarea:-ms-input-placeholder {
+  color: $color-secondary;
+}
+
+/*
+* @subsection isStick
+*/
+
+.isStick {
+  background: $header-background[color];
+}
+
+/*
+* @subsection Cherry Mega Menu
+*/
+
+#menu-primary-items > .current_page_item > a,
+#menu-primary-items > .menu-item > a:hover {
+  color: $color-link;
+
+}
+
+@media (max-width: 768px) {
+
+  #menu-primary-items .sub-menu,
+  #menu-primary-items .cherry-mega-menu-sub.simple-sub,
+  #menu-primary-items .cherry-mega-menu-sub.mega-sub {
+    box-shadow: none;
+  }
+
+  #menu-primary-items {
+    background: $color-info;
+    box-shadow: 1px 2px 13px 0px rgba(27, 41, 60, 0.19);
+  }
+
+  #menu-primary-items > .menu-item {
+    background: $color-info;
+    display: block;
+    padding: 6 px 0;
+  }
+
+  #menu-primary-items > .menu-item > a {
+    color: #fff;
+  }
+
+  #menu-primary-items > .menu-item > a:hover {
+    color: $color-secondary;
+  }
+}
+
+
+#menu-primary-items > .menu-item > a i {
+  color: $color-info;
+}
+
+.cherry-mega-menu-sub.simple-sub li a,
+.cherry-mega-menu-sub.mega-sub li a {
+  font-family: $typography-body[family];
+  font-weight: $typography-body[style];
+}
+
+.cherry-mega-menu-sub.mega-sub .cherry-posts-item.service-item a,
+.cherry-mega-menu-sub.mega-sub .textwidget ul li a {
+  font-family: $typography-body[family];
+  font-weight: $typography-body[style];
+  color: $color-gray-variations;
+}
+
+.cherry-mega-menu-sub.mega-sub .cherry-posts-item.service-item + .cherry-posts-item.service-item,
+.cherry-mega-menu-sub.mega-sub .textwidget ul li + li {
+  border-top-color: $color-info;
+}
+.cherry-mega-menu-sub.mega-sub .cherry-posts-item.service-item a:hover,
+#menu-primary-items .cherry-mega-menu-sub.mega-sub .textwidget ul li a:hover {
+  color: $color-secondary;
+}
+
+.cherry-mega-menu-sub.mega-sub h3,
+.cherry-mega-menu-sub.mega-sub h3 a {
+  color: $color-link;
+}
+
+.cherry-mega-menu-sub.mega-sub h3 a:hover {
+  color: $color-secondary;
+}
+
+#menu-primary .cherry-mega-menu-mobile-trigger {
+  background: $color-info;
+  color: #fff;
+}
+
+/*
+* @subsection Motoslider
+*/
+
+.ms_slide_wrapper .ms_image:before {
+  background-color: $color-secondary;
+}
+
+.ms_video_background:before {
+  background-color: $color-secondary;
+}
+
+.ms_arrows .ms_prev:hover:before {
+  color: $color-primary;
+}
+
+.ms_arrows .ms_next:hover:before {
+  color: $color-primary;
+}
+
+/*
+* @subsection Cherry Mega Menu
+*/
+
+#menu-primary-items .sub-menu li + li,
+#menu-primary-items .cherry-mega-menu-sub.simple-sub li + li {
+  border-top-color: $color-info;
+}
+
+#menu-primary-items .sub-menu li a:hover,
+#menu-primary-items .cherry-mega-menu-sub.simple-sub li a:hover {
+  color: $color-secondary;
+}
+
+/*
+* @subsection Site Info
+*/
+
+.footer-site-link {
+  @typography( $typography-h4);
+}
+
+.footer-site-link:hover {
+  color: $color-primary;
+}
+
+.footer-site-link ~ a {
+  color: inherit;
+}
+
+.footer-site-link ~ a:hover {
+  color: $color-primary;
+}
+
+.cherry-breadcrumbs_item_target {
+  color: $color-link;
+}
+
+/*
+* @subsection Services
+*/
+
+.services-wrap-1 .services-listing .cherry-services_item .wrap,
+.services-wrap-1 .boxed-layout .services-listing .cherry-services_item .wrap {
+  background-color: @alpha($color-primary, .8);
+}
+
+.services-wrap-1 .services-listing .cherry-services_item:hover .wrap,
+.services-wrap-1 .boxed-layout .services-listing .cherry-services_item:hover .wrap {
+  background-color: @alpha($color-additional, .8);
+}
+
+@media (max-width: 1199px) {
+  .services-wrap-1 .services-listing .cherry-services_item .wrap,
+  .services-wrap-1 .boxed-layout .services-listing .cherry-services_item .wrap,
+  .services-wrap-1 .services-listing .cherry-services_item:hover .wrap,
+  .services-wrap-1 .boxed-layout .services-listing .cherry-services_item:hover .wrap {
+    background-color: $color-primary;
+  }
+}
+
+.services-wrap-2 .cherry-services_item .cherry-services_icon,
+.services-wrap-2 .cherry-services_item .cherry-services_title,
+.services-wrap-2 .cherry-services_item .inner-description {
+  color: $color-secondary;
+}
+
+.services-wrap-2 .cherry-services_item:nth-child(2) {
+  background-color: @alpha($color-primary, .8);
+}
+
+.services-wrap-2 .cherry-services_item:nth-child(5) {
+  background-color: @alpha($color-additional, .8);
+}
+
+.services-wrap-2 .cherry-services_item:hover {
+  background-color: @alpha($color-secondary, .8);
+}
+
+.parallax-box .cherry-banner:first-child {
+  background-color: @alpha($color-primary, .8);
+}
+
+.parallax-box .cherry-banner-wth-btn {
+  background-color: @alpha($color-additional, .8);
+}
+
+@media (min-width: 768px) and (max-width: 1639px) {
+  .services-wrap-2 .cherry-services_item:nth-child(1),
+  .services-wrap-2 .cherry-services_item:nth-child(2),
+  .services-wrap-2 .cherry-services_item:nth-child(5),
+  .services-wrap-2 .cherry-services_item:nth-child(6) {
+    background-color: @alpha(#fff, .8);
+  }
+
+  .services-wrap-2 .cherry-services_item:nth-child(3),
+  .services-wrap-2 .cherry-services_item:nth-child(4) {
+    background-color: @alpha($color-additional, .8);
+  }
+
+  .services-wrap-2 .cherry-services_item:hover {
+    background-color: @alpha($color-secondary, .8);
+  }
+
+  .services-wrap-2 .cherry-services_item:nth-child(2) .cherry-services_icon,
+  .services-wrap-2 .cherry-services_item:nth-child(2) .cherry-services_title,
+  .services-wrap-2 .cherry-services_item:nth-child(2) .inner-description,
+  .services-wrap-2 .cherry-services_item:nth-child(5) .cherry-services_icon,
+  .services-wrap-2 .cherry-services_item:nth-child(5) .cherry-services_title,
+  .services-wrap-2 .cherry-services_item:nth-child(5) .inner-description {
+    color: $color-secondary!important;
+  }
+
+  .parallax-box .cherry-banner:first-child {
+    background-color: @alpha($color-additional, .8);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .services-wrap-2 .cherry-services_item:hover {
+      background-color: @alpha(#fff, .8);
+    }
+
+    .services-wrap-2 .cherry-services_item:nth-child(3):hover,
+    .services-wrap-2 .cherry-services_item:nth-child(4):hover {
+      background-color: @alpha($color-additional, .8);
+    }
+
+    .services-wrap-2 .cherry-services_item:hover .cherry-services_icon,
+    .services-wrap-2 .cherry-services_item:hover .cherry-services_title,
+    .services-wrap-2 .cherry-services_item:hover .inner-description {
+        color: inherit!important;
+    }
+
+    .services-wrap-2 .services-listing .cherry-services_item:nth-child(1):hover .cherry-services_icon,
+    .services-wrap-2 .services-listing .cherry-services_item:nth-child(1):hover .cherry-services_title,
+    .services-wrap-2 .services-listing .cherry-services_item:nth-child(2):hover .cherry-services_icon,
+    .services-wrap-2 .services-listing .cherry-services_item:nth-child(2):hover .cherry-services_title,
+    .services-wrap-2 .services-listing .cherry-services_item:nth-child(5):hover .cherry-services_icon,
+    .services-wrap-2 .services-listing .cherry-services_item:nth-child(5):hover .cherry-services_title,
+    .services-wrap-2 .services-listing .cherry-services_item:nth-child(6):hover .cherry-services_icon,
+    .services-wrap-2 .services-listing .cherry-services_item:nth-child(6):hover .cherry-services_title {
+      color: $color-secondary!important;
+    }
+}
+
+@media (max-width: 1199px) {
+  .services-wrap-3 .services-listing .cherry-services_item .cherry-btn {
+    color: $color-secondary;
+  }
+
+  .services-wrap-3 .services-listing .cherry-services_item .cherry-btn:before,
+  .services-wrap-3 .services-listing .cherry-services_item .cherry-btn:after {
+    border-color: $color-secondary;
+  }
+
+  .services-wrap-3 .services-listing .cherry-services_item:hover .cherry-services_title,
+  .services-wrap-3 .services-listing .cherry-services_item:hover .cherry-services_icon {
+    color: $color-secondary;
+  }
+
+  .services-wrap-3 .services-listing .cherry-services_item:hover .cherry-services_feauters {
+    color: $color-gray-variations;
+  }
+}
+
+@media (max-width: 767px) {
+  .services-wrap-2 .cherry-services_item {
+    background-color: @alpha($color-secondary, .8)!important;
+  }
+
+  .services-wrap-2 .cherry-services_item .cherry-services_title,
+  .services-wrap-2 .cherry-services_item .inner-description {
+    color: #fff;
+  }
+
+  .services-wrap-2 .cherry-services_item .cherry-services_icon,
+  .services-wrap-2 .cherry-services_item:hover .cherry-services_icon,
+  .services-wrap-2 .services-listing .cherry-services_item:nth-child(2):hover .cherry-services_icon,
+  .services-wrap-2 .services-listing .cherry-services_item:nth-child(5):hover .cherry-services_icon {
+      color: $color-link !important;
+  }
+
+  .parallax-box .cherry-banner:first-child {
+    background-color: @alpha($color-secondary, .8);
+  }
+
+  .parallax-box .cherry-banner-wth-btn {
+    background-color: @alpha($color-secondary, .8);
+  }
+}
+
+.services-wrap-3 .services-listing .cherry-services_item:hover .wrap,
+.services-wrap-3 .boxed-layout .services-listing .cherry-services_item:hover .wrap {
+  background: $color-additional;
+}
+
+.services-wrap-3 .services-listing .cherry-services_item .cherry-services_icon {
+  color: $color-secondary;
+}
+
+.single-service .cherry-services_item .cherry-services_icon {
+  color: $color-link;
+}
+
+.archive .cherry-services_item .cherry-services_title a,
+.archive .cherry-services_item .cherry-services_icon {
+  color: $color-secondary;
+}
+
+.archive .cherry-services_item .cherry-services_title a:hover {
+  color: $color-link;
+}
+
+/*
+* @subsection Portfolio
+*/
+
+.portfolio-item .rollover-content:before {
+  background: @alpha($color-secondary, .7);
+}
+
+.portfolio-item .custom-links .zoomlink:hover:before,
+.portfolio-item .custom-links .permalink:hover:before {
+  color: $color-link;
+}
+
+.portfolio-container .portfolio-list .portfolio-item.masonry-layout-item .rollover-content h3 a:hover,
+.portfolio-container .portfolio-list .portfolio-item.justified-layout-item .rollover-content h3 a:hover {
+  color: $color-link;
+}
+
+body.single.single-portfolio article.type-portfolio .cherry-portfolio-single-post {
+  color: $typography-body[color];
+}
+
+body.single.single-portfolio article.type-portfolio .cherry-portfolio-single-post .post-meta-container time {
+  color: $color-secondary;
+}
+
+body.single.single-portfolio article.type-portfolio .cherry-portfolio-single-post .post-meta-container .post-author a {
+  color: $color-link;
+}
+
+body.single.single-portfolio article.type-portfolio .cherry-portfolio-single-post .post-meta-container .post-author a:hover {
+  color: $color-secondary;
+}
+
+body.single.single-portfolio article.type-portfolio .cherry-portfolio-single-post .post-taxonomy-list span {
+  color: $color-secondary;
+}
+
+/*
+* @subsection Sidebar
+*/
+
+.sidebar-content-wrapper .content-area,
+.content-sidebar-wrapper .content-area,
+.sidebar-content-sidebar-wrapper #primary,
+.sidebar-sidebar-content-wrapper #primary,
+.content-sidebar-sidebar-wrapper #primary {
+  border-color: $color-info;
+}
+
+.cherry-with-sidebar .hentry {
+  border-color: $color-info;
+}
+
+.widget_categories ul > li + li,
+.widget_archive ul > li + li,
+.widget_recent_entries ul > li + li {
+  border-color: $color-info;
+}
+
+.widget_recent_comments li:before {
+  color: $color-info;
+}
+
+.widget_recent_comments .comment-author-link {
+  color: $color-secondary;
+}
+
+/*
+* @subsection Post
+*/
+
+.entry-title a {
+  color: $color-secondary;
+}
+
+.entry-title a:hover {
+  color: $color-link;
+}
+
+.entry-date {
+  color: $color-secondary;
+}
+
+.entry-content ol li,
+.entry-content ul li {
+  color: $color-secondary;
+}
+
+.entry-content ol li:before,
+.entry-content ul li:before,
+.entry-content ol li a:hover,
+.entry-content ul li a:hover {
+  color: $color-link;
+}
+
+.entry-content blockquote {
+  color: $color-additional;
+}
+
+.entry-content blockquote:before {
+  content: '“';
+}
+
+.format-quote blockquote:before {
+  content: '“';
+}
+
+.format-quote blockquote {
+  color: $color-additional;
+}
+/*
+* @subsection Moto Slider
+*/
+
+.ms_color {
+  background-color: $color-secondary!important;
+}
+
+/*
+* @subsection Contact Info
+*/
+
+.contact-info li:before {
+  color: $color-link;
+}
+
+.contact-info li a:hover {
+  color: $color-link;
+}
+
+#header .contact-info a {
+  color: $color-secondary;
+}
+
+#header .contact-info a:hover {
+  color: $color-link;
+}
+
+/*
+* @subsection Search form
+*/
+
+.static-search-form .search-form input[type="submit"] {
+  color: $color-secondary;
+}
+
+.static-search-form .search-form input[type="submit"]:hover {
+  color: $color-link;
+}
+
+.search-form input[type="search"]::-webkit-input-placeholder {
+  color: $color-secondary;
+}
+
+.search-form input[type="search"]:-moz-placeholder {
+  color: $color-secondary;
+}
+
+.search-form input[type="search"]::-moz-placeholder {
+  color: $color-secondary;
+}
+
+.search-form input[type="search"]:-ms-input-placeholder {
+  color: $color-secondary;
+}
+
+.static-search-form:after {
+  background: $color-info;
+}
+
+.search-submit {
+  background: $color-link;
+}
+
+.search-field {
+  border-color: $color-info;
+}
+
+.search-submit:hover {
+  background: $color-secondary;
+}
+
+/*
+* @subsection Footer
+*/
+
+.site-footer {
+  color: $color-gray-variations;
+}
+
+/*
+* @subsection Comments
+*/
+
+.comments-area .comment-list .comment-meta .fn {
+  color: $color-primary;
+}
+
+.comments-area .comment-list .comment-meta time {
+  color: $color-secondary;
+}
+
+.comments-area .comment-list .comment-meta .comment-reply-link:before {
+  color: $color-secondary;
+}
+
+.comments-area .comment-list .comment-meta .comment-reply-link:hover:before {
+  color: $color-primary;
+}
+
+.testimonial-item blockquote {
+  color: $color-gray-variations;
+}
+
+/*
+* @subsection Motoslider
+*/
+
+@media (max-width: 767px) {
+  .ms_layer h1 {
+    color: $color-primary!important;
+  }
+
+  .ms_layer h3 {
+    font-size: 18px!important;
+    font-weight: 300!important;
+    font-family: $typography-body[family];
+    line-height: 28px!important;
+  }
+}

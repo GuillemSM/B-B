@@ -1,0 +1,87 @@
+.cherry-section{
+	border-top: 1px solid #d4d5d6;
+	padding: 18px;
+	position: relative;
+		.cherry-title{
+			margin: 14px 0 14px 0;
+				&:first-letter{
+					text-transform: uppercase;
+				};
+		}
+		.cherry-label{
+			margin: 0 0 5px 0;
+			display: block;
+			&:first-letter{
+				text-transform: uppercase;
+			};
+		}
+		.cherry-description{
+			display: block;
+			font-size:11px;
+			color:#999;
+			clear: left;
+			&:first-letter{
+				text-transform: uppercase;
+			};
+		}
+		/*Cherry column style*/
+		.cherry-col-1, .cherry-col-2{
+			display: inline-block;
+			position: relative;
+			vertical-align: top;
+		}
+		.cherry-col-1{
+			width: 25%;
+				label{
+					margin-right: 60px;
+				}
+				small{
+					margin-right: 60px;
+				}
+				@media screen and (max-width: 782px){
+					width: 100%;
+					margin: 0 0 10px 0;
+				}
+		}
+		.cherry-col-2{
+			width: 75%;
+				@media screen and (max-width: 782px){
+					width: 100%;
+					margin: 0 0 10px 0;
+				}
+		}
+		.cherry-element-wrap{
+			position: relative;
+			overflow: hidden;
+				.cherry-stepper-input{
+					max-width: 100px;
+				}
+		}
+		.cherry-block{
+			display: block;
+		}
+		/*End Cherry column style*/
+
+		/*Text input, textarea, select size*/
+		.width-small{
+			max-width: 250px;
+			width: 100%;
+		}
+		.width-medium{
+			max-width: 500px;
+			width: 100%;
+		}
+		.width-full{
+			width: 100%;
+		}
+		/*End text input size*/
+		.hint-text{
+			position: absolute;
+			top: 0;
+			right: 10px;
+		}
+	&.single-section {
+		padding: 0;
+		border: none;
+	}
+}

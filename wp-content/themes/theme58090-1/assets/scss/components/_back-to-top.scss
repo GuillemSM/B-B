@@ -1,0 +1,49 @@
+/*
+* @subsection Back to Top
+*/
+
+$back-top-size: 50px;
+$back-top-font-size: 16px;
+$back-top-font-family: 'Montserrat', sans-serif;
+
+#back-top {
+  @include transition(all 0.5s ease);
+
+  position: fixed;
+  visibility: hidden;
+  overflow: hidden;
+  z-index: 99;
+
+  right: 20px;
+  bottom: -100px;
+
+  a {
+    display: block;
+    border-radius: 50%;
+    width: $back-top-size;
+    height: $back-top-size;
+    line-height: $back-top-size;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: #fff;
+
+    &:before {
+      content: 'TOP';
+      font-size: $back-top-font-size;
+      font-family: $back-top-font-family;
+    }
+  }
+
+  &.show-totop {
+    visibility: visible;
+    bottom: 20px;
+  }
+
+  &.mobile-back-top {
+    @include scale(.8);
+    right: 10px;
+    bottom: 10px;
+  }
+}

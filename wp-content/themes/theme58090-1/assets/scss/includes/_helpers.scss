@@ -1,0 +1,31 @@
+/*
+* @subsection Helpers
+*/
+
+// Text align
+
+.text-center {
+	text-align: center;
+}
+
+.text-md-center {
+	@media (max-width: 991px) {
+	    text-align: center;
+	}
+}
+
+// Backgrounds
+
+.bg-primary,
+.bg-secondary,
+.bg-additional {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p {
+		color: #fff;
+	}
+}

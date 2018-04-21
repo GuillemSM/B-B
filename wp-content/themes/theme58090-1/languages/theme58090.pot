@@ -1,0 +1,432 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: blank\n"
+"POT-Creation-Date: 2016-01-28 15:38+0200\n"
+"PO-Revision-Date: 2015-05-04 15:17+0200\n"
+"Last-Translator: \n"
+"Language-Team: Cherry Team <support@cherryframework.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_x:1,2c;_n:1,2\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../functions.php:39
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../functions.php:44
+msgid "Cherry Shortcodes"
+msgstr ""
+
+#: ../functions.php:49
+msgid "Cherry Shortcodes Templater"
+msgstr ""
+
+#: ../functions.php:54
+msgid "Cherry Portfolio"
+msgstr ""
+
+#: ../functions.php:59
+msgid "Cherry Testimonials"
+msgstr ""
+
+#: ../functions.php:64
+msgid "Cherry Team"
+msgstr ""
+
+#: ../functions.php:69
+msgid "Cherry Social"
+msgstr ""
+
+#: ../functions.php:74
+msgid "Cherry Mega Menu"
+msgstr ""
+
+#: ../functions.php:79
+msgid "MotoPress and CherryFramework 4 Integration"
+msgstr ""
+
+#: ../functions.php:84
+msgid "MotoPress Content Editor"
+msgstr ""
+
+#: ../functions.php:90
+msgid "MotoPress Slider"
+msgstr ""
+
+#: ../functions.php:164
+msgid "Install Recommended Plugins"
+msgstr ""
+
+#: ../functions.php:165 ../inc/class-tgm-plugin-activation.php:166
+msgid "Install Plugins"
+msgstr ""
+
+#: ../functions.php:166 ../inc/class-tgm-plugin-activation.php:167
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../functions.php:167
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../functions.php:178
+msgid "Return to Recommended Plugins Installer"
+msgstr ""
+
+#: ../functions.php:179 ../inc/class-tgm-plugin-activation.php:181
+#: ../inc/class-tgm-plugin-activation.php:2031
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../functions.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../functions.php:332
+msgid "To Top"
+msgstr ""
+
+#: ../functions.php:333
+msgid "Display to top button?"
+msgstr ""
+
+#: ../functions.php:378
+msgid "Leave a comment"
+msgstr ""
+
+#: ../functions.php:382
+msgid "Submit comment"
+msgstr ""
+
+#: ../functions.php:384
+msgid "Name:"
+msgstr ""
+
+#: ../functions.php:386
+msgid "E-mail:"
+msgstr ""
+
+#: ../functions.php:388
+msgid "Website:"
+msgstr ""
+
+#: ../functions.php:390
+msgid "Comment:"
+msgstr ""
+
+#: ../functions.php:403
+msgid "Featured Image"
+msgstr ""
+
+#: ../functions.php:439
+msgid "Google Analytics Code"
+msgstr ""
+
+#: ../functions.php:440
+msgid ""
+"You can paste your Google Analytics or other tracking code in this box. This "
+"will be automatically added to the footer."
+msgstr ""
+
+#: ../functions.php:501
+msgid "Additional color"
+msgstr ""
+
+#: ../functions.php:561
+#, php-format
+msgid "by <cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: ../functions.php:566
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:597
+msgid "Header top static area"
+msgstr ""
+
+#: ../functions.php:598
+msgid "Main menu"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:165
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:168
+msgid "Something went wrong."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:179
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:180
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:182
+#: ../inc/class-tgm-plugin-activation.php:1717
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:183
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:184
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:596
+#: ../inc/class-tgm-plugin-activation.php:2248
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1233
+#: ../inc/class-tgm-plugin-activation.php:1414
+msgid "Private Repository"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1236
+#: ../inc/class-tgm-plugin-activation.php:1417
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1241
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1244
+msgid "Required"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1244
+msgid "Recommended"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1247
+msgid "Not Installed"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1249
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1354
+#: ../inc/class-tgm-plugin-activation.php:1475
+msgid "Install"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1378
+#: ../inc/class-tgm-plugin-activation.php:1476
+msgid "Activate"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1438
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1454
+msgid "Plugin"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1455
+msgid "Source"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1456
+msgid "Type"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1457
+msgid "Status"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2014
+msgid "Install package not available."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2015
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2016
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2017
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2018
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2019
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2030
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2144
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2145
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2145
+#: ../inc/class-tgm-plugin-activation.php:2154
+msgid "Show Details"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2145
+#: ../inc/class-tgm-plugin-activation.php:2154
+msgid "Hide Details"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2146
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2147
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2151
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2152
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2153
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2154
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2155
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2156
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../init/config/sidebars.php:25
+msgid "Main Sidebar"
+msgstr ""
+
+#: ../init/config/sidebars.php:26
+msgid ""
+"This is the main sidebar if you are using a two or three column site layout "
+"option."
+msgstr ""
+
+#: ../init/config/sidebars.php:33
+msgid "Secondary Sidebar"
+msgstr ""
+
+#: ../init/config/sidebars.php:34
+msgid ""
+"This is the secondary sidebar if you are using a three column site layout "
+"option."
+msgstr ""
+
+#: ../init/config/sidebars.php:41
+msgid "Header Sidebar"
+msgstr ""
+
+#: ../init/config/sidebars.php:42 ../init/config/sidebars.php:50
+msgid "A sidebar located in the header of the site."
+msgstr ""
+
+#: ../init/config/sidebars.php:49 ../init/statics/header-sidebar-2.php:32
+msgid "Header Sidebar 2"
+msgstr ""
+
+#: ../init/config/sidebars.php:57
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: ../init/config/sidebars.php:58 ../init/config/sidebars.php:66
+#: ../init/config/sidebars.php:74
+msgid "A sidebar located in the footer of the site."
+msgstr ""
+
+#: ../init/config/sidebars.php:65
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: ../init/config/sidebars.php:73
+msgid "Footer Sidebar 3"
+msgstr ""
+
+#: ../init/config/static-areas.php:24
+msgid "Header Top"
+msgstr ""
+
+#: ../init/config/static-areas.php:30
+msgid "Header Bottom"
+msgstr ""
+
+#: ../init/config/static-areas.php:36
+msgid "Showcase Area"
+msgstr ""
+
+#: ../init/config/static-areas.php:42
+msgid "Footer Top"
+msgstr ""
+
+#: ../init/config/static-areas.php:48
+msgid "Footer Bottom"
+msgstr ""
+
+#: ../init/statics/footer-sidebars.php:40
+msgid "Footer Sidebars"
+msgstr ""
+
+#: ../init/statics/search-form.php:25
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: ../init/statics/search-form.php:39
+msgid "Search Form"
+msgstr ""

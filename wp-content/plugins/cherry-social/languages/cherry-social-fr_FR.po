@@ -1,0 +1,380 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cherry-social\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-02 18:59+0200\n"
+"PO-Revision-Date: 2015-11-02 18:59+0200\n"
+"Last-Translator: J.L.Dokter <jldokter@gmail.com>\n"
+"Language-Team: Cherry Team <support@cherryframework.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-cherry-social-admin.php:116
+#: admin/class-cherry-social-admin.php:117
+msgid "Cherry Social"
+msgstr "Cherry Social"
+
+#: admin/class-cherry-social-admin.php:143
+msgid "Settings"
+msgstr "Paramètres"
+
+#: admin/views/facebook-like-box-admin.php:17
+#: admin/views/instagram-admin.php:17 admin/views/social-follow.php:17
+#: admin/views/twitter-timeline-admin.php:17
+msgid "Title:"
+msgstr "Titre:"
+
+#: admin/views/facebook-like-box-admin.php:22
+msgid "Page URL:"
+msgstr "URL de la page:"
+
+#: admin/views/facebook-like-box-admin.php:25
+#, php-format
+msgid "The Like Box only works with %s."
+msgstr "Like Box fonctionne seulement avec %s."
+
+#: admin/views/facebook-like-box-admin.php:29
+#: admin/views/twitter-timeline-admin.php:29
+msgid "Height (px):"
+msgstr "Hauteur (px):"
+
+#: admin/views/facebook-like-box-admin.php:30
+#: admin/views/twitter-timeline-admin.php:30
+#, php-format
+msgid "Default (%spx)"
+msgstr "Par défaut (%spx)"
+
+#: admin/views/facebook-like-box-admin.php:35
+msgid "Hide cover photo in header"
+msgstr "Masquer la photo dans l'en-tête"
+
+#: admin/views/facebook-like-box-admin.php:40
+msgid "Use small header instead"
+msgstr "Utiliser le petit en-tête à cette place"
+
+#: admin/views/facebook-like-box-admin.php:45
+msgid "Show profile photos when friends like this"
+msgstr "Afficher photos de profil lorsque amis aiment ça"
+
+#: admin/views/facebook-like-box-admin.php:50
+msgid "Show posts from the Page's timeline"
+msgstr "Afficher les articles depuis timeline"
+
+#: admin/views/instagram-admin.php:22
+msgid "Content type:"
+msgstr "Type de contenu:"
+
+#: admin/views/instagram-admin.php:31
+msgid "User Name:"
+msgstr "Nom d'utilisateur:"
+
+#: admin/views/instagram-admin.php:33
+msgid ""
+"Widget will work only for users who have full rights opened in Instagram "
+"account."
+msgstr ""
+"Widget ne fonctionnera que pour les utilisateurs qui ont des droits complets "
+"ouverts en compte Instagram."
+
+#: admin/views/instagram-admin.php:37
+msgid "Hashtag:"
+msgstr "Hashtag:"
+
+#: admin/views/instagram-admin.php:39
+msgid "Enter without `#` symbol."
+msgstr "Entrez sans symbole `#`."
+
+#: admin/views/instagram-admin.php:43
+msgid "Client ID:"
+msgstr "ID du client:"
+
+#: admin/views/instagram-admin.php:45
+#, php-format
+msgid "<a href='%s' target='_blank'>link</a>"
+msgstr "<a href='%s' target='_blank'>lien</a>"
+
+#: admin/views/instagram-admin.php:46
+#, php-format
+msgid ""
+"Follow this %s and create the application. After that you will get your "
+"application data where you will see the CLIENT ID."
+msgstr ""
+"Suivez %s et créez l'application.  Vous obtiendrez vos données d'application "
+"où vous pourrez voir CLIENT ID."
+
+#: admin/views/instagram-admin.php:50
+msgid "Number of photos:"
+msgstr "Nombre de photos:"
+
+#: admin/views/instagram-admin.php:55
+msgid "Size of photos"
+msgstr "Taille de photos"
+
+#: admin/views/instagram-admin.php:65
+msgid "Linked photo?"
+msgstr "Photo avec le lien?"
+
+#: admin/views/instagram-admin.php:70
+msgid "Description"
+msgstr "Description"
+
+#: admin/views/instagram-admin.php:75
+msgid "Date"
+msgstr "Date"
+
+#: admin/views/instagram-admin.php:79
+msgid "User account button text:"
+msgstr "Texte du bouton du compte d'utilisateur:"
+
+#: admin/views/social-follow.php:22
+msgid "Networks:"
+msgstr "Réseaux:"
+
+#: admin/views/social-follow.php:35
+msgid "Custom CSS Class:"
+msgstr "Classe CSS Personalisée:"
+
+#: admin/views/twitter-timeline-admin.php:22
+msgid "Widget ID:"
+msgstr "ID de Widget:"
+
+#: admin/views/twitter-timeline-admin.php:24
+#, php-format
+msgid "<a href='%s' target='_blank'>page</a>"
+msgstr "<a href='%s' target='_blank'>page</a>"
+
+#: admin/views/twitter-timeline-admin.php:25
+#, php-format
+msgid ""
+"Your widget ID. First of all you need  to make a new widget on %s. After "
+"that copy and paste widget ID here. You can find it after creating the "
+"widget in browser's URL field. It contains only numbers."
+msgstr ""
+"Votre widget ID. Tout d'abord vous avez besoin de créer un nouveau widget "
+"sur %s. Après cela il faut copier et coller ID de widget ici. Vous pouvez le "
+"trouver après avoir créé le widget dans le champ d'adresse URL de "
+"navigateur. Il ne contient que des chiffres."
+
+#: admin/views/twitter-timeline-admin.php:34
+msgid "Tweet limit:"
+msgstr "Tweet limite:"
+
+#: admin/views/twitter-timeline-admin.php:36
+msgid "Value between 1 and 20 Tweets"
+msgstr "Valeur entre 1 et 20 Tweets"
+
+#: admin/views/twitter-timeline-admin.php:40
+msgid "Skin:"
+msgstr "Skin:"
+
+#: admin/views/twitter-timeline-admin.php:49
+msgid "Link Color (#):"
+msgstr "Couleur du Lien (#):"
+
+#: admin/views/twitter-timeline-admin.php:51
+#: admin/views/twitter-timeline-admin.php:57
+msgid "e.g. 89c9fa"
+msgstr "par exemple,  89c9fa"
+
+#: admin/views/twitter-timeline-admin.php:55
+msgid "Border Color (#):"
+msgstr "Couleur de Bordure (#):"
+
+#: admin/views/twitter-timeline-admin.php:62
+msgid "Hide header?"
+msgstr "Masquer l'en-tête?"
+
+#: admin/views/twitter-timeline-admin.php:67
+msgid "Hide footer?"
+msgstr "Masquer le pied de page?"
+
+#: admin/views/twitter-timeline-admin.php:72
+msgid "Hide borders?"
+msgstr "Masquer des bordures?"
+
+#: admin/views/twitter-timeline-admin.php:77
+msgid "Hide scrollbar?"
+msgstr "Masquer la barre de défilement?"
+
+#: admin/views/twitter-timeline-admin.php:82
+msgid "Hide background?"
+msgstr "Masquer l'arrière-plan?"
+
+#: cherry-social.php:297
+msgid "Share on "
+msgstr "Partager sur"
+
+#: cherry-social.php:680
+msgid "Sharing networks"
+msgstr "Réseaux à partager"
+
+#: cherry-social.php:681
+msgid "Select the social networks to display for sharing"
+msgstr "Sélectionnez les réseaux sociaux pour partager"
+
+#: cherry-social.php:684
+msgid "Type a macros"
+msgstr "Tapez un macros"
+
+#: cherry-social.php:737
+msgid "Follow Us title"
+msgstr "Titre de Suivez-Nous "
+
+#: cherry-social.php:738
+msgid "This title is used in `Follow Us` static."
+msgstr "Ce titre est utilisé pour \"Suivez-nous\""
+
+#: cherry-social.php:739 init/statics/social-follow.php:33
+msgid "Follow Us"
+msgstr "Suivez-Nous "
+
+#: cherry-social.php:743
+msgid "Follow Us networks"
+msgstr "Suivez-nous sur les réseaux sociaux"
+
+#: cherry-social.php:744
+msgid "Set the social networks to display for following"
+msgstr "Définir les réseaux sociaux à suivre"
+
+#: cherry-social.php:749
+msgid "Facebook"
+msgstr "Facebook"
+
+#: cherry-social.php:754
+msgid "Twitter"
+msgstr "Twitter"
+
+#: cherry-social.php:759
+msgid "Google+"
+msgstr "Google+"
+
+#: cherry-social.php:765
+msgid "Social"
+msgstr "Social"
+
+#: public/includes/class-cherry-facebook-likebox-widget.php:37
+msgid "Cherry Facebook Like Box"
+msgstr "Cherry Facebook Like Box"
+
+#: public/includes/class-cherry-facebook-likebox-widget.php:40
+msgid "A widget for Facebook Like Box."
+msgstr "Widget pour Facebook Like Box."
+
+#: public/includes/class-cherry-facebook-likebox-widget.php:83
+msgid "Please, enter the URL of your facebook page."
+msgstr "Veuillez entrer URL de votre page facebook."
+
+#: public/includes/class-cherry-instagram-widget.php:37
+msgid "Cherry Instagram"
+msgstr "Cherry Instagram"
+
+#: public/includes/class-cherry-instagram-widget.php:40
+msgid "A widget for Instagram."
+msgstr "Widget pour Instagram."
+
+#: public/includes/class-cherry-instagram-widget.php:97
+msgid "Please, enter #hashtag."
+msgstr "Veuillez entrer #hashtag."
+
+#: public/includes/class-cherry-instagram-widget.php:103
+msgid "Please, enter your username."
+msgstr "Veuillez entrer votre nom d'utilisateur."
+
+#: public/includes/class-cherry-instagram-widget.php:108
+msgid "Please, enter your Instagram CLIENT ID."
+msgstr "Veuillez entrer votre Instagram CLIENT ID."
+
+#: public/includes/class-cherry-instagram-widget.php:126
+msgid "Please, enter a valid username and CLIENT ID."
+msgstr "Veuillez entrer nom d'utilisateur valide et CLIENT ID."
+
+#: public/includes/class-cherry-instagram-widget.php:139
+msgid "Please, enter a valid CLIENT ID."
+msgstr "Veuillez entrer CLIENT ID valide."
+
+#: public/includes/class-cherry-instagram-widget.php:310
+msgid "My Photos"
+msgstr "Mes photos"
+
+#: public/includes/class-cherry-instagram-widget.php:311
+msgid "Tagged photos"
+msgstr "Photos marquées "
+
+#: public/includes/class-cherry-instagram-widget.php:323
+msgid "Large"
+msgstr "Grande"
+
+#: public/includes/class-cherry-instagram-widget.php:324
+msgid "Thumbnail"
+msgstr "Vignette "
+
+#: public/includes/class-cherry-social-follow-widget.php:38
+msgid "Cherry Follow Us"
+msgstr "Cherry Suivez-nous"
+
+#: public/includes/class-cherry-social-follow-widget.php:41
+msgid "A social follow widget."
+msgstr "Widget de suivi dans les réseaux sociaux."
+
+#: public/includes/class-cherry-social-follow-widget.php:96
+msgid "Sorry, but networks are not found."
+msgstr "Désolé, mais les réseaux ne sont pas trouvés."
+
+#: public/includes/class-cherry-social-shortcodes.php:172
+msgid "Sharing"
+msgstr "Partager"
+
+#: public/includes/class-cherry-social-shortcodes.php:182
+#: public/includes/class-cherry-social-shortcodes.php:226
+msgid "Networks"
+msgstr "Réseaux"
+
+#: public/includes/class-cherry-social-shortcodes.php:183
+#: public/includes/class-cherry-social-shortcodes.php:227
+msgid "Select the social networks to display"
+msgstr "Sélectionnez les réseaux sociaux à afficher"
+
+#: public/includes/class-cherry-social-shortcodes.php:187
+#: public/includes/class-cherry-social-shortcodes.php:231
+msgid "Class"
+msgstr "Classe"
+
+#: public/includes/class-cherry-social-shortcodes.php:188
+#: public/includes/class-cherry-social-shortcodes.php:232
+msgid "Extra CSS class"
+msgstr "Сlasse CSS Extra"
+
+#: public/includes/class-cherry-social-shortcodes.php:216
+msgid "Follow"
+msgstr "Suivre"
+
+#: public/includes/class-cherry-twitter-timeline-widget.php:37
+msgid "Cherry Twitter Timeline"
+msgstr "Cherry Twitter Timeline"
+
+#: public/includes/class-cherry-twitter-timeline-widget.php:40
+msgid "A widget for Twitter timeline."
+msgstr "Widget pour Twitter timeline."
+
+#: public/includes/class-cherry-twitter-timeline-widget.php:87
+msgid "Please, enter your Twitter widget ID."
+msgstr "Veuillez entrer votre Twitter widget ID."
+
+#: public/includes/class-cherry-twitter-timeline-widget.php:245
+msgid "Light"
+msgstr "Clair"
+
+#: public/includes/class-cherry-twitter-timeline-widget.php:246
+msgid "Dark"
+msgstr "Foncé"

@@ -1,0 +1,437 @@
+.cherry-ui-core {
+  /* Import & Export */ }
+  .cherry-ui-core .hidden_ {
+    display: none !important; }
+  .cherry-ui-core.cherry-wizard_ {
+    max-width: 800px; }
+  .cherry-ui-core.updated {
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    border: none; }
+  .cherry-ui-core .box-default_.content-wrap_ {
+    border: 1px solid #d0d0d0;
+    background: #fcfcfc;
+    margin: 0 0 15px 0; }
+  .cherry-ui-core .wizard-form-row_ {
+    padding: 5px 0; }
+    .cherry-ui-core .wizard-form-row_:after {
+      clear: both;
+      content: "";
+      width: 100%;
+      display: block; }
+    .cherry-ui-core .wizard-form-row_.submit-row_, .cherry-ui-core .wizard-form-row_.info-row_ {
+      width: 300px;
+      max-width: 100%;
+      margin: 0 0 0 110px;
+      position: relative; }
+    .cherry-ui-core .wizard-form-row_.info-row_ {
+      text-align: center; }
+  .cherry-ui-core .wizard-form-col-label_ {
+    float: left;
+    width: 105px;
+    padding: 10px 5px 10px 0;
+    font-size: 13px;
+    line-height: 20px; }
+    .cherry-ui-core .wizard-form-col-label_ label {
+      color: #333;
+      font-weight: 600;
+      font-size: 13px; }
+  .cherry-ui-core .wizard-form-col-control_ {
+    float: left;
+    width: 300px;
+    max-width: 100%;
+    position: relative; }
+    .cherry-ui-core .wizard-form-col-control_ input[type="text"],
+    .cherry-ui-core .wizard-form-col-control_ input[type="email"],
+    .cherry-ui-core .wizard-form-col-control_ input[type="password"],
+    .cherry-ui-core .wizard-form-col-control_ input[type="url"] {
+      width: 300px;
+      margin: 0; }
+      .cherry-ui-core .wizard-form-col-control_ input[type="text"].error,
+      .cherry-ui-core .wizard-form-col-control_ input[type="email"].error,
+      .cherry-ui-core .wizard-form-col-control_ input[type="password"].error,
+      .cherry-ui-core .wizard-form-col-control_ input[type="url"].error {
+        border-color: #f62e46; }
+  .cherry-ui-core .button-primary_.fullwidth_,
+  .cherry-ui-core .button-default_.fullwidth_ {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px; }
+  .cherry-ui-core .submit-wrap_ {
+    padding: 10px 0 0 0; }
+  .cherry-ui-core .box-inner_ {
+    margin: 15px -15px -15px;
+    padding: 15px;
+    background: #f2f3f4;
+    border-top: 1px solid #d4d5d6; }
+  .cherry-ui-core .wizard-popup-message {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    border: none !important;
+    margin: 0 0 0 10px !important;
+    background: #f62e46;
+    padding: 5px 10px;
+    color: #fff;
+    min-width: 200px; }
+  .cherry-ui-core .wizard-message.error {
+    margin: 15px 0 0 !important;
+    border: none;
+    background: #f62e46;
+    padding: 10px;
+    color: #fff; }
+  .cherry-ui-core .progress-bar_ {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    height: 10px;
+    overflow: hidden; }
+    .cherry-ui-core .progress-bar_:after {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 10px;
+      width: 100%;
+      border: 1px solid #dddcdc;
+      border-radius: 5px;
+      background: #f7f7f7;
+      z-index: 1;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      content: ""; }
+    .cherry-ui-core .progress-bar_ .wizard-install-progress-group {
+      float: left;
+      font-size: 0;
+      line-height: 0; }
+      .cherry-ui-core .progress-bar_ .wizard-install-progress-group:first-child .wizard-install-progress-step:before {
+        display: none; }
+    .cherry-ui-core .progress-bar_ .wizard-install-progress-step {
+      background: #2a445d;
+      border-radius: 5px;
+      height: 10px;
+      position: relative;
+      z-index: 2;
+      width: 0;
+      display: inline-block;
+      vertical-align: top; }
+      .cherry-ui-core .progress-bar_ .wizard-install-progress-step:before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        left: -5px;
+        top: 0;
+        position: absolute;
+        background: #2a445d; }
+      .cherry-ui-core .progress-bar_ .wizard-install-progress-step.empty:before {
+        width: 0; }
+  .cherry-ui-core .progress-bar-load_ {
+    background: #2a445d;
+    height: 10px;
+    width: 0;
+    border-radius: 5px;
+    display: block;
+    position: relative;
+    z-index: 2; }
+  .cherry-ui-core .progress-bar-counter_ {
+    color: #2a445d;
+    font-weight: bold;
+    padding: 5px 0; }
+  .cherry-ui-core .button-default_.button-extra_,
+  .cherry-ui-core .button-primary_.button-extra_ {
+    padding: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center; }
+  .cherry-ui-core .button-default_ .button-desc_,
+  .cherry-ui-core .button-primary_ .button-desc_ {
+    display: block;
+    font-size: 12px; }
+  .cherry-ui-core *[class^="button"].not_active {
+    opacity: 0.5;
+    cursor: default;
+    /* pointer-events: none; */ }
+  .cherry-ui-core .dm-import-wrap {
+    position: relative; }
+  .cherry-ui-core .dm-import-type-selector {
+    position: absolute;
+    top: -16px;
+    bottom: -1px;
+    left: -16px;
+    right: -16px;
+    background: #fff;
+    padding: 40px !important;
+    z-index: 99;
+    margin: 0 !important; }
+  .cherry-ui-core .dm-selector-message_ {
+    font-size: 15px;
+    line-height: 23px;
+    padding: 10px 0 50px; }
+  .cherry-ui-core .dm-selector-buttons_ a {
+    margin: 0 5px 0 0; }
+  .cherry-ui-core .dm-return-to-switcher {
+    padding: 0 0 5px 0;
+    text-align: right; }
+  .cherry-ui-core .drag-drop #area-drag-drop .drag-drop-inside {
+    margin-top: 160px; }
+  .cherry-ui-core .drag-drop-inside {
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    padding: 150px 0; }
+  .cherry-ui-core .drag-drop-inside p {
+    font-size: 20px;
+    color: #AAA;
+    display: block; }
+  .cherry-ui-core .drag-drop-inside p.max-upload-size {
+    font-size: 12px;
+    color: #2c89ae;
+    margin: 10px 0 25px; }
+  .cherry-ui-core form#upload_files {
+    overflow: hidden;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    height: 470px;
+    position: relative;
+    z-index: 0;
+    background: #fff; }
+  .cherry-ui-core form#upload_files.hover {
+    background-color: #F0FFED;
+    border-color: #C7FABE; }
+  .cherry-ui-core #import_step_2 {
+    position: relative;
+    z-index: 1; }
+  .cherry-ui-core .error_file {
+    background: #FFD2D2 !important;
+    border-top: 1px solid #FFF; }
+  .cherry-ui-core #file_list_holder {
+    height: 520px;
+    overflow: hidden;
+    position: relative; }
+  .cherry-ui-core .dm-files-list {
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #dddcdc;
+    border-radius: 5px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  .cherry-ui-core .dm-files-list-header {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 18px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: bold;
+    background: #2a445d;
+    border-radius: 5px 5px 0 0; }
+  .cherry-ui-core .dm-files-list-body {
+    overflow-y: scroll;
+    max-height: 450px;
+    min-height: 450px;
+    display: block;
+    overflow-x: hidden;
+    font-size: 13px;
+    line-height: 20px;
+    color: #444;
+    border-radius: 0 0 5px 5px; }
+  .cherry-ui-core .dm-files-list .row div[class^="column"] {
+    padding: 15px 20px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle; }
+  .cherry-ui-core .dm-files-list .column_1 {
+    width: 55%; }
+  .cherry-ui-core .dm-files-list .column_2 {
+    width: 15%; }
+  .cherry-ui-core .dm-files-list .column_3 {
+    width: 30%;
+    position: relative; }
+  .cherry-ui-core .dm-install-item {
+    background: #fff;
+    border-radius: 6px;
+    border: 1px solid #dddcdc;
+    background: #fcfcfc;
+    padding: 14px 20px;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 5px 0;
+    font-weight: bold;
+    color: #444; }
+  .cherry-ui-core .dm-install-item-message {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 0 10px;
+    color: #f00; }
+  .cherry-ui-core .dm-install-item:before {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px 0 0;
+    content: '';
+    background: url("../images/loader.gif") no-repeat center top; }
+  .cherry-ui-core .item-error.dm-install-item:before {
+    background: none;
+    content: "\f153";
+    -webkit-font-smoothing: antialiased;
+    font-family: 'dashicons';
+    font-size: 22px;
+    color: #f62e46; }
+  .cherry-ui-core .item-success.dm-install-item:before {
+    background: none;
+    content: "\f147";
+    -webkit-font-smoothing: antialiased;
+    font-family: 'dashicons';
+    font-size: 24px;
+    color: #2a445d; }
+  .cherry-ui-core #import_status {
+    width: 100%;
+    margin: 0; }
+  .cherry-ui-core #upload_status, .cherry-ui-core #import_data {
+    width: 50%;
+    width: 100%;
+    position: relative;
+    z-index: 1; }
+  .cherry-ui-core #counters {
+    display: inline-block;
+    line-height: 20px; }
+  .cherry-ui-core .items_name {
+    margin-left: 2px; }
+  .cherry-ui-core #info_holder {
+    vertical-align: top;
+    padding: 0; }
+  .cherry-ui-core .cherry-ui-core .dm-loaders {
+    overflow: hidden;
+    padding: 0 0 10px 0; }
+  .cherry-ui-core .loader_bar {
+    position: relative; }
+  .cherry-ui-core #import_data {
+    overflow: hidden;
+    position: relative;
+    z-index: 0; }
+  .cherry-ui-core #browser_nag {
+    background-color: #E29808;
+    background-image: none;
+    border-color: #EDC048;
+    color: #FFF;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  .cherry-ui-core #browser_nag h3.hndle {
+    border: 0;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 10px;
+    background: transparent none;
+    color: #FFF;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    cursor: default; }
+  .cherry-ui-core #import_xml_status {
+    min-height: 480px;
+    overflow: auto;
+    box-sizing: border-box; }
+  .cherry-ui-core #status_log p > i {
+    padding-right: 10px;
+    display: block;
+    float: left;
+    margin: 0;
+    width: 20px;
+    vertical-align: bottom;
+    text-align: center;
+    height: 20px;
+    line-height: inherit;
+    font-size: 15px; }
+  .cherry-ui-core #status_log p {
+    color: #BBB;
+    font-size: 14px;
+    margin: 10px 0; }
+  .cherry-ui-core #status_log p.done_import {
+    color: #4BBD00; }
+  .cherry-ui-core #status_log p.error_import {
+    color: #F50000; }
+  .cherry-ui-core #import_step_3 > div {
+    padding: 100px 0;
+    text-align: center; }
+  .cherry-ui-core #import_title {
+    font-size: 50px;
+    font-weight: 700;
+    color: #4BBD00;
+    padding: 0 0 30px 0;
+    text-align: center; }
+  @media screen and (max-width: 600px) {
+    .cherry-ui-core #import_title {
+      font-size: 35px; } }
+  .cherry-ui-core #import_description {
+    font-size: 14px;
+    padding-bottom: 40px;
+    display: inline-block; }
+  .cherry-ui-core #import_links > a {
+    text-decoration: underline;
+    font-weight: 700; }
+  .cherry-ui-core .impotr_export_wrapper .spinner {
+    margin: 4px 0px 0 5px;
+    float: left; }
+  .cherry-ui-core #import-demo-video a {
+    text-decoration: none;
+    font-size: 12px; }
+  .cherry-ui-core #import-demo-video {
+    line-height: inherit;
+    font-size: inherit; }
+  .cherry-ui-core #info_link {
+    text-decoration: none; }
+  .cherry-ui-core #info_link i {
+    font-size: 16px;
+    margin-left: 5px; }
+  .cherry-ui-core .thickbox i {
+    font-size: 14px; }
+  .cherry-ui-core #not_load_file {
+    color: #B43C38;
+    font-weight: 700;
+    margin: 7px 10px;
+    display: inline-block; }
+  .cherry-ui-core .dm-load-status {
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 5px 0 0;
+    position: relative; }
+  .cherry-ui-core .row-preload .dm-load-status {
+    background: url("../images/loader.gif") no-repeat center center; }
+  .cherry-ui-core .row-success .dm-load-status:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: none;
+    content: "\f147";
+    -webkit-font-smoothing: antialiased;
+    font-family: 'dashicons';
+    font-size: 24px;
+    color: #2a445d; }
+  .cherry-ui-core .row-error .dm-load-status:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: none;
+    content: "\f153";
+    -webkit-font-smoothing: antialiased;
+    font-family: 'dashicons';
+    font-size: 20px;
+    color: #f62e46; }
+
+/* End Import & Export */

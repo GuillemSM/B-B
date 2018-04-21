@@ -1,0 +1,40 @@
+/* breadcrumbs
+================================================== */
+
+.cherry-breadcrumbs {
+
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -50%;
+    right: -50%;
+    background: #f8f8f9;
+  }
+
+  .page-title {
+    margin:0 0 5px;
+  }
+  .cherry-breadcrumbs_content {
+    padding: 6px 0;
+    text-align: left;
+
+    .cherry-breadcrumbs_browse {
+      padding-right: 15px;
+    }
+    .cherry-breadcrumbs_wrap {
+      text-transform: uppercase;
+
+      .cherry-breadcrumbs_item_sep {
+        margin: 5px 14px 0;
+      }
+    }
+  }
+
+  .cherry-breadcrumbs_item > * {
+    vertical-align: middle;
+  }
+}

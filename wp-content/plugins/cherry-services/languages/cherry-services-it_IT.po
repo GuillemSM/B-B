@@ -1,0 +1,437 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cherry-services\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-30 13:04+0200\n"
+"PO-Revision-Date: 2015-10-30 13:04+0200\n"
+"Last-Translator: J.L.Dokter <jldokter@gmail.com>\n"
+"Language-Team: Cherry Team <support@cherryframework.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/includes/class-cherry-services-admin.php:97
+msgid "Name"
+msgstr "Nome"
+
+#: admin/includes/class-cherry-services-admin.php:98
+msgid "Photo"
+msgstr "Foto"
+
+#: admin/includes/class-cherry-services-admin.php:99
+#: public/includes/class-cherry-services-shortcode.php:365
+msgid "Price"
+msgstr "Prezzo"
+
+#: admin/includes/class-cherry-services-admin.php:100
+msgid "Added"
+msgstr "Aggiunto"
+
+#: admin/includes/class-cherry-services-meta-boxes.php:50
+msgid "Services Options"
+msgstr "Opzioni degli Servizi"
+
+#: admin/includes/class-cherry-services-meta-boxes.php:58
+msgid "Font icon CSS class:"
+msgstr "Tipo di carattere della icona classe CSS:"
+
+#: admin/includes/class-cherry-services-meta-boxes.php:66
+msgid "Service features description:"
+msgstr "Descrizione del servizio in evidenza:"
+
+#: admin/includes/class-cherry-services-meta-boxes.php:74
+msgid "Price:"
+msgstr "Prezzo:"
+
+#: admin/includes/class-cherry-services-meta-boxes.php:82
+msgid "URL to order this service:"
+msgstr "URL per ordinare questo servizio:"
+
+#: admin/includes/class-cherry-services-meta-boxes.php:90
+msgid "Is service featured:"
+msgstr "Il Servizio in evidenza:"
+
+#: cherry-services.php:215
+msgid "Services posts"
+msgstr "Servizi degli articoli"
+
+#: cherry-services.php:218
+msgid ""
+"You can choose if you want to display sidebars and how you want to display "
+"them."
+msgstr ""
+"Se vuoi visualizzare le barre laterali puoi scegliere la loro "
+"visualizzazione."
+
+#: cherry-services.php:224
+msgid "Left sidebar"
+msgstr "Barra Laterale Sinistra"
+
+#: cherry-services.php:228
+msgid "Right sidebar"
+msgstr "Barra Laterale Destra"
+
+#: cherry-services.php:232
+msgid "Left and right sidebar"
+msgstr "Barre Laterali Destra e Sinistra"
+
+#: cherry-services.php:236
+msgid "Two sidebars on the left"
+msgstr "Due barre laterali a sinistra"
+
+#: cherry-services.php:240
+msgid "Two sidebars on the right"
+msgstr "Due barre laterali a destra"
+
+#: cherry-services.php:244
+msgid "No sidebar"
+msgstr "Barra Laterale Assente"
+
+#: public/includes/class-cherry-services-data.php:101
+#: public/includes/class-cherry-services-shortcode.php:190
+#: public/includes/class-cherry-services-shortcode.php:408
+msgid "Read More"
+msgstr "Leggi di Più"
+
+#: public/includes/class-cherry-services-data.php:102
+#: public/includes/class-cherry-services-shortcode.php:128
+#: public/includes/class-cherry-services-shortcode.php:195
+#: public/includes/class-cherry-services-shortcode.php:409
+#: public/includes/class-cherry-services-template-callbacks.php:273
+msgid "Order"
+msgstr "Ordine"
+
+#: public/includes/class-cherry-services-data.php:399
+msgid "No services found"
+msgstr "Nessun servizio trovato"
+
+#: public/includes/class-cherry-services-registration.php:49
+#: public/includes/class-cherry-services-shortcode.php:107
+msgid "Services"
+msgstr "Servizi"
+
+#: public/includes/class-cherry-services-registration.php:50
+msgid "Service"
+msgstr "Servizio"
+
+#: public/includes/class-cherry-services-registration.php:51
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: public/includes/class-cherry-services-registration.php:52
+msgid "Add New Service"
+msgstr "Aggiungi un Nuovo Servizio"
+
+#: public/includes/class-cherry-services-registration.php:53
+msgid "Edit Service"
+msgstr "Edita Servizio"
+
+#: public/includes/class-cherry-services-registration.php:54
+msgid "New Service"
+msgstr "Nuovo Servizio"
+
+#: public/includes/class-cherry-services-registration.php:55
+msgid "View Service"
+msgstr "Visualizza Servizio"
+
+#: public/includes/class-cherry-services-registration.php:56
+msgid "Search Services"
+msgstr "Trova Servizio"
+
+#: public/includes/class-cherry-services-registration.php:57
+msgid "No Services found"
+msgstr "Servizio non trovato"
+
+#: public/includes/class-cherry-services-registration.php:58
+msgid "No Services found in trash"
+msgstr "Servizio nel Cestino non Trovato"
+
+#: public/includes/class-cherry-services-registration.php:106
+msgid "Services Category"
+msgstr "Servizi della Categoria"
+
+#: public/includes/class-cherry-services-registration.php:107
+#: public/includes/class-cherry-services-registration.php:113
+msgid "Edit Category"
+msgstr "Edita la Categoria"
+
+#: public/includes/class-cherry-services-registration.php:108
+msgid "Search Categories"
+msgstr "Cerca le Categorie"
+
+#: public/includes/class-cherry-services-registration.php:109
+msgid "Popular Categories"
+msgstr "Categorie Popolari"
+
+#: public/includes/class-cherry-services-registration.php:110
+msgid "All Categories"
+msgstr "Tutte le Categorie"
+
+#: public/includes/class-cherry-services-registration.php:114
+msgid "Update Category"
+msgstr "Aggiornamento Categoria"
+
+#: public/includes/class-cherry-services-registration.php:115
+msgid "Add New Category"
+msgstr "Aggiungi  Nuova Categoria"
+
+#: public/includes/class-cherry-services-registration.php:116
+msgid "New Category Name"
+msgstr "Nuovo Nome Categoria"
+
+#: public/includes/class-cherry-services-registration.php:117
+msgid "Separate categories with commas"
+msgstr "Categorie separate con virgole"
+
+#: public/includes/class-cherry-services-registration.php:118
+msgid "Add or remove categories"
+msgstr "Aggiungi o elimina categorie"
+
+#: public/includes/class-cherry-services-registration.php:119
+msgid "Choose from the most used categories"
+msgstr "Scegli tra le categorie più utilizzate"
+
+#: public/includes/class-cherry-services-registration.php:120
+msgid "No categories found."
+msgstr "Categorie non trovate."
+
+#: public/includes/class-cherry-services-registration.php:121
+#: public/includes/class-cherry-services-shortcode.php:159
+msgid "Categories"
+msgstr "Categorie"
+
+#: public/includes/class-cherry-services-shortcode.php:108
+msgid "Cherry services shortcode"
+msgstr "Cherry servizi shortcode"
+
+#: public/includes/class-cherry-services-shortcode.php:118
+msgid "Limit"
+msgstr "Limite"
+
+#: public/includes/class-cherry-services-shortcode.php:119
+msgid "Maximum number of services."
+msgstr "Numero massimo di servizi."
+
+#: public/includes/class-cherry-services-shortcode.php:124
+msgid "Descending"
+msgstr "Discendente"
+
+#: public/includes/class-cherry-services-shortcode.php:125
+msgid "Ascending"
+msgstr "Ascendente"
+
+#: public/includes/class-cherry-services-shortcode.php:129
+msgid "Posts order"
+msgstr "Ordine degli articoli"
+
+#: public/includes/class-cherry-services-shortcode.php:134
+#: public/includes/class-cherry-services-shortcode.php:165
+msgid "None"
+msgstr "Nessuno"
+
+#: public/includes/class-cherry-services-shortcode.php:135
+#: public/includes/class-cherry-services-shortcode.php:166
+msgid "Post ID"
+msgstr "Articolo ID"
+
+#: public/includes/class-cherry-services-shortcode.php:136
+#: public/includes/class-cherry-services-shortcode.php:167
+msgid "Post author"
+msgstr "Articolo d'autore"
+
+#: public/includes/class-cherry-services-shortcode.php:137
+msgid "Post title"
+msgstr "Titolo dell'Articolo"
+
+#: public/includes/class-cherry-services-shortcode.php:138
+msgid "Post slug"
+msgstr "Slug Articolo"
+
+#: public/includes/class-cherry-services-shortcode.php:139
+msgid "Date"
+msgstr "Data"
+
+#: public/includes/class-cherry-services-shortcode.php:140
+msgid "Last modified date"
+msgstr "Ultima data di modifica"
+
+#: public/includes/class-cherry-services-shortcode.php:141
+msgid "Random"
+msgstr "Casuale"
+
+#: public/includes/class-cherry-services-shortcode.php:142
+msgid "Comments number"
+msgstr "Numero di commenti"
+
+#: public/includes/class-cherry-services-shortcode.php:143
+msgid "Menu order"
+msgstr "Ordine Menu"
+
+#: public/includes/class-cherry-services-shortcode.php:146
+msgid "Order by"
+msgstr "Ordine per"
+
+#: public/includes/class-cherry-services-shortcode.php:147
+msgid "Order posts by"
+msgstr "Ordina gli articoli per"
+
+#: public/includes/class-cherry-services-shortcode.php:151
+msgid "Post ID's"
+msgstr "ID di pubblicazione"
+
+#: public/includes/class-cherry-services-shortcode.php:152
+msgid "Enter comma separated ID's of the posts that you want to show"
+msgstr ""
+"Inserisci la virgola per separare l'ID dell'articolo per poterli visualizzare"
+
+#: public/includes/class-cherry-services-shortcode.php:160
+msgid "Select categories to show services from"
+msgstr "Seleziona le categorie per poter visualizzare i servizi da"
+
+#: public/includes/class-cherry-services-shortcode.php:170
+msgid "Show media"
+msgstr "Visualizza media"
+
+#: public/includes/class-cherry-services-shortcode.php:171
+msgid "Select what media attachment to show"
+msgstr "Seleziona allegato multimediale che vuoi visualizzare"
+
+#: public/includes/class-cherry-services-shortcode.php:177
+msgid "Featured image size"
+msgstr "Dimensioni dell'immagine in Evidenza"
+
+#: public/includes/class-cherry-services-shortcode.php:178
+msgid "Select size for a Featured image"
+msgstr "Scegli le dimensioni di un'immagine in Evidenza"
+
+#: public/includes/class-cherry-services-shortcode.php:186
+msgid "Excerpt Length"
+msgstr "Estratto Lunghezza"
+
+#: public/includes/class-cherry-services-shortcode.php:187
+msgid "Excerpt length (if used in template)"
+msgstr "Estratto Lunghezza (se è utilizzato in template)"
+
+#: public/includes/class-cherry-services-shortcode.php:191
+msgid "More Button text"
+msgstr "Ulteriore testo del Pulsante"
+
+#: public/includes/class-cherry-services-shortcode.php:192
+msgid "Enter read more button text"
+msgstr "Inserisci leggi di più testo del pulsante"
+
+#: public/includes/class-cherry-services-shortcode.php:196
+msgid "Order Button text"
+msgstr "Testo del Pulsante Ordine"
+
+#: public/includes/class-cherry-services-shortcode.php:197
+msgid "Enter order button text"
+msgstr "Inserisci l'ordine testo del pulsante"
+
+#: public/includes/class-cherry-services-shortcode.php:202
+msgid "Boxes"
+msgstr "Boxes"
+
+#: public/includes/class-cherry-services-shortcode.php:203
+msgid "Pricing Table"
+msgstr "Tabella Prezzi"
+
+#: public/includes/class-cherry-services-shortcode.php:206
+msgid "Layout type"
+msgstr "Tipo di disposizione"
+
+#: public/includes/class-cherry-services-shortcode.php:207
+msgid "Select layout type"
+msgstr "Seleziona il tipo di disposizione"
+
+#: public/includes/class-cherry-services-shortcode.php:217
+msgid "Column class"
+msgstr "Classe delle colonne"
+
+#: public/includes/class-cherry-services-shortcode.php:218
+msgid "Column class for each item."
+msgstr "Classe di ciascun elemento delle colonne"
+
+#: public/includes/class-cherry-services-shortcode.php:226
+msgid "Template"
+msgstr "Template"
+
+#: public/includes/class-cherry-services-shortcode.php:227
+msgid "Shortcode template"
+msgstr "Shortcode template"
+
+#: public/includes/class-cherry-services-shortcode.php:231
+msgid "Class"
+msgstr "Classe"
+
+#: public/includes/class-cherry-services-shortcode.php:232
+msgid "Extra CSS class"
+msgstr "Classe CSS Extra"
+
+#: public/includes/class-cherry-services-shortcode.php:251
+msgid "Icon (Services only)"
+msgstr "Icona (solo Servizi)"
+
+#: public/includes/class-cherry-services-shortcode.php:257
+msgid "Features (Services only)"
+msgstr "In Evidenza (solo Servizi)"
+
+#: public/includes/class-cherry-services-shortcode.php:263
+msgid "Price (Services only)"
+msgstr "Prezzo (solo Servizi)"
+
+#: public/includes/class-cherry-services-shortcode.php:269
+msgid "Order button (Services only)"
+msgstr "Pulsante Ordine (solo Servizi)"
+
+#: public/includes/class-cherry-services-shortcode.php:329
+msgid "Title"
+msgstr "Titolo"
+
+#: public/includes/class-cherry-services-shortcode.php:335
+msgid "Image"
+msgstr "Immagine"
+
+#: public/includes/class-cherry-services-shortcode.php:341
+msgid "Icon"
+msgstr "Icona"
+
+#: public/includes/class-cherry-services-shortcode.php:347
+msgid "Content"
+msgstr "Contenuto"
+
+#: public/includes/class-cherry-services-shortcode.php:353
+msgid "Short description"
+msgstr "Descrizione breve"
+
+#: public/includes/class-cherry-services-shortcode.php:359
+msgid "Features"
+msgstr "In Evidenza"
+
+#: public/includes/class-cherry-services-shortcode.php:371
+msgid "Order button"
+msgstr "Pulsante dell'Ordine"
+
+#: public/includes/class-cherry-services-shortcode.php:377
+msgid "More button"
+msgstr "Pulsante Mostra di Più"
+
+#: public/includes/class-cherry-services-templates.php:71
+msgid "Services Page"
+msgstr "Pagine di Servizi"
+
+#~ msgid "Show service title?"
+#~ msgstr "Vuoi visualizzare il titolo di servizio?"
+
+#~ msgid "Show/hide service title?"
+#~ msgstr "Visualizza/nascondi il titolo di servizio"

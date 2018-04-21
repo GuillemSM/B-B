@@ -1,0 +1,129 @@
+/* #Comments
+================================================== */
+
+.page .comments-area {
+  margin-top:40px;
+}
+
+ol.comment-list li > .children,
+ol.comment-list .children li > .children {
+  list-style: none;
+}
+
+.comments-area {
+  .comment-list {
+    list-style: none;
+    padding-left: 0;
+
+    .comment {
+      margin-bottom: 30px;
+    }
+
+    .comment-body {
+      position: relative;
+      padding: 0 0 0 120px;
+
+      img {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+
+    .comment-meta {
+      overflow:hidden;
+      margin-bottom: 10px;
+
+      .comment-awaiting-moderation {
+        margin:0;
+      }
+      .comment-metadata {
+        font-size:12px;
+        line-height:18px;
+
+        &:before {
+          content:'\f017';
+          font-family: FontAwesome;
+          margin-right:3px;
+        }
+        .edit-link {
+          font-weight:bold;
+          text-transform:uppercase;
+        }
+      }
+    }
+    .comment-content {
+      p{
+        margin:0;
+      }
+    }
+    .reply {
+      text-align:right;
+
+      .comment-reply-link {
+        &:before {
+          content: "\e096";
+          font-family: "fl-bigmug-line";
+          font-size: 18px;
+          @include transition(0.3s all ease);
+        }
+      }
+    }
+  }
+}
+
+.comments {
+  .comment-respond {
+
+    form {
+      overflow:hidden;
+
+      .comment-form-author, .comment-form-email, .comment-form-url {
+        width:30% !important;
+        float:left;
+        margin:0 0 30px !important;
+        }
+
+      .comment-form-email {
+        margin:0 5% !important;
+      }
+
+      input, textarea {
+        width:100%;
+        padding: 12px 20px;
+        background:none;
+        font-size:14px;
+        line-height:20px;
+        font-style:normal;
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        border: none;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        background: none;
+      }
+
+      textarea {
+        resize: none;
+      }
+
+      .comment-form-comment {
+        margin-bottom:33px;
+      }
+
+      .form-submit {
+        margin-bottom: 50px;
+
+        .submit {
+          padding:25px 35px;
+          width:auto;
+          border:none;
+          border-radius:20px;
+          font-size:15px;
+          line-height:20px;
+        }
+      }
+    }
+  }
+}

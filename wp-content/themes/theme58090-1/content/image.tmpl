@@ -1,0 +1,13 @@
+%%IMAGE where="loop"%%
+%%TITLE where="loop" tag="h3"%%
+
+<div class="entry-meta entry-meta-top">
+	<?php printf( __( 'Posted on %s', 'child-theme-domain' ), '%%DATE%%' ); ?>
+	<?php printf( __( 'by %s', 'child-theme-domain' ), '%%AUTHOR%%' ); ?>
+	%%COMMENTS%%
+	<?php printf( __( 'in %s', 'child-theme-domain' ), '%%TAXONOMY name="category"%%' ); ?>
+	%%TAXONOMY name="post_tag"%%
+</div>
+
+%%CONTENT where="single"%%
+%%BUTTON%%

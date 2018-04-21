@@ -1,0 +1,115 @@
+/*
+* @subsection Buttons
+*/
+
+button {
+	border: none;
+}
+
+.cherry-btn, .btn, .search-submit {
+	$btn-font-size:16px;
+	$btn-line-height:20px;
+
+	$btn-padding-top: 15px;
+	$btn-padding-right: 27px;
+	$btn-padding-bottom: 15px;
+	$btn-padding-left: 27px;
+	
+	position: relative;
+	display: inline-block;
+
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0.06 * 1em;
+	text-transform: uppercase;
+	text-align: center;
+
+	&.cherry-btn-extra-small {
+		font-size: $btn-font-size/1.5;
+		line-height: $btn-line-height/1.5;
+		padding: $btn-padding-top/2 $btn-padding-right/2 $btn-padding-bottom/2 $btn-padding-left/2;
+	}
+	&.cherry-btn-small {
+		font-size: $btn-font-size/1.25;
+		line-height: $btn-line-height/1.25;
+		padding: $btn-padding-top/1.5 $btn-padding-right/1.5 $btn-padding-bottom/1.5 $btn-padding-left/1.5;
+	}
+	&.cherry-btn-medium {
+		font-size: $btn-font-size!important;
+		line-height: $btn-line-height;
+		padding: $btn-padding-top $btn-padding-right $btn-padding-bottom $btn-padding-left;
+	}
+	&.cherry-btn-large {
+		font-size: $btn-font-size;
+		line-height: $btn-line-height;
+		padding: $btn-padding-top*1.25 $btn-padding-right*1.25 $btn-padding-bottom*1.25 $btn-padding-left*1.25;
+	}
+	&.cherry-btn-extra-large {
+		font-size: $btn-font-size*1.15;
+		line-height: $btn-line-height*1.15;
+		padding: $btn-padding-top*1.5 $btn-padding-right*1.5 $btn-padding-bottom*1.5 $btn-padding-left*1.5;
+	}
+}
+
+.btn {
+	$btn-font-size:16px;
+	$btn-line-height:20px;
+
+	$btn-padding-top: 15px;
+	$btn-padding-right: 27px;
+	$btn-padding-bottom: 15px;
+	$btn-padding-left: 27px;
+	
+	font-size: $btn-font-size!important;
+	line-height: $btn-line-height;
+	padding: $btn-padding-top $btn-padding-right $btn-padding-bottom $btn-padding-left;
+}
+
+.cherry-btn-default, .btn-default {
+	color: #1b293c;
+
+	&:before,
+	&:after {
+		content: "";
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		border-width: 2px;
+		border-style: solid;
+		transition: .8s all ease;
+	}
+
+	&:before {
+		border-right: none;
+		right: 80%;
+		left: 0;
+	}
+
+	&:after {
+		border-left: none;
+		left: 80%;
+		right: 0;
+	}
+
+	&:hover {
+		color: #1b293c;
+		background: transparent;
+
+		&:before {
+			right: 0;
+		}
+
+		&:after{
+			left: 0;
+		}
+	}
+}
+
+.cherry-btn-primary,
+.cherry-btn-secondary {
+	border: none;
+	color: #fff;
+}
+
+.search-form .search-submit {
+	padding: 15px 25px;
+}

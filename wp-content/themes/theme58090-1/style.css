@@ -1,0 +1,21 @@
+/*
+Theme Name:     theme58090
+Theme URI:      http://www.templatemonster.com/demo/58090.html
+Description:    Your theme description.
+Author:         Template Monster
+Author URI:     http://www.templatemonster.com/
+Version:        1.0.0
+License:        GNU General Public License v2 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+Tags:           fixed-layout, fluid-layout, responsive-layout, left-sidebar, right-sidebar, custom-menu, featured-images, full-width-template, post-formats, sticky-post, theme-options, translation-ready
+Text Domain:    child-theme-domain
+Template:       cherryframework4
+Cherry Version: 4.0.5.1
+*/
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+
+.static-search-form {
+	display: none;
+}

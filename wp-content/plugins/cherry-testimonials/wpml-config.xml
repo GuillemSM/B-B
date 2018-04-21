@@ -1,0 +1,11 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">_cherry_testimonial</custom-field>
+	</custom-fields>
+	<custom-types>
+		<custom-type translate="1">testimonial</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">testimonial_category</taxonomy>
+	</taxonomies>
+</wpml-config>

@@ -1,0 +1,48 @@
+/*
+* @subsection Cherry Follow
+*/
+
+.cherry-follow_wrap {
+  // text-align: center;
+}
+
+.cherry-follow_list {
+  display: inline-block;
+  .cherry-follow_item {
+    .cherry-follow_link {
+      display: inline-block;
+      width: 74px;
+      height: 74px;
+      line-height: 74px;
+      text-align:center;
+      border-radius: 50%;
+      border: 2px solid;
+
+      i:before {
+        font-size: 24px;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    & + .cherry-follow_item {
+      margin-left: 30px;
+    }
+  }
+}
+
+.parallax-box {
+  .cherry-follow_wrap {
+    text-align: center;
+  }
+  .cherry-follow_list {
+    .cherry-follow_item {
+      .cherry-follow_link {
+        color: #fff;
+      }
+    }
+  }
+}
+

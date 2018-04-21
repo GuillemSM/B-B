@@ -1,0 +1,143 @@
+/* Transitions */
+@mixin transition($transition...) {
+	-webkit-transition: $transition;
+	-o-transition: $transition;
+	transition: $transition;
+}
+
+/* Default */
+.menu-primary {
+	clear: both;
+	display: block;
+	float: left;
+	width: 100%;
+	ul {
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+	}
+	li {
+		float: left;
+		position: relative;
+
+		&:hover > a,
+		&.focus > a {
+			text-decoration: underline;
+		}
+		&.current_page_item > a,
+		&.current-menu-item > a,
+		&.current_page_ancestor > a {
+			text-decoration: underline;
+		}
+	}
+	a {
+		display: block;
+		text-decoration: none;
+	}
+}
+.menu-primary {
+	li {
+		.cherry-navigation-arrow & {
+			> a::after {
+				content: '' !important;
+				display: inline-block;
+				vertical-align: top;
+				width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 0;
+				border-color: transparent;
+				border-top-color: inherit;
+				margin: .3em 0 0 4px;
+				padding: 0 !important;
+			}
+		}
+		&.menu-item-has-children {
+			.cherry-navigation-arrow & {
+				> a {
+					&::after {
+						border-width: 5px 5px 0 5px;
+					}
+				}
+			}
+		}
+	}
+	.sub-menu {
+		float: left;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		z-index: 99999;
+		opacity: 0;
+		visibility: hidden;
+		overflow: hidden;
+		@include transition(opacity .4s ease-in-out, visibility .4s ease-in-out);
+
+		ul {
+			left: 100%;
+			top: 0;
+		}
+		li {
+			&:hover > ul,
+			&.focus > ul {
+			}
+		}
+		a {
+			width: 200px;
+		}
+		:hover > a,
+		.focus > a {
+		}
+		a:hover,
+		a.focus {
+		}
+		.cherry-navigation-arrow & {
+			li {
+				> a::after {
+					border-width: 0;
+					border-color: transparent;
+					border-left-color: inherit;
+					margin-top: .15em;
+				}
+				&.menu-item-has-children {
+					> a {
+						&::after {
+							border-width: 5px 0 5px 5px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&_trigger {
+		background: #fff;
+		box-shadow:0 2px 4px rgba(0,0,0,.1);
+		padding:10px;
+		margin: 0;
+		cursor: pointer;
+		display: none;
+		position: relative;
+		z-index: 999;
+	}
+}
+
+/* Skin */
+.menu-primary {
+	padding: 20px 0;
+	.sub-menu {
+		background: rgba(0,0,0,.7);
+		a {
+			color: #fff;
+			margin: 5px;
+		}
+	}
+	> ul {
+		> li {
+			margin-left: 15px;
+			&:first-child {
+				margin-left: 0;
+			}
+		}
+	}
+}
