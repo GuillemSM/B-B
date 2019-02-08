@@ -5836,51 +5836,51 @@ msgctxt "translations"
 msgid "Installed"
 msgstr "Instalada"
 
-#: wp-includes/general-template.php:3472
+#: wp-includes/general-template.php:3474
 msgctxt "admin color scheme"
 msgid "Coffee"
 msgstr "Café"
 
-#: wp-includes/general-template.php:3466
+#: wp-includes/general-template.php:3468
 msgctxt "admin color scheme"
 msgid "Ocean"
 msgstr "Océano"
 
-#: wp-includes/general-template.php:3460
+#: wp-includes/general-template.php:3462
 msgctxt "admin color scheme"
 msgid "Ectoplasm"
 msgstr "Ectoplasma"
 
-#: wp-includes/general-template.php:3454
+#: wp-includes/general-template.php:3456
 msgctxt "admin color scheme"
 msgid "Sunrise"
 msgstr "Amanecer"
 
-#: wp-includes/general-template.php:3448
+#: wp-includes/general-template.php:3450
 msgctxt "admin color scheme"
 msgid "Midnight"
 msgstr "Medianoche"
 
-#: wp-includes/general-template.php:3442
+#: wp-includes/general-template.php:3444
 msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "Azul"
 
-#: wp-includes/general-template.php:3436
+#: wp-includes/general-template.php:3438
 msgctxt "admin color scheme"
 msgid "Light"
 msgstr "Luminoso"
 
-#: wp-includes/general-template.php:3425
+#: wp-includes/general-template.php:3427
 msgctxt "admin color scheme"
 msgid "Default"
 msgstr "Por defecto"
 
-#: wp-includes/general-template.php:3259
+#: wp-includes/general-template.php:3261
 msgid "Next &raquo;"
 msgstr "Siguiente &raquo;"
 
-#: wp-includes/general-template.php:3258
+#: wp-includes/general-template.php:3260
 msgid "&laquo; Previous"
 msgstr "&laquo; Anterior"
 
@@ -6164,81 +6164,81 @@ msgstr "No pasar %1$s etiquetas a %2$s."
 msgid "Scripts and styles should not be registered or enqueued until the %1$s, %2$s, or %3$s hooks."
 msgstr "Los scripts y estilos no se deberían registrar o enganchar hasta que se carguen los ganchos %1$s, %2$s y %3$s."
 
-#: wp-includes/functions.php:5272
+#: wp-includes/functions.php:5273
 msgid "The login page will open in a new window. After logging in you can close it and return to this page."
 msgstr "La página de acceso se abrirá en una ventana nueva. Después del acceso puede cerrarla y volver a esta página."
 
-#: wp-includes/functions.php:5271 wp-includes/user.php:280
+#: wp-includes/functions.php:5272 wp-includes/user.php:280
 msgid "Please log in again."
 msgstr "Por favor, accede de nuevo."
 
-#: wp-includes/functions.php:5270 wp-includes/script-loader.php:470
+#: wp-includes/functions.php:5271 wp-includes/script-loader.php:470
 msgid "Session expired"
 msgstr "Sesión caducada"
 
-#: wp-includes/functions.php:5259
+#: wp-includes/functions.php:5260
 msgid "Close dialog"
 msgstr "Cerrar diálogo"
 
-#: wp-includes/functions.php:4673
+#: wp-includes/functions.php:4674
 msgid "Manual Offsets"
 msgstr "Desplazamientos manuales"
 
-#: wp-includes/functions.php:4665 wp-includes/functions.php:4669
+#: wp-includes/functions.php:4666 wp-includes/functions.php:4670
 msgid "UTC"
 msgstr "UTC"
 
-#: wp-includes/functions.php:4620
+#: wp-includes/functions.php:4621
 msgid "Select a city"
 msgstr "Elige una ciudad"
 
 #. translators: Developer debugging message. 1: PHP function name, 2:
 #. Explanatory message, 3: Version information message
-#: wp-includes/functions.php:4138
+#: wp-includes/functions.php:4139
 msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
 msgstr "%1$s se llamó <strong>incorrectamente</strong>. %2$s %3$s"
 
-#: wp-includes/functions.php:4135
+#: wp-includes/functions.php:4136
 msgid "https://codex.wordpress.org/Debugging_in_WordPress"
 msgstr "https://codex.wordpress.org/es:Depurar_en_WordPress"
 
 #. translators: %s: Codex URL
-#: wp-includes/functions.php:4134
+#: wp-includes/functions.php:4135
 msgid "Please see <a href=\"%s\">Debugging in WordPress</a> for more information."
 msgstr "Por favor, visita <a href=\"%s\">Depuración en WordPress</a> para más información."
 
 #. translators: %s: version number
-#: wp-includes/functions.php:4131
+#: wp-includes/functions.php:4132
 msgid "(This message was added in version %s.)"
 msgstr "(Este mensaje se añadió en la versión %s.)"
 
 #. translators: 1: PHP function name, 2: version number
-#: wp-includes/functions.php:4025
+#: wp-includes/functions.php:4026
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s fue llamado con un argumento que está <strong>obsoleto</strong> desde la versión %2$s y no hay alternativas disponibles."
 
 #. translators: 1: PHP function name, 2: version number, 3: optional message
 #. regarding the change
-#: wp-includes/functions.php:4022
+#: wp-includes/functions.php:4023
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s! %3$s"
 msgstr "%1$s fue llamado con un argumento que está <strong>obsoleto</strong> desde la versión %2$s! %3$s"
 
 #. translators: 1: PHP class name, 2: version number, 3: __construct() method
-#: wp-includes/functions.php:3896
+#: wp-includes/functions.php:3897
 msgid "The called constructor method for %1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "¡El llamado método constructor para %1$s es <strong>obsoleto</strong> desde la versión %2$s! Utiliza %3$s en su lugar."
 
 #. translators: 1: PHP class name, 2: PHP parent class name, 3: version number,
 #. 4: __construct() method
-#: wp-includes/functions.php:3892
+#: wp-includes/functions.php:3893
 msgid "The called constructor method for %1$s in %2$s is <strong>deprecated</strong> since version %3$s! Use %4$s instead."
 msgstr "¡El método de llamada al constructor %1$s en %2$s está <strong>obsoleto</strong> desde la versión %3$s! Utiliza %4$s en su lugar."
 
 #. translators: 1: PHP function name, 2: version number
 #. translators: 1: PHP file name, 2: version number
 #. translators: 1: WordPress hook name, 2: version number
-#: wp-includes/functions.php:3833 wp-includes/functions.php:3961
-#: wp-includes/functions.php:4084
+#: wp-includes/functions.php:3834 wp-includes/functions.php:3962
+#: wp-includes/functions.php:4085
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s ha quedado <strong>obsoleto</strong> desde la versión %2$s y no hay alternativas disponibles."
 
@@ -6247,43 +6247,43 @@ msgstr "%1$s ha quedado <strong>obsoleto</strong> desde la versión %2$s y no ha
 #. translators: 1: PHP file name, 2: version number, 3: alternative file name
 #. translators: 1: WordPress hook name, 2: version number, 3: alternative hook
 #. name
-#: wp-includes/functions.php:3830 wp-includes/functions.php:3958
-#: wp-includes/functions.php:4081
+#: wp-includes/functions.php:3831 wp-includes/functions.php:3959
+#: wp-includes/functions.php:4082
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "%1$s ha quedado <strong>obsoleto</strong> desde la versión %2$s. Utiliza %3$s en su lugar."
 
-#: wp-includes/functions.php:3769 wp-includes/ms-load.php:462
+#: wp-includes/functions.php:3770 wp-includes/ms-load.php:462
 #: wp-includes/wp-db.php:1648
 msgid "Error establishing a database connection"
 msgstr "Error al establecer una conexión con la base de datos"
 
-#: wp-includes/functions.php:3765
+#: wp-includes/functions.php:3766
 msgid "Database Error"
 msgstr "Error de la base de datos"
 
-#: wp-includes/functions.php:2738 wp-load.php:92
+#: wp-includes/functions.php:2739 wp-load.php:92
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; Error"
 
-#: wp-includes/functions.php:2726
+#: wp-includes/functions.php:2727
 msgid "&laquo; Back"
 msgstr "&laquo; Volver"
 
-#: wp-includes/functions.php:2606
+#: wp-includes/functions.php:2607
 msgid "WordPress Failure Notice"
 msgstr "Aviso de fallo de WordPress"
 
-#: wp-includes/functions.php:2601 wp-includes/ms-functions.php:1970
+#: wp-includes/functions.php:2602 wp-includes/ms-functions.php:1970
 msgid "Please try again."
 msgstr "Por favor, inténtalo de nuevo."
 
 #. translators: %s: logout URL
-#: wp-includes/functions.php:2592
+#: wp-includes/functions.php:2593
 msgid "Do you really want to <a href=\"%s\">log out</a>?"
 msgstr "¿Estás seguro de que quieres <a href=\"%s\">salir</a>?"
 
 #. translators: %s: site name
-#: wp-includes/functions.php:2585
+#: wp-includes/functions.php:2586
 msgid "You are attempting to log out of %s"
 msgstr "Estás intentando cerrar tu sesión en %s."
 
@@ -6369,7 +6369,7 @@ msgctxt "Word count type. Do not translate!"
 msgid "words"
 msgstr "words"
 
-#: wp-includes/formatting.php:3344 wp-includes/general-template.php:3344
+#: wp-includes/formatting.php:3344 wp-includes/general-template.php:3346
 msgid "&hellip;"
 msgstr "&hellip;"
 
@@ -6582,7 +6582,7 @@ msgstr "La biblioteca de imágenes GD no está instalada."
 msgid "File &#8220;%s&#8221; doesn&#8217;t exist?"
 msgstr "¿El archivo &#8220;%s&#8221; no existe?"
 
-#: wp-includes/deprecated.php:3122 wp-includes/functions.php:2596
+#: wp-includes/deprecated.php:3122 wp-includes/functions.php:2597
 msgid "Are you sure you want to do this?"
 msgstr "¿Seguro que quieres hacer esto?"
 
@@ -10418,7 +10418,7 @@ msgid "Menus"
 msgstr "Menús"
 
 #: wp-includes/admin-bar.php:783 wp-includes/class-wp-customize-widgets.php:421
-#: wp-includes/functions.php:3706
+#: wp-includes/functions.php:3707
 msgid "Widgets"
 msgstr "Widgets"
 
